@@ -1,622 +1,777 @@
 fileFormatVersion: 2
-guid: 361303d84f449405eb5e9f4aad7507a9
-timeCreated: 1487597159
+guid: abbc6e64c6a034421bc66b3a33df7c1d
+timeCreated: 1487606247
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: greatsword_0
-    21300002: greatsword_1
-    21300004: greatsword_2
-    21300006: greatsword_3
-    21300008: greatsword_4
-    21300010: greatsword_5
-    21300012: greatsword_6
-    21300014: greatsword_7
-    21300016: greatsword_8
-    21300018: greatsword_9
-    21300020: greatsword_10
-    21300022: greatsword_11
-    21300024: greatsword_12
-    21300026: greatsword_13
-    21300028: greatsword_14
-    21300030: greatsword_15
-    21300032: greatsword_16
-    21300034: greatsword_17
-    21300036: greatsword_18
-    21300038: greatsword_19
-    21300040: greatsword_20
-    21300042: greatsword_21
-    21300044: greatsword_22
-    21300046: greatsword_23
-    21300048: greatsword_24
-    21300050: greatsword_25
-    21300052: greatsword_26
-    21300054: greatsword_27
-    21300056: greatsword_28
-    21300058: greatsword_29
-    21300060: greatsword_30
-    21300062: greatsword_31
-    21300064: greatsword_32
-    21300066: greatsword_33
-    21300068: greatsword_34
-    21300070: greatsword_35
-    21300072: greatsword_36
-    21300074: greatsword_37
-    21300076: greatsword_38
-    21300078: greatsword_39
-    21300080: greatsword_40
-    21300082: greatsword_41
-    21300084: greatsword_42
-    21300086: greatsword_43
-    21300088: greatsword_44
-    21300090: greatsword_45
-    21300092: greatsword_46
-    21300094: greatsword_47
-    21300096: greatsword_48
-    21300098: greatsword_49
-    21300100: greatsword_50
-    21300102: greatsword_51
-    21300104: greatsword_52
-    21300106: greatsword_53
-    21300108: greatsword_54
-    21300110: greatsword_55
-    21300112: greatsword_56
-    21300114: greatsword_57
-    21300116: greatsword_58
-    21300118: greatsword_59
-    21300120: greatsword_60
-    21300122: greatsword_61
-    21300124: greatsword_62
-    21300126: greatsword_63
-    21300128: greatsword_64
-    21300130: greatsword_65
-    21300132: greatsword_66
-    21300134: greatsword_67
-    21300136: greatsword_68
-    21300138: greatsword_69
-    21300140: greatsword_70
-    21300142: greatsword_71
-    21300144: greatsword_72
-    21300146: greatsword_73
-    21300148: greatsword_74
-    21300150: greatsword_75
-    21300152: greatsword_76
-    21300154: greatsword_77
-    21300156: greatsword_78
-    21300158: greatsword_79
-    21300160: greatsword_80
-    21300162: greatsword_81
-    21300164: greatsword_82
-    21300166: greatsword_83
-    21300168: greatsword_84
-    21300170: greatsword_85
-    21300172: greatsword_86
-    21300174: greatsword_87
-    21300176: greatsword_88
-    21300178: greatsword_89
-    21300180: greatsword_90
-    21300182: greatsword_91
-    21300184: greatsword_92
-    21300186: greatsword_93
-    21300188: greatsword_94
-    21300190: greatsword_95
-    21300192: greatsword_96
-    21300194: greatsword_97
-    21300196: greatsword_98
-    21300198: greatsword_99
-    21300200: greatsword_100
-    21300202: greatsword_101
-    21300204: greatsword_102
-    21300206: greatsword_103
-    21300208: greatsword_104
-    21300210: greatsword_105
-    21300212: greatsword_106
-    21300214: greatsword_107
-    21300216: greatsword_108
-    21300218: greatsword_109
-    21300220: greatsword_110
-    21300222: greatsword_111
-    21300224: greatsword_112
-    21300226: greatsword_113
-    21300228: greatsword_114
-    21300230: greatsword_115
-    21300232: greatsword_116
-    21300234: greatsword_117
-    21300236: greatsword_118
-    21300238: greatsword_119
-    21300240: greatsword_120
-    21300242: greatsword_121
-    21300244: greatsword_122
-    21300246: greatsword_123
-    21300248: greatsword_124
-    21300250: greatsword_125
-    21300252: greatsword_126
-    21300254: greatsword_127
-    21300256: greatsword_128
-    21300258: greatsword_129
-    21300260: greatsword_130
-    21300262: greatsword_131
-    21300264: greatsword_132
-    21300266: greatsword_133
-    21300268: greatsword_134
-    21300270: greatsword_135
-    21300272: greatsword_136
-    21300274: greatsword_137
-    21300276: greatsword_138
-    21300278: greatsword_139
-    21300280: greatsword_140
-    21300282: greatsword_141
-    21300284: greatsword_142
-    21300286: greatsword_143
-    21300288: greatsword_144
-    21300290: greatsword_145
-    21300292: greatsword_146
-    21300294: greatsword_147
-    21300296: greatsword_148
-    21300298: greatsword_149
-    21300300: greatsword_150
-    21300302: greatsword_151
-    21300304: greatsword_152
-    21300306: greatsword_153
-    21300308: greatsword_154
-    21300310: greatsword_155
-    21300312: greatsword_156
-    21300314: greatsword_157
-    21300316: greatsword_158
-    21300318: greatsword_159
-    21300320: greatsword_160
-    21300322: greatsword_161
-    21300324: greatsword_162
-    21300326: greatsword_163
-    21300328: greatsword_164
-    21300330: greatsword_165
-    21300332: greatsword_166
-    21300334: greatsword_167
-    21300336: greatsword_168
-    21300338: greatsword_169
-    21300340: greatsword_170
-    21300342: greatsword_171
-    21300344: greatsword_172
-    21300346: greatsword_173
-    21300348: greatsword_174
-    21300350: greatsword_175
-    21300352: greatsword_176
-    21300354: greatsword_177
-    21300356: greatsword_178
-    21300358: greatsword_179
-    21300360: greatsword_180
-    21300362: greatsword_181
-    21300364: greatsword_182
-    21300366: greatsword_183
-    21300368: greatsword_184
-    21300370: greatsword_185
-    21300372: greatsword_186
-    21300374: greatsword_187
-    21300376: greatsword_188
-    21300378: greatsword_189
-    21300380: greatsword_190
-    21300382: greatsword_191
-    21300384: greatsword_192
-    21300386: greatsword_193
-    21300388: greatsword_194
-    21300390: greatsword_195
-    21300392: greatsword_196
-    21300394: greatsword_197
-    21300396: greatsword_198
-    21300398: greatsword_199
-    21300400: greatsword_200
-    21300402: greatsword_201
-    21300404: greatsword_202
-    21300406: greatsword_203
-    21300408: greatsword_204
-    21300410: greatsword_205
-    21300412: greatsword_206
-    21300414: greatsword_207
-    21300416: greatsword_208
-    21300418: greatsword_209
-    21300420: greatsword_210
-    21300422: greatsword_211
-    21300424: greatsword_212
-    21300426: greatsword_213
-    21300428: greatsword_214
-    21300430: greatsword_215
-    21300432: greatsword_216
-    21300434: greatsword_217
-    21300436: greatsword_218
-    21300438: greatsword_219
-    21300440: greatsword_220
-    21300442: greatsword_221
-    21300444: greatsword_222
-    21300446: greatsword_223
-    21300448: greatsword_224
-    21300450: greatsword_225
-    21300452: greatsword_226
-    21300454: greatsword_227
-    21300456: greatsword_228
-    21300458: greatsword_229
-    21300460: greatsword_230
-    21300462: greatsword_231
-    21300464: greatsword_232
-    21300466: greatsword_233
-    21300468: greatsword_234
-    21300470: greatsword_235
-    21300472: greatsword_236
-    21300474: greatsword_237
-    21300476: greatsword_238
-    21300478: greatsword_239
-    21300480: greatsword_240
-    21300482: greatsword_241
-    21300484: greatsword_242
-    21300486: greatsword_243
-    21300488: greatsword_244
-    21300490: greatsword_245
-    21300492: greatsword_246
-    21300494: greatsword_247
-    21300496: greatsword_248
-    21300498: greatsword_249
-    21300500: greatsword_250
-    21300502: greatsword_251
-    21300504: greatsword_252
-    21300506: greatsword_253
-    21300508: greatsword_254
-    21300510: greatsword_255
-    21300512: greatsword_256
-    21300514: greatsword_257
-    21300516: greatsword_258
-    21300518: greatsword_259
-    21300520: greatsword_260
-    21300522: greatsword_261
-    21300524: greatsword_262
-    21300526: greatsword_263
-    21300528: greatsword_264
-    21300530: greatsword_265
-    21300532: greatsword_266
-    21300534: greatsword_267
-    21300536: greatsword_268
-    21300538: greatsword_269
-    21300540: greatsword_270
-    21300542: greatsword_271
-    21300544: greatsword_272
-    21300546: greatsword_273
-    21300548: greatsword_274
-    21300550: greatsword_275
-    21300552: greatsword_276
-    21300554: greatsword_277
-    21300556: greatsword_278
-    21300558: greatsword_279
-    21300560: greatsword_280
-    21300562: greatsword_281
-    21300564: greatsword_282
-    21300566: greatsword_283
-    21300568: greatsword_284
-    21300570: greatsword_285
-    21300572: greatsword_286
-    21300574: greatsword_287
-    21300576: greatsword_288
-    21300578: greatsword_289
-    21300580: greatsword_290
-    21300582: greatsword_291
-    21300584: greatsword_292
-    21300586: greatsword_293
-    21300588: greatsword_294
-    21300590: greatsword_295
-    21300592: greatsword_296
-    21300594: greatsword_297
-    21300596: greatsword_298
-    21300598: greatsword_299
-    21300600: greatsword_300
-    21300602: greatsword_301
-    21300604: greatsword_302
-    21300606: greatsword_303
-    21300608: greatsword_304
-    21300610: greatsword_305
-    21300612: greatsword_306
-    21300614: greatsword_307
-    21300616: greatsword_308
-    21300618: greatsword_309
-    21300620: greatsword_310
-    21300622: greatsword_311
-    21300624: greatsword_312
-    21300626: greatsword_313
-    21300628: greatsword_314
-    21300630: greatsword_315
-    21300632: greatsword_316
-    21300634: greatsword_317
-    21300636: greatsword_318
-    21300638: greatsword_319
-    21300640: greatsword_320
-    21300642: greatsword_321
-    21300644: greatsword_322
-    21300646: greatsword_323
-    21300648: greatsword_324
-    21300650: greatsword_325
-    21300652: greatsword_326
-    21300654: greatsword_327
-    21300656: greatsword_328
-    21300658: greatsword_329
-    21300660: greatsword_330
-    21300662: greatsword_331
-    21300664: greatsword_332
-    21300666: greatsword_333
-    21300668: greatsword_334
-    21300670: greatsword_335
-    21300672: greatsword_336
-    21300674: greatsword_337
-    21300676: greatsword_338
-    21300678: greatsword_339
-    21300680: greatsword_340
-    21300682: greatsword_341
-    21300684: greatsword_342
-    21300686: greatsword_343
-    21300688: greatsword_344
-    21300690: greatsword_345
-    21300692: greatsword_346
-    21300694: greatsword_347
-    21300696: greatsword_348
-    21300698: greatsword_349
-    21300700: greatsword_350
-    21300702: greatsword_351
-    21300704: greatsword_352
-    21300706: greatsword_353
-    21300708: greatsword_354
-    21300710: greatsword_355
-    21300712: greatsword_356
-    21300714: greatsword_357
-    21300716: greatsword_358
-    21300718: greatsword_359
-    21300720: greatsword_360
-    21300722: greatsword_361
-    21300724: greatsword_362
-    21300726: greatsword_363
-    21300728: greatsword_364
-    21300730: greatsword_365
-    21300732: greatsword_366
-    21300734: greatsword_367
-    21300736: greatsword_368
-    21300738: greatsword_369
-    21300740: greatsword_370
-    21300742: greatsword_371
-    21300744: greatsword_372
-    21300746: greatsword_373
-    21300748: greatsword_374
-    21300750: greatsword_375
-    21300752: greatsword_376
-    21300754: greatsword_377
-    21300756: greatsword_378
-    21300758: greatsword_379
-    21300760: greatsword_380
-    21300762: greatsword_381
-    21300764: greatsword_382
-    21300766: greatsword_383
-    21300768: greatsword_384
-    21300770: greatsword_385
-    21300772: greatsword_386
-    21300774: greatsword_387
-    21300776: greatsword_388
-    21300778: greatsword_389
-    21300780: greatsword_390
-    21300782: greatsword_391
-    21300784: greatsword_392
-    21300786: greatsword_393
-    21300788: greatsword_394
-    21300790: greatsword_395
-    21300792: greatsword_396
-    21300794: greatsword_397
-    21300796: greatsword_398
-    21300798: greatsword_399
-    21300800: greatsword_400
-    21300802: greatsword_401
-    21300804: greatsword_402
-    21300806: greatsword_403
-    21300808: greatsword_404
-    21300810: greatsword_405
-    21300812: greatsword_406
-    21300814: greatsword_407
-    21300816: greatsword_408
-    21300818: greatsword_409
-    21300820: greatsword_410
-    21300822: greatsword_411
-    21300824: greatsword_412
-    21300826: greatsword_413
-    21300828: greatsword_414
-    21300830: greatsword_415
-    21300832: greatsword_416
-    21300834: greatsword_417
-    21300836: greatsword_418
-    21300838: greatsword_419
-    21300840: greatsword_420
-    21300842: greatsword_421
-    21300844: greatsword_422
-    21300846: greatsword_423
-    21300848: greatsword_424
-    21300850: greatsword_425
-    21300852: greatsword_426
-    21300854: greatsword_427
-    21300856: greatsword_428
-    21300858: greatsword_429
-    21300860: greatsword_430
-    21300862: greatsword_431
-    21300864: greatsword_432
-    21300866: greatsword_433
-    21300868: greatsword_434
-    21300870: greatsword_435
-    21300872: greatsword_436
-    21300874: greatsword_437
-    21300876: greatsword_438
-    21300878: greatsword_439
-    21300880: greatsword_440
-    21300882: greatsword_441
-    21300884: greatsword_442
-    21300886: greatsword_443
-    21300888: greatsword_444
-    21300890: greatsword_445
-    21300892: greatsword_446
-    21300894: greatsword_447
-    21300896: greatsword_448
-    21300898: greatsword_449
-    21300900: greatsword_450
-    21300902: greatsword_451
-    21300904: greatsword_452
-    21300906: greatsword_453
-    21300908: greatsword_454
-    21300910: greatsword_455
-    21300912: greatsword_456
-    21300914: greatsword_457
-    21300916: greatsword_458
-    21300918: greatsword_459
-    21300920: greatsword_460
-    21300922: greatsword_461
-    21300924: greatsword_462
-    21300926: greatsword_463
-    21300928: greatsword_464
-    21300930: greatsword_465
-    21300932: greatsword_466
-    21300934: greatsword_467
-    21300936: greatsword_468
-    21300938: greatsword_469
-    21300940: greatsword_470
-    21300942: greatsword_471
-    21300944: greatsword_472
-    21300946: greatsword_473
-    21300948: greatsword_474
-    21300950: greatsword_475
-    21300952: greatsword_476
-    21300954: greatsword_477
-    21300956: greatsword_478
-    21300958: greatsword_479
-    21300960: greatsword_480
-    21300962: greatsword_481
-    21300964: greatsword_482
-    21300966: greatsword_483
-    21300968: greatsword_484
-    21300970: greatsword_485
-    21300972: greatsword_486
-    21300974: greatsword_487
-    21300976: greatsword_488
-    21300978: greatsword_489
-    21300980: greatsword_490
-    21300982: greatsword_491
-    21300984: greatsword_492
-    21300986: greatsword_493
-    21300988: greatsword_494
-    21300990: greatsword_495
-    21300992: greatsword_496
-    21300994: greatsword_497
-    21300996: greatsword_498
-    21300998: greatsword_499
-    21301000: greatsword_500
-    21301002: greatsword_501
-    21301004: greatsword_502
-    21301006: greatsword_503
-    21301008: greatsword_504
-    21301010: greatsword_505
-    21301012: greatsword_506
-    21301014: greatsword_507
-    21301016: greatsword_508
-    21301018: greatsword_509
-    21301020: greatsword_510
-    21301022: greatsword_511
-    21301024: greatsword_512
-    21301026: greatsword_513
-    21301028: greatsword_514
-    21301030: greatsword_515
-    21301032: greatsword_516
-    21301034: greatsword_517
-    21301036: greatsword_518
-    21301038: greatsword_519
-    21301040: greatsword_520
-    21301042: greatsword_521
-    21301044: greatsword_522
-    21301046: greatsword_523
-    21301048: greatsword_524
-    21301050: greatsword_525
-    21301052: greatsword_526
-    21301054: greatsword_527
-    21301056: greatsword_528
-    21301058: greatsword_529
-    21301060: greatsword_530
-    21301062: greatsword_531
-    21301064: greatsword_532
-    21301066: greatsword_533
-    21301068: greatsword_534
-    21301070: greatsword_535
-    21301072: greatsword_536
-    21301074: greatsword_537
-    21301076: greatsword_538
-    21301078: greatsword_539
-    21301080: greatsword_540
-    21301082: greatsword_541
-    21301084: greatsword_542
-    21301086: greatsword_543
-    21301088: greatsword_544
-    21301090: greatsword_545
-    21301092: greatsword_546
-    21301094: greatsword_547
-    21301096: greatsword_548
-    21301098: greatsword_549
-    21301100: greatsword_550
-    21301102: greatsword_551
-    21301104: greatsword_552
-    21301106: greatsword_553
-    21301108: greatsword_554
-    21301110: greatsword_555
-    21301112: greatsword_556
-    21301114: greatsword_557
-    21301116: greatsword_558
-    21301118: greatsword_559
-    21301120: greatsword_560
-    21301122: greatsword_561
-    21301124: greatsword_562
-    21301126: greatsword_563
-    21301128: greatsword_564
-    21301130: greatsword_565
-    21301132: greatsword_566
-    21301134: greatsword_567
-    21301136: greatsword_568
-    21301138: greatsword_569
-    21301140: greatsword_570
-    21301142: greatsword_571
-    21301144: greatsword_572
-    21301146: greatsword_573
-    21301148: greatsword_574
-    21301150: greatsword_575
-    21301152: greatsword_576
-    21301154: greatsword_577
-    21301156: greatsword_578
-    21301158: greatsword_579
-    21301160: greatsword_580
-    21301162: greatsword_581
-    21301164: greatsword_582
-    21301166: greatsword_583
-    21301168: greatsword_584
-    21301170: greatsword_585
-    21301172: greatsword_586
-    21301174: greatsword_587
-    21301176: greatsword_588
-    21301178: greatsword_589
-    21301180: greatsword_590
-    21301182: greatsword_591
-    21301184: greatsword_592
-    21301186: greatsword_593
-    21301188: greatsword_594
-    21301190: greatsword_595
-    21301192: greatsword_596
-    21301194: greatsword_597
-    21301196: greatsword_598
-    21301198: greatsword_599
-    21301200: greatsword_600
-    21301202: greatsword_601
-    21301204: greatsword_602
-    21301206: greatsword_603
-    21301208: greatsword_604
-    21301210: greatsword_605
-    21301212: greatsword_606
-    21301214: greatsword_607
-    21301216: greatsword_608
-    21301218: greatsword_609
-    21301220: greatsword_610
-    21301222: greatsword_611
-    21301224: greatsword_612
+    21300000: male_head1_0
+    21300002: male_head1_1
+    21300004: male_head1_2
+    21300006: male_head1_3
+    21300008: male_head1_4
+    21300010: male_head1_5
+    21300012: male_head1_6
+    21300014: male_head1_7
+    21300016: male_head1_8
+    21300018: male_head1_9
+    21300020: male_head1_10
+    21300022: male_head1_11
+    21300024: male_head1_12
+    21300026: male_head1_13
+    21300028: male_head1_14
+    21300030: male_head1_15
+    21300032: male_head1_16
+    21300034: male_head1_17
+    21300036: male_head1_18
+    21300038: male_head1_19
+    21300040: male_head1_20
+    21300042: male_head1_21
+    21300044: male_head1_22
+    21300046: male_head1_23
+    21300048: male_head1_24
+    21300050: male_head1_25
+    21300052: male_head1_26
+    21300054: male_head1_27
+    21300056: male_head1_28
+    21300058: male_head1_29
+    21300060: male_head1_30
+    21300062: male_head1_31
+    21300064: male_head1_32
+    21300066: male_head1_33
+    21300068: male_head1_34
+    21300070: male_head1_35
+    21300072: male_head1_36
+    21300074: male_head1_37
+    21300076: male_head1_38
+    21300078: male_head1_39
+    21300080: male_head1_40
+    21300082: male_head1_41
+    21300084: male_head1_42
+    21300086: male_head1_43
+    21300088: male_head1_44
+    21300090: male_head1_45
+    21300092: male_head1_46
+    21300094: male_head1_47
+    21300096: male_head1_48
+    21300098: male_head1_49
+    21300100: male_head1_50
+    21300102: male_head1_51
+    21300104: male_head1_52
+    21300106: male_head1_53
+    21300108: male_head1_54
+    21300110: male_head1_55
+    21300112: male_head1_56
+    21300114: male_head1_57
+    21300116: male_head1_58
+    21300118: male_head1_59
+    21300120: male_head1_60
+    21300122: male_head1_61
+    21300124: male_head1_62
+    21300126: male_head1_63
+    21300128: male_head1_64
+    21300130: male_head1_65
+    21300132: male_head1_66
+    21300134: male_head1_67
+    21300136: male_head1_68
+    21300138: male_head1_69
+    21300140: male_head1_70
+    21300142: male_head1_71
+    21300144: male_head1_72
+    21300146: male_head1_73
+    21300148: male_head1_74
+    21300150: male_head1_75
+    21300152: male_head1_76
+    21300154: male_head1_77
+    21300156: male_head1_78
+    21300158: male_head1_79
+    21300160: male_head1_80
+    21300162: male_head1_81
+    21300164: male_head1_82
+    21300166: male_head1_83
+    21300168: male_head1_84
+    21300170: male_head1_85
+    21300172: male_head1_86
+    21300174: male_head1_87
+    21300176: male_head1_88
+    21300178: male_head1_89
+    21300180: male_head1_90
+    21300182: male_head1_91
+    21300184: male_head1_92
+    21300186: male_head1_93
+    21300188: male_head1_94
+    21300190: male_head1_95
+    21300192: male_head1_96
+    21300194: male_head1_97
+    21300196: male_head1_98
+    21300198: male_head1_99
+    21300200: male_head1_100
+    21300202: male_head1_101
+    21300204: male_head1_102
+    21300206: male_head1_103
+    21300208: male_head1_104
+    21300210: male_head1_105
+    21300212: male_head1_106
+    21300214: male_head1_107
+    21300216: male_head1_108
+    21300218: male_head1_109
+    21300220: male_head1_110
+    21300222: male_head1_111
+    21300224: male_head1_112
+    21300226: male_head1_113
+    21300228: male_head1_114
+    21300230: male_head1_115
+    21300232: male_head1_116
+    21300234: male_head1_117
+    21300236: male_head1_118
+    21300238: male_head1_119
+    21300240: male_head1_120
+    21300242: male_head1_121
+    21300244: male_head1_122
+    21300246: male_head1_123
+    21300248: male_head1_124
+    21300250: male_head1_125
+    21300252: male_head1_126
+    21300254: male_head1_127
+    21300256: male_head1_128
+    21300258: male_head1_129
+    21300260: male_head1_130
+    21300262: male_head1_131
+    21300264: male_head1_132
+    21300266: male_head1_133
+    21300268: male_head1_134
+    21300270: male_head1_135
+    21300272: male_head1_136
+    21300274: male_head1_137
+    21300276: male_head1_138
+    21300278: male_head1_139
+    21300280: male_head1_140
+    21300282: male_head1_141
+    21300284: male_head1_142
+    21300286: male_head1_143
+    21300288: male_head1_144
+    21300290: male_head1_145
+    21300292: male_head1_146
+    21300294: male_head1_147
+    21300296: male_head1_148
+    21300298: male_head1_149
+    21300300: male_head1_150
+    21300302: male_head1_151
+    21300304: male_head1_152
+    21300306: male_head1_153
+    21300308: male_head1_154
+    21300310: male_head1_155
+    21300312: male_head1_156
+    21300314: male_head1_157
+    21300316: male_head1_158
+    21300318: male_head1_159
+    21300320: male_head1_160
+    21300322: male_head1_161
+    21300324: male_head1_162
+    21300326: male_head1_163
+    21300328: male_head1_164
+    21300330: male_head1_165
+    21300332: male_head1_166
+    21300334: male_head1_167
+    21300336: male_head1_168
+    21300338: male_head1_169
+    21300340: male_head1_170
+    21300342: male_head1_171
+    21300344: male_head1_172
+    21300346: male_head1_173
+    21300348: male_head1_174
+    21300350: male_head1_175
+    21300352: male_head1_176
+    21300354: male_head1_177
+    21300356: male_head1_178
+    21300358: male_head1_179
+    21300360: male_head1_180
+    21300362: male_head1_181
+    21300364: male_head1_182
+    21300366: male_head1_183
+    21300368: male_head1_184
+    21300370: male_head1_185
+    21300372: male_head1_186
+    21300374: male_head1_187
+    21300376: male_head1_188
+    21300378: male_head1_189
+    21300380: male_head1_190
+    21300382: male_head1_191
+    21300384: male_head1_192
+    21300386: male_head1_193
+    21300388: male_head1_194
+    21300390: male_head1_195
+    21300392: male_head1_196
+    21300394: male_head1_197
+    21300396: male_head1_198
+    21300398: male_head1_199
+    21300400: male_head1_200
+    21300402: male_head1_201
+    21300404: male_head1_202
+    21300406: male_head1_203
+    21300408: male_head1_204
+    21300410: male_head1_205
+    21300412: male_head1_206
+    21300414: male_head1_207
+    21300416: male_head1_208
+    21300418: male_head1_209
+    21300420: male_head1_210
+    21300422: male_head1_211
+    21300424: male_head1_212
+    21300426: male_head1_213
+    21300428: male_head1_214
+    21300430: male_head1_215
+    21300432: male_head1_216
+    21300434: male_head1_217
+    21300436: male_head1_218
+    21300438: male_head1_219
+    21300440: male_head1_220
+    21300442: male_head1_221
+    21300444: male_head1_222
+    21300446: male_head1_223
+    21300448: male_head1_224
+    21300450: male_head1_225
+    21300452: male_head1_226
+    21300454: male_head1_227
+    21300456: male_head1_228
+    21300458: male_head1_229
+    21300460: male_head1_230
+    21300462: male_head1_231
+    21300464: male_head1_232
+    21300466: male_head1_233
+    21300468: male_head1_234
+    21300470: male_head1_235
+    21300472: male_head1_236
+    21300474: male_head1_237
+    21300476: male_head1_238
+    21300478: male_head1_239
+    21300480: male_head1_240
+    21300482: male_head1_241
+    21300484: male_head1_242
+    21300486: male_head1_243
+    21300488: male_head1_244
+    21300490: male_head1_245
+    21300492: male_head1_246
+    21300494: male_head1_247
+    21300496: male_head1_248
+    21300498: male_head1_249
+    21300500: male_head1_250
+    21300502: male_head1_251
+    21300504: male_head1_252
+    21300506: male_head1_253
+    21300508: male_head1_254
+    21300510: male_head1_255
+    21300512: tilesheet_0
+    21300514: tilesheet_1
+    21300516: tilesheet_2
+    21300518: tilesheet_3
+    21300520: tilesheet_4
+    21300522: tilesheet_5
+    21300524: tilesheet_6
+    21300526: tilesheet_7
+    21300528: tilesheet_8
+    21300530: tilesheet_9
+    21300532: tilesheet_10
+    21300534: tilesheet_11
+    21300536: tilesheet_12
+    21300538: tilesheet_13
+    21300540: tilesheet_14
+    21300542: tilesheet_15
+    21300544: tilesheet_16
+    21300546: tilesheet_17
+    21300548: tilesheet_18
+    21300550: tilesheet_19
+    21300552: tilesheet_20
+    21300554: tilesheet_21
+    21300556: tilesheet_22
+    21300558: tilesheet_23
+    21300560: tilesheet_24
+    21300562: tilesheet_25
+    21300564: tilesheet_26
+    21300566: tilesheet_27
+    21300568: tilesheet_28
+    21300570: tilesheet_29
+    21300572: tilesheet_30
+    21300574: tilesheet_31
+    21300576: tilesheet_32
+    21300578: tilesheet_33
+    21300580: tilesheet_34
+    21300582: tilesheet_35
+    21300584: tilesheet_36
+    21300586: tilesheet_37
+    21300588: tilesheet_38
+    21300590: tilesheet_39
+    21300592: tilesheet_40
+    21300594: tilesheet_41
+    21300596: tilesheet_42
+    21300598: tilesheet_43
+    21300600: tilesheet_44
+    21300602: tilesheet_45
+    21300604: tilesheet_46
+    21300606: tilesheet_47
+    21300608: tilesheet_48
+    21300610: tilesheet_49
+    21300612: tilesheet_50
+    21300614: tilesheet_51
+    21300616: tilesheet_52
+    21300618: tilesheet_53
+    21300620: tilesheet_54
+    21300622: tilesheet_55
+    21300624: tilesheet_56
+    21300626: tilesheet_57
+    21300628: tilesheet_58
+    21300630: tilesheet_59
+    21300632: tilesheet_60
+    21300634: tilesheet_61
+    21300636: tilesheet_62
+    21300638: tilesheet_63
+    21300640: tilesheet_64
+    21300642: tilesheet_65
+    21300644: tilesheet_66
+    21300646: tilesheet_67
+    21300648: tilesheet_68
+    21300650: tilesheet_69
+    21300652: tilesheet_70
+    21300654: tilesheet_71
+    21300656: tilesheet_72
+    21300658: tilesheet_73
+    21300660: tilesheet_74
+    21300662: tilesheet_75
+    21300664: tilesheet_76
+    21300666: tilesheet_77
+    21300668: tilesheet_78
+    21300670: tilesheet_79
+    21300672: tilesheet_80
+    21300674: tilesheet_81
+    21300676: tilesheet_82
+    21300678: tilesheet_83
+    21300680: tilesheet_84
+    21300682: tilesheet_85
+    21300684: tilesheet_86
+    21300686: tilesheet_87
+    21300688: tilesheet_88
+    21300690: tilesheet_89
+    21300692: tilesheet_90
+    21300694: tilesheet_91
+    21300696: tilesheet_92
+    21300698: tilesheet_93
+    21300700: tilesheet_94
+    21300702: tilesheet_95
+    21300704: tilesheet_96
+    21300706: tilesheet_97
+    21300708: tilesheet_98
+    21300710: tilesheet_99
+    21300712: tilesheet_100
+    21300714: tilesheet_101
+    21300716: tilesheet_102
+    21300718: tilesheet_103
+    21300720: tilesheet_104
+    21300722: tilesheet_105
+    21300724: tilesheet_106
+    21300726: tilesheet_107
+    21300728: tilesheet_108
+    21300730: tilesheet_109
+    21300732: tilesheet_110
+    21300734: tilesheet_111
+    21300736: tilesheet_112
+    21300738: tilesheet_113
+    21300740: tilesheet_114
+    21300742: tilesheet_115
+    21300744: tilesheet_116
+    21300746: tilesheet_117
+    21300748: tilesheet_118
+    21300750: tilesheet_119
+    21300752: tilesheet_120
+    21300754: tilesheet_121
+    21300756: tilesheet_122
+    21300758: tilesheet_123
+    21300760: tilesheet_124
+    21300762: tilesheet_125
+    21300764: tilesheet_126
+    21300766: tilesheet_127
+    21300768: tilesheet_128
+    21300770: tilesheet_129
+    21300772: tilesheet_130
+    21300774: tilesheet_131
+    21300776: tilesheet_132
+    21300778: tilesheet_133
+    21300780: tilesheet_134
+    21300782: tilesheet_135
+    21300784: tilesheet_136
+    21300786: tilesheet_137
+    21300788: tilesheet_138
+    21300790: tilesheet_139
+    21300792: tilesheet_140
+    21300794: tilesheet_141
+    21300796: tilesheet_142
+    21300798: tilesheet_143
+    21300800: tilesheet_144
+    21300802: tilesheet_145
+    21300804: tilesheet_146
+    21300806: tilesheet_147
+    21300808: tilesheet_148
+    21300810: tilesheet_149
+    21300812: tilesheet_150
+    21300814: tilesheet_151
+    21300816: tilesheet_152
+    21300818: tilesheet_153
+    21300820: tilesheet_154
+    21300822: tilesheet_155
+    21300824: tilesheet_156
+    21300826: tilesheet_157
+    21300828: tilesheet_158
+    21300830: tilesheet_159
+    21300832: tilesheet_160
+    21300834: tilesheet_161
+    21300836: tilesheet_162
+    21300838: tilesheet_163
+    21300840: tilesheet_164
+    21300842: tilesheet_165
+    21300844: tilesheet_166
+    21300846: tilesheet_167
+    21300848: tilesheet_168
+    21300850: tilesheet_169
+    21300852: tilesheet_170
+    21300854: tilesheet_171
+    21300856: tilesheet_172
+    21300858: tilesheet_173
+    21300860: tilesheet_174
+    21300862: tilesheet_175
+    21300864: tilesheet_176
+    21300866: tilesheet_177
+    21300868: tilesheet_178
+    21300870: tilesheet_179
+    21300872: tilesheet_180
+    21300874: tilesheet_181
+    21300876: tilesheet_182
+    21300878: tilesheet_183
+    21300880: tilesheet_184
+    21300882: tilesheet_185
+    21300884: tilesheet_186
+    21300886: tilesheet_187
+    21300888: tilesheet_188
+    21300890: tilesheet_189
+    21300892: tilesheet_190
+    21300894: tilesheet_191
+    21300896: tilesheet_192
+    21300898: tilesheet_193
+    21300900: tilesheet_194
+    21300902: tilesheet_195
+    21300904: tilesheet_196
+    21300906: tilesheet_197
+    21300908: tilesheet_198
+    21300910: tilesheet_199
+    21300912: tilesheet_200
+    21300914: tilesheet_201
+    21300916: tilesheet_202
+    21300918: tilesheet_203
+    21300920: tilesheet_204
+    21300922: tilesheet_205
+    21300924: tilesheet_206
+    21300926: tilesheet_207
+    21300928: tilesheet_208
+    21300930: tilesheet_209
+    21300932: tilesheet_210
+    21300934: tilesheet_211
+    21300936: tilesheet_212
+    21300938: tilesheet_213
+    21300940: tilesheet_214
+    21300942: tilesheet_215
+    21300944: tilesheet_216
+    21300946: tilesheet_217
+    21300948: tilesheet_218
+    21300950: tilesheet_219
+    21300952: tilesheet_220
+    21300954: tilesheet_221
+    21300956: tilesheet_222
+    21300958: tilesheet_223
+    21300960: tilesheet_224
+    21300962: tilesheet_225
+    21300964: tilesheet_226
+    21300966: tilesheet_227
+    21300968: tilesheet_228
+    21300970: tilesheet_229
+    21300972: tilesheet_230
+    21300974: tilesheet_231
+    21300976: tilesheet_232
+    21300978: tilesheet_233
+    21300980: tilesheet_234
+    21300982: tilesheet_235
+    21300984: tilesheet_236
+    21300986: tilesheet_237
+    21300988: tilesheet_238
+    21300990: tilesheet_239
+    21300992: tilesheet_240
+    21300994: tilesheet_241
+    21300996: tilesheet_242
+    21300998: tilesheet_243
+    21301000: tilesheet_244
+    21301002: tilesheet_245
+    21301004: tilesheet_246
+    21301006: tilesheet_247
+    21301008: tilesheet_248
+    21301010: tilesheet_249
+    21301012: tilesheet_250
+    21301014: tilesheet_251
+    21301016: tilesheet_252
+    21301018: tilesheet_253
+    21301020: tilesheet_254
+    21301022: tilesheet_255
+    21301024: head1_0
+    21301026: head1_1
+    21301028: head1_2
+    21301030: head1_3
+    21301032: head1_4
+    21301034: head1_5
+    21301036: head1_6
+    21301038: head1_7
+    21301040: head1_8
+    21301042: head1_9
+    21301044: head1_10
+    21301046: head1_11
+    21301048: head1_12
+    21301050: head1_13
+    21301052: head1_14
+    21301054: head1_15
+    21301056: head1_16
+    21301058: head1_17
+    21301060: head1_18
+    21301062: head1_19
+    21301064: head1_20
+    21301066: head1_21
+    21301068: head1_22
+    21301070: head1_23
+    21301072: head1_24
+    21301074: head1_25
+    21301076: head1_26
+    21301078: head1_27
+    21301080: head1_28
+    21301082: head1_29
+    21301084: head1_30
+    21301086: head1_31
+    21301088: head1_32
+    21301090: head1_33
+    21301092: head1_34
+    21301094: head1_35
+    21301096: head1_36
+    21301098: head1_37
+    21301100: head1_38
+    21301102: head1_39
+    21301104: head1_40
+    21301106: head1_41
+    21301108: head1_42
+    21301110: head1_43
+    21301112: head1_44
+    21301114: head1_45
+    21301116: head1_46
+    21301118: head1_47
+    21301120: head1_48
+    21301122: head1_49
+    21301124: head1_50
+    21301126: head1_51
+    21301128: head1_52
+    21301130: head1_53
+    21301132: head1_54
+    21301134: head1_55
+    21301136: head1_56
+    21301138: head1_57
+    21301140: head1_58
+    21301142: head1_59
+    21301144: head1_60
+    21301146: head1_61
+    21301148: head1_62
+    21301150: head1_63
+    21301152: head1_64
+    21301154: head1_65
+    21301156: head1_66
+    21301158: head1_67
+    21301160: head1_68
+    21301162: head1_69
+    21301164: head1_70
+    21301166: head1_71
+    21301168: head1_72
+    21301170: head1_73
+    21301172: head1_74
+    21301174: head1_75
+    21301176: head1_76
+    21301178: head1_77
+    21301180: head1_78
+    21301182: head1_79
+    21301184: head1_80
+    21301186: head1_81
+    21301188: head1_82
+    21301190: head1_83
+    21301192: head1_84
+    21301194: head1_85
+    21301196: head1_86
+    21301198: head1_87
+    21301200: head1_88
+    21301202: head1_89
+    21301204: head1_90
+    21301206: head1_91
+    21301208: head1_92
+    21301210: head1_93
+    21301212: head1_94
+    21301214: head1_95
+    21301216: head1_96
+    21301218: head1_97
+    21301220: head1_98
+    21301222: head1_99
+    21301224: head1_100
+    21301226: head1_101
+    21301228: head1_102
+    21301230: head1_103
+    21301232: head1_104
+    21301234: head1_105
+    21301236: head1_106
+    21301238: head1_107
+    21301240: head1_108
+    21301242: head1_109
+    21301244: head1_110
+    21301246: head1_111
+    21301248: head1_112
+    21301250: head1_113
+    21301252: head1_114
+    21301254: head1_115
+    21301256: head1_116
+    21301258: head1_117
+    21301260: head1_118
+    21301262: head1_119
+    21301264: head1_120
+    21301266: head1_121
+    21301268: head1_122
+    21301270: head1_123
+    21301272: head1_124
+    21301274: head1_125
+    21301276: head1_126
+    21301278: head1_127
+    21301280: head1_128
+    21301282: head1_129
+    21301284: head1_130
+    21301286: head1_131
+    21301288: head1_132
+    21301290: head1_133
+    21301292: head1_134
+    21301294: head1_135
+    21301296: head1_136
+    21301298: head1_137
+    21301300: head1_138
+    21301302: head1_139
+    21301304: head1_140
+    21301306: head1_141
+    21301308: head1_142
+    21301310: head1_143
+    21301312: head1_144
+    21301314: head1_145
+    21301316: head1_146
+    21301318: head1_147
+    21301320: head1_148
+    21301322: head1_149
+    21301324: head1_150
+    21301326: head1_151
+    21301328: head1_152
+    21301330: head1_153
+    21301332: head1_154
+    21301334: head1_155
+    21301336: head1_156
+    21301338: head1_157
+    21301340: head1_158
+    21301342: head1_159
+    21301344: head1_160
+    21301346: head1_161
+    21301348: head1_162
+    21301350: head1_163
+    21301352: head1_164
+    21301354: head1_165
+    21301356: head1_166
+    21301358: head1_167
+    21301360: head1_168
+    21301362: head1_169
+    21301364: head1_170
+    21301366: head1_171
+    21301368: head1_172
+    21301370: head1_173
+    21301372: head1_174
+    21301374: head1_175
+    21301376: head1_176
+    21301378: head1_177
+    21301380: head1_178
+    21301382: head1_179
+    21301384: head1_180
+    21301386: head1_181
+    21301388: head1_182
+    21301390: head1_183
+    21301392: head1_184
+    21301394: head1_185
+    21301396: head1_186
+    21301398: head1_187
+    21301400: head1_188
+    21301402: head1_189
+    21301404: head1_190
+    21301406: head1_191
+    21301408: head1_192
+    21301410: head1_193
+    21301412: head1_194
+    21301414: head1_195
+    21301416: head1_196
+    21301418: head1_197
+    21301420: head1_198
+    21301422: head1_199
+    21301424: head1_200
+    21301426: head1_201
+    21301428: head1_202
+    21301430: head1_203
+    21301432: head1_204
+    21301434: head1_205
+    21301436: head1_206
+    21301438: head1_207
+    21301440: head1_208
+    21301442: head1_209
+    21301444: head1_210
+    21301446: head1_211
+    21301448: head1_212
+    21301450: head1_213
+    21301452: head1_214
+    21301454: head1_215
+    21301456: head1_216
+    21301458: head1_217
+    21301460: head1_218
+    21301462: head1_219
+    21301464: head1_220
+    21301466: head1_221
+    21301468: head1_222
+    21301470: head1_223
+    21301472: head1_224
+    21301474: head1_225
+    21301476: head1_226
+    21301478: head1_227
+    21301480: head1_228
+    21301482: head1_229
+    21301484: head1_230
+    21301486: head1_231
+    21301488: head1_232
+    21301490: head1_233
+    21301492: head1_234
+    21301494: head1_235
+    21301496: head1_236
+    21301498: head1_237
+    21301500: head1_238
+    21301502: head1_239
+    21301504: head1_240
+    21301506: head1_241
+    21301508: head1_242
+    21301510: head1_243
+    21301512: head1_244
+    21301514: head1_245
+    21301516: head1_246
+    21301518: head1_247
+    21301520: head1_248
+    21301522: head1_249
+    21301524: head1_250
+    21301526: head1_251
+    21301528: head1_252
+    21301530: head1_253
+    21301532: head1_254
+    21301534: head1_255
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -699,7 +854,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: greatsword_0
+      name: tilesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -707,12 +862,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_1
+      name: tilesheet_1
       rect:
         serializedVersion: 2
         x: 128
@@ -720,12 +875,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_2
+      name: tilesheet_2
       rect:
         serializedVersion: 2
         x: 256
@@ -733,12 +888,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_3
+      name: tilesheet_3
       rect:
         serializedVersion: 2
         x: 384
@@ -746,12 +901,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_4
+      name: tilesheet_4
       rect:
         serializedVersion: 2
         x: 512
@@ -759,12 +914,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_5
+      name: tilesheet_5
       rect:
         serializedVersion: 2
         x: 640
@@ -772,12 +927,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_6
+      name: tilesheet_6
       rect:
         serializedVersion: 2
         x: 768
@@ -785,12 +940,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_7
+      name: tilesheet_7
       rect:
         serializedVersion: 2
         x: 896
@@ -798,12 +953,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_8
+      name: tilesheet_8
       rect:
         serializedVersion: 2
         x: 1024
@@ -811,12 +966,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_9
+      name: tilesheet_9
       rect:
         serializedVersion: 2
         x: 1152
@@ -824,12 +979,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_10
+      name: tilesheet_10
       rect:
         serializedVersion: 2
         x: 1280
@@ -837,12 +992,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_11
+      name: tilesheet_11
       rect:
         serializedVersion: 2
         x: 1408
@@ -850,12 +1005,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_12
+      name: tilesheet_12
       rect:
         serializedVersion: 2
         x: 1536
@@ -863,12 +1018,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_13
+      name: tilesheet_13
       rect:
         serializedVersion: 2
         x: 1664
@@ -876,12 +1031,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_14
+      name: tilesheet_14
       rect:
         serializedVersion: 2
         x: 1792
@@ -889,12 +1044,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_15
+      name: tilesheet_15
       rect:
         serializedVersion: 2
         x: 1920
@@ -902,12 +1057,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_16
+      name: tilesheet_16
       rect:
         serializedVersion: 2
         x: 2048
@@ -915,12 +1070,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_17
+      name: tilesheet_17
       rect:
         serializedVersion: 2
         x: 2176
@@ -928,12 +1083,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_18
+      name: tilesheet_18
       rect:
         serializedVersion: 2
         x: 2304
@@ -941,12 +1096,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_19
+      name: tilesheet_19
       rect:
         serializedVersion: 2
         x: 2432
@@ -954,12 +1109,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_20
+      name: tilesheet_20
       rect:
         serializedVersion: 2
         x: 2560
@@ -967,12 +1122,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_21
+      name: tilesheet_21
       rect:
         serializedVersion: 2
         x: 2688
@@ -980,12 +1135,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_22
+      name: tilesheet_22
       rect:
         serializedVersion: 2
         x: 2816
@@ -993,12 +1148,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_23
+      name: tilesheet_23
       rect:
         serializedVersion: 2
         x: 2944
@@ -1006,12 +1161,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_24
+      name: tilesheet_24
       rect:
         serializedVersion: 2
         x: 3072
@@ -1019,12 +1174,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_25
+      name: tilesheet_25
       rect:
         serializedVersion: 2
         x: 3200
@@ -1032,12 +1187,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_26
+      name: tilesheet_26
       rect:
         serializedVersion: 2
         x: 3328
@@ -1045,12 +1200,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_27
+      name: tilesheet_27
       rect:
         serializedVersion: 2
         x: 3456
@@ -1058,12 +1213,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_28
+      name: tilesheet_28
       rect:
         serializedVersion: 2
         x: 3584
@@ -1071,12 +1226,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_29
+      name: tilesheet_29
       rect:
         serializedVersion: 2
         x: 3712
@@ -1084,12 +1239,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_30
+      name: tilesheet_30
       rect:
         serializedVersion: 2
         x: 3840
@@ -1097,12 +1252,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_31
+      name: tilesheet_31
       rect:
         serializedVersion: 2
         x: 3968
@@ -1110,12 +1265,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_32
+      name: tilesheet_32
       rect:
         serializedVersion: 2
         x: 0
@@ -1123,12 +1278,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_33
+      name: tilesheet_33
       rect:
         serializedVersion: 2
         x: 128
@@ -1136,12 +1291,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_34
+      name: tilesheet_34
       rect:
         serializedVersion: 2
         x: 256
@@ -1149,12 +1304,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_35
+      name: tilesheet_35
       rect:
         serializedVersion: 2
         x: 384
@@ -1162,12 +1317,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_36
+      name: tilesheet_36
       rect:
         serializedVersion: 2
         x: 512
@@ -1175,12 +1330,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_37
+      name: tilesheet_37
       rect:
         serializedVersion: 2
         x: 640
@@ -1188,12 +1343,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_38
+      name: tilesheet_38
       rect:
         serializedVersion: 2
         x: 768
@@ -1201,12 +1356,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_39
+      name: tilesheet_39
       rect:
         serializedVersion: 2
         x: 896
@@ -1214,12 +1369,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_40
+      name: tilesheet_40
       rect:
         serializedVersion: 2
         x: 1024
@@ -1227,12 +1382,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_41
+      name: tilesheet_41
       rect:
         serializedVersion: 2
         x: 1152
@@ -1240,12 +1395,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_42
+      name: tilesheet_42
       rect:
         serializedVersion: 2
         x: 1280
@@ -1253,12 +1408,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_43
+      name: tilesheet_43
       rect:
         serializedVersion: 2
         x: 1408
@@ -1266,12 +1421,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_44
+      name: tilesheet_44
       rect:
         serializedVersion: 2
         x: 1536
@@ -1279,12 +1434,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_45
+      name: tilesheet_45
       rect:
         serializedVersion: 2
         x: 1664
@@ -1292,12 +1447,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_46
+      name: tilesheet_46
       rect:
         serializedVersion: 2
         x: 1792
@@ -1305,12 +1460,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_47
+      name: tilesheet_47
       rect:
         serializedVersion: 2
         x: 1920
@@ -1318,12 +1473,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_48
+      name: tilesheet_48
       rect:
         serializedVersion: 2
         x: 2048
@@ -1331,12 +1486,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_49
+      name: tilesheet_49
       rect:
         serializedVersion: 2
         x: 2176
@@ -1344,12 +1499,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_50
+      name: tilesheet_50
       rect:
         serializedVersion: 2
         x: 2304
@@ -1357,12 +1512,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_51
+      name: tilesheet_51
       rect:
         serializedVersion: 2
         x: 2432
@@ -1370,12 +1525,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_52
+      name: tilesheet_52
       rect:
         serializedVersion: 2
         x: 2560
@@ -1383,12 +1538,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_53
+      name: tilesheet_53
       rect:
         serializedVersion: 2
         x: 2688
@@ -1396,12 +1551,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_54
+      name: tilesheet_54
       rect:
         serializedVersion: 2
         x: 2816
@@ -1409,12 +1564,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_55
+      name: tilesheet_55
       rect:
         serializedVersion: 2
         x: 2944
@@ -1422,12 +1577,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_56
+      name: tilesheet_56
       rect:
         serializedVersion: 2
         x: 3072
@@ -1435,12 +1590,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_57
+      name: tilesheet_57
       rect:
         serializedVersion: 2
         x: 3200
@@ -1448,12 +1603,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_58
+      name: tilesheet_58
       rect:
         serializedVersion: 2
         x: 3328
@@ -1461,12 +1616,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_59
+      name: tilesheet_59
       rect:
         serializedVersion: 2
         x: 3456
@@ -1474,12 +1629,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_60
+      name: tilesheet_60
       rect:
         serializedVersion: 2
         x: 3584
@@ -1487,12 +1642,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_61
+      name: tilesheet_61
       rect:
         serializedVersion: 2
         x: 3712
@@ -1500,12 +1655,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_62
+      name: tilesheet_62
       rect:
         serializedVersion: 2
         x: 3840
@@ -1513,12 +1668,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_63
+      name: tilesheet_63
       rect:
         serializedVersion: 2
         x: 3968
@@ -1526,12 +1681,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_64
+      name: tilesheet_64
       rect:
         serializedVersion: 2
         x: 0
@@ -1539,12 +1694,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_65
+      name: tilesheet_65
       rect:
         serializedVersion: 2
         x: 128
@@ -1552,12 +1707,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_66
+      name: tilesheet_66
       rect:
         serializedVersion: 2
         x: 256
@@ -1565,12 +1720,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_67
+      name: tilesheet_67
       rect:
         serializedVersion: 2
         x: 384
@@ -1578,12 +1733,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_68
+      name: tilesheet_68
       rect:
         serializedVersion: 2
         x: 512
@@ -1591,12 +1746,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_69
+      name: tilesheet_69
       rect:
         serializedVersion: 2
         x: 640
@@ -1604,12 +1759,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_70
+      name: tilesheet_70
       rect:
         serializedVersion: 2
         x: 768
@@ -1617,12 +1772,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_71
+      name: tilesheet_71
       rect:
         serializedVersion: 2
         x: 896
@@ -1630,12 +1785,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_72
+      name: tilesheet_72
       rect:
         serializedVersion: 2
         x: 1024
@@ -1643,12 +1798,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_73
+      name: tilesheet_73
       rect:
         serializedVersion: 2
         x: 1152
@@ -1656,12 +1811,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_74
+      name: tilesheet_74
       rect:
         serializedVersion: 2
         x: 1280
@@ -1669,12 +1824,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_75
+      name: tilesheet_75
       rect:
         serializedVersion: 2
         x: 1408
@@ -1682,12 +1837,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_76
+      name: tilesheet_76
       rect:
         serializedVersion: 2
         x: 1536
@@ -1695,12 +1850,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_77
+      name: tilesheet_77
       rect:
         serializedVersion: 2
         x: 1664
@@ -1708,12 +1863,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_78
+      name: tilesheet_78
       rect:
         serializedVersion: 2
         x: 1792
@@ -1721,12 +1876,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_79
+      name: tilesheet_79
       rect:
         serializedVersion: 2
         x: 1920
@@ -1734,12 +1889,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_80
+      name: tilesheet_80
       rect:
         serializedVersion: 2
         x: 2048
@@ -1747,12 +1902,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_81
+      name: tilesheet_81
       rect:
         serializedVersion: 2
         x: 2176
@@ -1760,12 +1915,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_82
+      name: tilesheet_82
       rect:
         serializedVersion: 2
         x: 2304
@@ -1773,12 +1928,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_83
+      name: tilesheet_83
       rect:
         serializedVersion: 2
         x: 2432
@@ -1786,12 +1941,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_84
+      name: tilesheet_84
       rect:
         serializedVersion: 2
         x: 2560
@@ -1799,12 +1954,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_85
+      name: tilesheet_85
       rect:
         serializedVersion: 2
         x: 2688
@@ -1812,12 +1967,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_86
+      name: tilesheet_86
       rect:
         serializedVersion: 2
         x: 2816
@@ -1825,12 +1980,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_87
+      name: tilesheet_87
       rect:
         serializedVersion: 2
         x: 2944
@@ -1838,12 +1993,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_88
+      name: tilesheet_88
       rect:
         serializedVersion: 2
         x: 3072
@@ -1851,12 +2006,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_89
+      name: tilesheet_89
       rect:
         serializedVersion: 2
         x: 3200
@@ -1864,12 +2019,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_90
+      name: tilesheet_90
       rect:
         serializedVersion: 2
         x: 3328
@@ -1877,12 +2032,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_91
+      name: tilesheet_91
       rect:
         serializedVersion: 2
         x: 3456
@@ -1890,12 +2045,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_92
+      name: tilesheet_92
       rect:
         serializedVersion: 2
         x: 3584
@@ -1903,12 +2058,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_93
+      name: tilesheet_93
       rect:
         serializedVersion: 2
         x: 3712
@@ -1916,12 +2071,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_94
+      name: tilesheet_94
       rect:
         serializedVersion: 2
         x: 3840
@@ -1929,12 +2084,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_95
+      name: tilesheet_95
       rect:
         serializedVersion: 2
         x: 3968
@@ -1942,12 +2097,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_96
+      name: tilesheet_96
       rect:
         serializedVersion: 2
         x: 0
@@ -1955,12 +2110,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_97
+      name: tilesheet_97
       rect:
         serializedVersion: 2
         x: 128
@@ -1968,12 +2123,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_98
+      name: tilesheet_98
       rect:
         serializedVersion: 2
         x: 256
@@ -1981,12 +2136,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_99
+      name: tilesheet_99
       rect:
         serializedVersion: 2
         x: 384
@@ -1994,12 +2149,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_100
+      name: tilesheet_100
       rect:
         serializedVersion: 2
         x: 512
@@ -2007,12 +2162,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_101
+      name: tilesheet_101
       rect:
         serializedVersion: 2
         x: 640
@@ -2020,12 +2175,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_102
+      name: tilesheet_102
       rect:
         serializedVersion: 2
         x: 768
@@ -2033,12 +2188,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_103
+      name: tilesheet_103
       rect:
         serializedVersion: 2
         x: 896
@@ -2046,12 +2201,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_104
+      name: tilesheet_104
       rect:
         serializedVersion: 2
         x: 1024
@@ -2059,12 +2214,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_105
+      name: tilesheet_105
       rect:
         serializedVersion: 2
         x: 1152
@@ -2072,12 +2227,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_106
+      name: tilesheet_106
       rect:
         serializedVersion: 2
         x: 1280
@@ -2085,12 +2240,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_107
+      name: tilesheet_107
       rect:
         serializedVersion: 2
         x: 1408
@@ -2098,12 +2253,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_108
+      name: tilesheet_108
       rect:
         serializedVersion: 2
         x: 1536
@@ -2111,12 +2266,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_109
+      name: tilesheet_109
       rect:
         serializedVersion: 2
         x: 1664
@@ -2124,12 +2279,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_110
+      name: tilesheet_110
       rect:
         serializedVersion: 2
         x: 1792
@@ -2137,12 +2292,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_111
+      name: tilesheet_111
       rect:
         serializedVersion: 2
         x: 1920
@@ -2150,12 +2305,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_112
+      name: tilesheet_112
       rect:
         serializedVersion: 2
         x: 2048
@@ -2163,12 +2318,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_113
+      name: tilesheet_113
       rect:
         serializedVersion: 2
         x: 2176
@@ -2176,12 +2331,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_114
+      name: tilesheet_114
       rect:
         serializedVersion: 2
         x: 2304
@@ -2189,12 +2344,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_115
+      name: tilesheet_115
       rect:
         serializedVersion: 2
         x: 2432
@@ -2202,12 +2357,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_116
+      name: tilesheet_116
       rect:
         serializedVersion: 2
         x: 2560
@@ -2215,12 +2370,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_117
+      name: tilesheet_117
       rect:
         serializedVersion: 2
         x: 2688
@@ -2228,12 +2383,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_118
+      name: tilesheet_118
       rect:
         serializedVersion: 2
         x: 2816
@@ -2241,12 +2396,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_119
+      name: tilesheet_119
       rect:
         serializedVersion: 2
         x: 2944
@@ -2254,12 +2409,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_120
+      name: tilesheet_120
       rect:
         serializedVersion: 2
         x: 3072
@@ -2267,12 +2422,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_121
+      name: tilesheet_121
       rect:
         serializedVersion: 2
         x: 3200
@@ -2280,12 +2435,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_122
+      name: tilesheet_122
       rect:
         serializedVersion: 2
         x: 3328
@@ -2293,12 +2448,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_123
+      name: tilesheet_123
       rect:
         serializedVersion: 2
         x: 3456
@@ -2306,12 +2461,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_124
+      name: tilesheet_124
       rect:
         serializedVersion: 2
         x: 3584
@@ -2319,12 +2474,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_125
+      name: tilesheet_125
       rect:
         serializedVersion: 2
         x: 3712
@@ -2332,12 +2487,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_126
+      name: tilesheet_126
       rect:
         serializedVersion: 2
         x: 3840
@@ -2345,12 +2500,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_127
+      name: tilesheet_127
       rect:
         serializedVersion: 2
         x: 3968
@@ -2358,12 +2513,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_128
+      name: tilesheet_128
       rect:
         serializedVersion: 2
         x: 0
@@ -2371,12 +2526,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_129
+      name: tilesheet_129
       rect:
         serializedVersion: 2
         x: 128
@@ -2384,12 +2539,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_130
+      name: tilesheet_130
       rect:
         serializedVersion: 2
         x: 256
@@ -2397,12 +2552,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_131
+      name: tilesheet_131
       rect:
         serializedVersion: 2
         x: 384
@@ -2410,12 +2565,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_132
+      name: tilesheet_132
       rect:
         serializedVersion: 2
         x: 512
@@ -2423,12 +2578,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_133
+      name: tilesheet_133
       rect:
         serializedVersion: 2
         x: 640
@@ -2436,12 +2591,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_134
+      name: tilesheet_134
       rect:
         serializedVersion: 2
         x: 768
@@ -2449,12 +2604,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_135
+      name: tilesheet_135
       rect:
         serializedVersion: 2
         x: 896
@@ -2462,12 +2617,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_136
+      name: tilesheet_136
       rect:
         serializedVersion: 2
         x: 1024
@@ -2475,12 +2630,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_137
+      name: tilesheet_137
       rect:
         serializedVersion: 2
         x: 1152
@@ -2488,12 +2643,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_138
+      name: tilesheet_138
       rect:
         serializedVersion: 2
         x: 1280
@@ -2501,12 +2656,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_139
+      name: tilesheet_139
       rect:
         serializedVersion: 2
         x: 1408
@@ -2514,12 +2669,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_140
+      name: tilesheet_140
       rect:
         serializedVersion: 2
         x: 1536
@@ -2527,12 +2682,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_141
+      name: tilesheet_141
       rect:
         serializedVersion: 2
         x: 1664
@@ -2540,12 +2695,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_142
+      name: tilesheet_142
       rect:
         serializedVersion: 2
         x: 1792
@@ -2553,12 +2708,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_143
+      name: tilesheet_143
       rect:
         serializedVersion: 2
         x: 1920
@@ -2566,12 +2721,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_144
+      name: tilesheet_144
       rect:
         serializedVersion: 2
         x: 2048
@@ -2579,12 +2734,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_145
+      name: tilesheet_145
       rect:
         serializedVersion: 2
         x: 2176
@@ -2592,12 +2747,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_146
+      name: tilesheet_146
       rect:
         serializedVersion: 2
         x: 2304
@@ -2605,12 +2760,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_147
+      name: tilesheet_147
       rect:
         serializedVersion: 2
         x: 2432
@@ -2618,12 +2773,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_148
+      name: tilesheet_148
       rect:
         serializedVersion: 2
         x: 2560
@@ -2631,12 +2786,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_149
+      name: tilesheet_149
       rect:
         serializedVersion: 2
         x: 2688
@@ -2644,12 +2799,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_150
+      name: tilesheet_150
       rect:
         serializedVersion: 2
         x: 2816
@@ -2657,12 +2812,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_151
+      name: tilesheet_151
       rect:
         serializedVersion: 2
         x: 2944
@@ -2670,12 +2825,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_152
+      name: tilesheet_152
       rect:
         serializedVersion: 2
         x: 3072
@@ -2683,12 +2838,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_153
+      name: tilesheet_153
       rect:
         serializedVersion: 2
         x: 3200
@@ -2696,12 +2851,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_154
+      name: tilesheet_154
       rect:
         serializedVersion: 2
         x: 3328
@@ -2709,12 +2864,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_155
+      name: tilesheet_155
       rect:
         serializedVersion: 2
         x: 3456
@@ -2722,12 +2877,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_156
+      name: tilesheet_156
       rect:
         serializedVersion: 2
         x: 3584
@@ -2735,12 +2890,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_157
+      name: tilesheet_157
       rect:
         serializedVersion: 2
         x: 3712
@@ -2748,12 +2903,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_158
+      name: tilesheet_158
       rect:
         serializedVersion: 2
         x: 3840
@@ -2761,12 +2916,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_159
+      name: tilesheet_159
       rect:
         serializedVersion: 2
         x: 3968
@@ -2774,12 +2929,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_160
+      name: tilesheet_160
       rect:
         serializedVersion: 2
         x: 0
@@ -2787,12 +2942,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_161
+      name: tilesheet_161
       rect:
         serializedVersion: 2
         x: 128
@@ -2800,12 +2955,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_162
+      name: tilesheet_162
       rect:
         serializedVersion: 2
         x: 256
@@ -2813,12 +2968,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_163
+      name: tilesheet_163
       rect:
         serializedVersion: 2
         x: 384
@@ -2826,12 +2981,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_164
+      name: tilesheet_164
       rect:
         serializedVersion: 2
         x: 512
@@ -2839,12 +2994,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_165
+      name: tilesheet_165
       rect:
         serializedVersion: 2
         x: 640
@@ -2852,12 +3007,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_166
+      name: tilesheet_166
       rect:
         serializedVersion: 2
         x: 768
@@ -2865,12 +3020,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_167
+      name: tilesheet_167
       rect:
         serializedVersion: 2
         x: 896
@@ -2878,12 +3033,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_168
+      name: tilesheet_168
       rect:
         serializedVersion: 2
         x: 1024
@@ -2891,12 +3046,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_169
+      name: tilesheet_169
       rect:
         serializedVersion: 2
         x: 1152
@@ -2904,12 +3059,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_170
+      name: tilesheet_170
       rect:
         serializedVersion: 2
         x: 1280
@@ -2917,12 +3072,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_171
+      name: tilesheet_171
       rect:
         serializedVersion: 2
         x: 1408
@@ -2930,12 +3085,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_172
+      name: tilesheet_172
       rect:
         serializedVersion: 2
         x: 1536
@@ -2943,12 +3098,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_173
+      name: tilesheet_173
       rect:
         serializedVersion: 2
         x: 1664
@@ -2956,12 +3111,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_174
+      name: tilesheet_174
       rect:
         serializedVersion: 2
         x: 1792
@@ -2969,12 +3124,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_175
+      name: tilesheet_175
       rect:
         serializedVersion: 2
         x: 1920
@@ -2982,12 +3137,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_176
+      name: tilesheet_176
       rect:
         serializedVersion: 2
         x: 2048
@@ -2995,12 +3150,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_177
+      name: tilesheet_177
       rect:
         serializedVersion: 2
         x: 2176
@@ -3008,12 +3163,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_178
+      name: tilesheet_178
       rect:
         serializedVersion: 2
         x: 2304
@@ -3021,12 +3176,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_179
+      name: tilesheet_179
       rect:
         serializedVersion: 2
         x: 2432
@@ -3034,12 +3189,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_180
+      name: tilesheet_180
       rect:
         serializedVersion: 2
         x: 2560
@@ -3047,12 +3202,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_181
+      name: tilesheet_181
       rect:
         serializedVersion: 2
         x: 2688
@@ -3060,12 +3215,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_182
+      name: tilesheet_182
       rect:
         serializedVersion: 2
         x: 2816
@@ -3073,12 +3228,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_183
+      name: tilesheet_183
       rect:
         serializedVersion: 2
         x: 2944
@@ -3086,12 +3241,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_184
+      name: tilesheet_184
       rect:
         serializedVersion: 2
         x: 3072
@@ -3099,12 +3254,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_185
+      name: tilesheet_185
       rect:
         serializedVersion: 2
         x: 3200
@@ -3112,12 +3267,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_186
+      name: tilesheet_186
       rect:
         serializedVersion: 2
         x: 3328
@@ -3125,12 +3280,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_187
+      name: tilesheet_187
       rect:
         serializedVersion: 2
         x: 3456
@@ -3138,12 +3293,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_188
+      name: tilesheet_188
       rect:
         serializedVersion: 2
         x: 3584
@@ -3151,12 +3306,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_189
+      name: tilesheet_189
       rect:
         serializedVersion: 2
         x: 3712
@@ -3164,12 +3319,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_190
+      name: tilesheet_190
       rect:
         serializedVersion: 2
         x: 3840
@@ -3177,12 +3332,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_191
+      name: tilesheet_191
       rect:
         serializedVersion: 2
         x: 3968
@@ -3190,12 +3345,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_192
+      name: tilesheet_192
       rect:
         serializedVersion: 2
         x: 0
@@ -3203,12 +3358,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_193
+      name: tilesheet_193
       rect:
         serializedVersion: 2
         x: 128
@@ -3216,12 +3371,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_194
+      name: tilesheet_194
       rect:
         serializedVersion: 2
         x: 256
@@ -3229,12 +3384,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_195
+      name: tilesheet_195
       rect:
         serializedVersion: 2
         x: 384
@@ -3242,12 +3397,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_196
+      name: tilesheet_196
       rect:
         serializedVersion: 2
         x: 512
@@ -3255,12 +3410,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_197
+      name: tilesheet_197
       rect:
         serializedVersion: 2
         x: 640
@@ -3268,12 +3423,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_198
+      name: tilesheet_198
       rect:
         serializedVersion: 2
         x: 768
@@ -3281,12 +3436,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_199
+      name: tilesheet_199
       rect:
         serializedVersion: 2
         x: 896
@@ -3294,12 +3449,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_200
+      name: tilesheet_200
       rect:
         serializedVersion: 2
         x: 1024
@@ -3307,12 +3462,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_201
+      name: tilesheet_201
       rect:
         serializedVersion: 2
         x: 1152
@@ -3320,12 +3475,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_202
+      name: tilesheet_202
       rect:
         serializedVersion: 2
         x: 1280
@@ -3333,12 +3488,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_203
+      name: tilesheet_203
       rect:
         serializedVersion: 2
         x: 1408
@@ -3346,12 +3501,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_204
+      name: tilesheet_204
       rect:
         serializedVersion: 2
         x: 1536
@@ -3359,12 +3514,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_205
+      name: tilesheet_205
       rect:
         serializedVersion: 2
         x: 1664
@@ -3372,12 +3527,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_206
+      name: tilesheet_206
       rect:
         serializedVersion: 2
         x: 1792
@@ -3385,12 +3540,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_207
+      name: tilesheet_207
       rect:
         serializedVersion: 2
         x: 1920
@@ -3398,12 +3553,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_208
+      name: tilesheet_208
       rect:
         serializedVersion: 2
         x: 2048
@@ -3411,12 +3566,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_209
+      name: tilesheet_209
       rect:
         serializedVersion: 2
         x: 2176
@@ -3424,12 +3579,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_210
+      name: tilesheet_210
       rect:
         serializedVersion: 2
         x: 2304
@@ -3437,12 +3592,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_211
+      name: tilesheet_211
       rect:
         serializedVersion: 2
         x: 2432
@@ -3450,12 +3605,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_212
+      name: tilesheet_212
       rect:
         serializedVersion: 2
         x: 2560
@@ -3463,12 +3618,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_213
+      name: tilesheet_213
       rect:
         serializedVersion: 2
         x: 2688
@@ -3476,12 +3631,25 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_214
+      name: tilesheet_214
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilesheet_215
       rect:
         serializedVersion: 2
         x: 2944
@@ -3489,12 +3657,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_215
+      name: tilesheet_216
       rect:
         serializedVersion: 2
         x: 3072
@@ -3502,12 +3670,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_216
+      name: tilesheet_217
       rect:
         serializedVersion: 2
         x: 3200
@@ -3515,12 +3683,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_217
+      name: tilesheet_218
       rect:
         serializedVersion: 2
         x: 3328
@@ -3528,12 +3696,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_218
+      name: tilesheet_219
       rect:
         serializedVersion: 2
         x: 3456
@@ -3541,12 +3709,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_219
+      name: tilesheet_220
       rect:
         serializedVersion: 2
         x: 3584
@@ -3554,12 +3722,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_220
+      name: tilesheet_221
       rect:
         serializedVersion: 2
         x: 3712
@@ -3567,12 +3735,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_221
+      name: tilesheet_222
       rect:
         serializedVersion: 2
         x: 3840
@@ -3580,12 +3748,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_222
+      name: tilesheet_223
       rect:
         serializedVersion: 2
         x: 3968
@@ -3593,12 +3761,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_223
+      name: tilesheet_224
       rect:
         serializedVersion: 2
         x: 0
@@ -3606,12 +3774,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_224
+      name: tilesheet_225
       rect:
         serializedVersion: 2
         x: 128
@@ -3619,12 +3787,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_225
+      name: tilesheet_226
       rect:
         serializedVersion: 2
         x: 256
@@ -3632,12 +3800,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_226
+      name: tilesheet_227
       rect:
         serializedVersion: 2
         x: 384
@@ -3645,12 +3813,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_227
+      name: tilesheet_228
       rect:
         serializedVersion: 2
         x: 512
@@ -3658,12 +3826,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_228
+      name: tilesheet_229
       rect:
         serializedVersion: 2
         x: 640
@@ -3671,12 +3839,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_229
+      name: tilesheet_230
       rect:
         serializedVersion: 2
         x: 768
@@ -3684,12 +3852,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_230
+      name: tilesheet_231
       rect:
         serializedVersion: 2
         x: 896
@@ -3697,12 +3865,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_231
+      name: tilesheet_232
       rect:
         serializedVersion: 2
         x: 1024
@@ -3710,12 +3878,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_232
+      name: tilesheet_233
       rect:
         serializedVersion: 2
         x: 1152
@@ -3723,12 +3891,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_233
+      name: tilesheet_234
       rect:
         serializedVersion: 2
         x: 1280
@@ -3736,12 +3904,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_234
+      name: tilesheet_235
       rect:
         serializedVersion: 2
         x: 1408
@@ -3749,12 +3917,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_235
+      name: tilesheet_236
       rect:
         serializedVersion: 2
         x: 1536
@@ -3762,12 +3930,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_236
+      name: tilesheet_237
       rect:
         serializedVersion: 2
         x: 1664
@@ -3775,12 +3943,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_237
+      name: tilesheet_238
       rect:
         serializedVersion: 2
         x: 1792
@@ -3788,12 +3956,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_238
+      name: tilesheet_239
       rect:
         serializedVersion: 2
         x: 1920
@@ -3801,12 +3969,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_239
+      name: tilesheet_240
       rect:
         serializedVersion: 2
         x: 2048
@@ -3814,12 +3982,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_240
+      name: tilesheet_241
       rect:
         serializedVersion: 2
         x: 2176
@@ -3827,12 +3995,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_241
+      name: tilesheet_242
       rect:
         serializedVersion: 2
         x: 2304
@@ -3840,12 +4008,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_242
+      name: tilesheet_243
       rect:
         serializedVersion: 2
         x: 2432
@@ -3853,12 +4021,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_243
+      name: tilesheet_244
       rect:
         serializedVersion: 2
         x: 2560
@@ -3866,12 +4034,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_244
+      name: tilesheet_245
       rect:
         serializedVersion: 2
         x: 2688
@@ -3879,12 +4047,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_245
+      name: tilesheet_246
       rect:
         serializedVersion: 2
         x: 2816
@@ -3892,12 +4060,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_246
+      name: tilesheet_247
       rect:
         serializedVersion: 2
         x: 2944
@@ -3905,12 +4073,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_247
+      name: tilesheet_248
       rect:
         serializedVersion: 2
         x: 3072
@@ -3918,12 +4086,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_248
+      name: tilesheet_249
       rect:
         serializedVersion: 2
         x: 3200
@@ -3931,12 +4099,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_249
+      name: tilesheet_250
       rect:
         serializedVersion: 2
         x: 3328
@@ -3944,12 +4112,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_250
+      name: tilesheet_251
       rect:
         serializedVersion: 2
         x: 3456
@@ -3957,12 +4125,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_251
+      name: tilesheet_252
       rect:
         serializedVersion: 2
         x: 3584
@@ -3970,12 +4138,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_252
+      name: tilesheet_253
       rect:
         serializedVersion: 2
         x: 3712
@@ -3983,12 +4151,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_253
+      name: tilesheet_254
       rect:
         serializedVersion: 2
         x: 3840
@@ -3996,12 +4164,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: greatsword_254
+      name: tilesheet_255
       rect:
         serializedVersion: 2
         x: 3968
@@ -4009,20 +4177,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: greatsword_255
-      rect:
-        serializedVersion: 2
-        x: 2816
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

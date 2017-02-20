@@ -224,9 +224,11 @@ class SpriteToAnimation : EditorWindow
 
         AnimationClip animClip = new AnimationClip();
         animClip.frameRate = directionAnimation.framerate; // FPS
+        animClip.wrapMode = WrapMode.Loop;
         EditorCurveBinding spriteBinding = new EditorCurveBinding();
         spriteBinding.type = typeof(SpriteRenderer);
         spriteBinding.path = "";
+
         spriteBinding.propertyName = "m_Sprite";
         ObjectReferenceKeyframe[] spriteKeyFrames = new ObjectReferenceKeyframe[directionAnimation.frames];
 

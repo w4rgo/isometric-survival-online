@@ -8,7 +8,7 @@ namespace Movement
     {
         public bool isControllable;
 
-        Animator anim;
+        private PlayerAnimators anim;
         public float speed = 5f;
         private Vector2 movement;
         private Vector3 previousPosition = Vector3.zero;
@@ -16,7 +16,7 @@ namespace Movement
         // Use this for initialization
         void Start()
         {
-            anim = GetComponent<Animator>();
+            anim = GetComponent<PlayerAnimators>();
             //GetComponent<Rigidbody2D>().velocity = movement;
         }
 
@@ -31,8 +31,8 @@ namespace Movement
                 transform.Translate(movement * speed * Time.deltaTime);
                 var currentPos = transform.position;
 
-                anim.SetFloat("speedX", movement.x);
-                anim.SetFloat("speedY", movement.y);
+                anim.SetFloatToAnimators("speedX", movement.x);
+                anim.SetFloatToAnimators("speedY", movement.y);
 //                var angleBetween = (Mathf.Atan2(previousPosition.y - currentPos.y, previousPosition.x - currentPos.x) *
 //                                    180 /
 //                                    Math.PI) + 90;
