@@ -15,7 +15,6 @@ namespace Assets.Scripts.Animation
             var subSprites = Resources.LoadAll<Sprite>(spritePath);
 
 
-            Debug.Log(subSprites.Length);
             foreach (var spriteRenderer in GetComponentsInChildren<SpriteRenderer>())
             {
                 string spriteName = spriteRenderer.sprite.name;

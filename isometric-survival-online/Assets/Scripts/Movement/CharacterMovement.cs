@@ -13,6 +13,7 @@ namespace Movement
         private Vector2 movement;
         private Vector3 previousPosition = Vector3.zero;
 
+        private Vector3 lastDirection = Vector3.zero;
         // Use this for initialization
         void Start()
         {
@@ -23,24 +24,40 @@ namespace Movement
         // Update is called once per frame
         void FixedUpdate()
         {
+            var currentPos = transform.position;
+
             if (isControllable)
             {
                 float inputX = Input.GetAxisRaw("Horizontal");
                 float inputY = Input.GetAxisRaw("Vertical");
                 movement = new Vector2(inputX, inputY);
                 transform.Translate(movement * speed * Time.deltaTime);
-                var currentPos = transform.position;
-
-                anim.SetFloatToAnimators("speedX", movement.x);
-                anim.SetFloatToAnimators("speedY", movement.y);
-//                var angleBetween = (Mathf.Atan2(previousPosition.y - currentPos.y, previousPosition.x - currentPos.x) *
-//                                    180 /
-//                                    Math.PI) + 90;
-                previousPosition = currentPos;
-
-//                anim.SetFloat("direction", (float) angleBetween);
             }
 
+            Debug.Log(currentPos + " - " + previousPosition);
+            var heading = currentPos - previousPosition;
+            var distance = heading.magnitude;
+            var direction = heading / distance;
+            if (currentPos != previousPosition)
+            {
+
+                Debug.Log("speed: " + direction);
+                anim.SetFloatToAnimators("speedX", direction.x);
+                anim.SetFloatToAnimators("speedY", direction.y);
+                lastDirection = direction;
+
+            }
+            else
+            {
+                anim.SetFloatToAnimators("speedX", 0f);
+                anim.SetFloatToAnimators("speedY", 0f);
+                anim.SetFloatToAnimators("lastSpeedX", lastDirection.x);
+                anim.SetFloatToAnimators("lastSpeedY", lastDirection.y);
+                Debug.Log("lastSpeed: " + lastDirection);
+
+
+            }
+            previousPosition = currentPos;
         }
     }
 }
