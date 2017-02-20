@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bab61286557621c438658ea1f268737e
-timeCreated: 1487535493
+timeCreated: 1487596312
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -322,6 +322,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -329,12 +345,12 @@ TextureImporter:
       name: clothes_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 919
-        width: 41
-        height: 51
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -342,12 +358,12 @@ TextureImporter:
       name: clothes_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 919
-        width: 40
-        height: 50
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -355,12 +371,12 @@ TextureImporter:
       name: clothes_2
       rect:
         serializedVersion: 2
-        x: 303
-        y: 921
-        width: 41
-        height: 48
+        x: 256
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -368,12 +384,12 @@ TextureImporter:
       name: clothes_3
       rect:
         serializedVersion: 2
-        x: 431
-        y: 919
-        width: 38
-        height: 50
+        x: 384
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -381,12 +397,12 @@ TextureImporter:
       name: clothes_4
       rect:
         serializedVersion: 2
-        x: 569
-        y: 923
-        width: 34
-        height: 52
+        x: 512
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -394,12 +410,12 @@ TextureImporter:
       name: clothes_5
       rect:
         serializedVersion: 2
-        x: 693
-        y: 925
-        width: 43
-        height: 48
+        x: 640
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -407,12 +423,12 @@ TextureImporter:
       name: clothes_6
       rect:
         serializedVersion: 2
-        x: 815
-        y: 927
-        width: 54
-        height: 46
+        x: 768
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -420,12 +436,12 @@ TextureImporter:
       name: clothes_7
       rect:
         serializedVersion: 2
-        x: 947
-        y: 927
-        width: 48
-        height: 46
+        x: 896
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -433,12 +449,12 @@ TextureImporter:
       name: clothes_8
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 927
-        width: 35
-        height: 48
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -446,12 +462,12 @@ TextureImporter:
       name: clothes_9
       rect:
         serializedVersion: 2
-        x: 1205
-        y: 923
-        width: 40
-        height: 53
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -459,12 +475,12 @@ TextureImporter:
       name: clothes_10
       rect:
         serializedVersion: 2
-        x: 1327
-        y: 923
-        width: 54
-        height: 50
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -472,12 +488,12 @@ TextureImporter:
       name: clothes_11
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 920
-        width: 46
-        height: 53
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -485,12 +501,12 @@ TextureImporter:
       name: clothes_12
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 921
-        width: 40
-        height: 60
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -498,12 +514,12 @@ TextureImporter:
       name: clothes_13
       rect:
         serializedVersion: 2
-        x: 1707
-        y: 920
-        width: 44
-        height: 57
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -511,12 +527,12 @@ TextureImporter:
       name: clothes_14
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 921
-        width: 55
-        height: 46
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -524,12 +540,12 @@ TextureImporter:
       name: clothes_15
       rect:
         serializedVersion: 2
-        x: 1963
-        y: 921
-        width: 44
-        height: 44
+        x: 1920
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -537,12 +553,12 @@ TextureImporter:
       name: clothes_16
       rect:
         serializedVersion: 2
-        x: 2095
-        y: 919
-        width: 42
-        height: 50
+        x: 2048
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -550,12 +566,12 @@ TextureImporter:
       name: clothes_17
       rect:
         serializedVersion: 2
-        x: 2224
-        y: 920
-        width: 39
-        height: 49
+        x: 2176
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -563,12 +579,12 @@ TextureImporter:
       name: clothes_18
       rect:
         serializedVersion: 2
-        x: 2351
-        y: 923
-        width: 40
-        height: 46
+        x: 2304
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -576,12 +592,12 @@ TextureImporter:
       name: clothes_19
       rect:
         serializedVersion: 2
-        x: 2479
-        y: 920
-        width: 41
-        height: 50
+        x: 2432
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -589,12 +605,12 @@ TextureImporter:
       name: clothes_20
       rect:
         serializedVersion: 2
-        x: 2608
-        y: 923
-        width: 43
-        height: 46
+        x: 2560
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -602,12 +618,12 @@ TextureImporter:
       name: clothes_21
       rect:
         serializedVersion: 2
-        x: 2737
-        y: 923
-        width: 42
-        height: 40
+        x: 2688
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -615,12 +631,12 @@ TextureImporter:
       name: clothes_22
       rect:
         serializedVersion: 2
-        x: 2861
-        y: 912
-        width: 50
-        height: 41
+        x: 2816
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -628,12 +644,12 @@ TextureImporter:
       name: clothes_23
       rect:
         serializedVersion: 2
-        x: 2987
-        y: 915
-        width: 54
-        height: 32
+        x: 2944
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -641,12 +657,12 @@ TextureImporter:
       name: clothes_24
       rect:
         serializedVersion: 2
-        x: 3113
-        y: 920
-        width: 42
-        height: 56
+        x: 3072
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -654,12 +670,12 @@ TextureImporter:
       name: clothes_25
       rect:
         serializedVersion: 2
-        x: 3240
-        y: 920
-        width: 43
-        height: 65
+        x: 3200
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -667,12 +683,12 @@ TextureImporter:
       name: clothes_26
       rect:
         serializedVersion: 2
-        x: 3374
-        y: 919
-        width: 42
-        height: 67
+        x: 3328
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -680,12 +696,12 @@ TextureImporter:
       name: clothes_27
       rect:
         serializedVersion: 2
-        x: 3501
-        y: 920
-        width: 44
-        height: 63
+        x: 3456
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -693,12 +709,12 @@ TextureImporter:
       name: clothes_28
       rect:
         serializedVersion: 2
-        x: 3629
-        y: 919
-        width: 40
-        height: 54
+        x: 3584
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -706,12 +722,12 @@ TextureImporter:
       name: clothes_29
       rect:
         serializedVersion: 2
-        x: 3751
-        y: 919
-        width: 50
-        height: 56
+        x: 3712
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -719,12 +735,12 @@ TextureImporter:
       name: clothes_30
       rect:
         serializedVersion: 2
-        x: 3879
-        y: 921
-        width: 52
-        height: 55
+        x: 3840
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -732,12 +748,12 @@ TextureImporter:
       name: clothes_31
       rect:
         serializedVersion: 2
-        x: 4015
-        y: 919
-        width: 40
-        height: 52
+        x: 3968
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -745,12 +761,12 @@ TextureImporter:
       name: clothes_32
       rect:
         serializedVersion: 2
-        x: 45
-        y: 792
-        width: 44
-        height: 49
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -758,12 +774,12 @@ TextureImporter:
       name: clothes_33
       rect:
         serializedVersion: 2
-        x: 173
-        y: 795
-        width: 44
-        height: 46
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -771,12 +787,12 @@ TextureImporter:
       name: clothes_34
       rect:
         serializedVersion: 2
-        x: 301
-        y: 795
-        width: 44
-        height: 46
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -784,12 +800,12 @@ TextureImporter:
       name: clothes_35
       rect:
         serializedVersion: 2
-        x: 429
-        y: 795
-        width: 42
-        height: 46
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -797,12 +813,12 @@ TextureImporter:
       name: clothes_36
       rect:
         serializedVersion: 2
-        x: 567
-        y: 793
-        width: 34
-        height: 54
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -810,12 +826,12 @@ TextureImporter:
       name: clothes_37
       rect:
         serializedVersion: 2
-        x: 689
-        y: 791
-        width: 38
-        height: 58
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -823,12 +839,12 @@ TextureImporter:
       name: clothes_38
       rect:
         serializedVersion: 2
-        x: 815
-        y: 791
-        width: 42
-        height: 57
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -836,12 +852,12 @@ TextureImporter:
       name: clothes_39
       rect:
         serializedVersion: 2
-        x: 945
-        y: 793
-        width: 40
-        height: 53
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -849,12 +865,12 @@ TextureImporter:
       name: clothes_40
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 795
-        width: 33
-        height: 52
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -862,12 +878,12 @@ TextureImporter:
       name: clothes_41
       rect:
         serializedVersion: 2
-        x: 1209
-        y: 791
-        width: 32
-        height: 54
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -875,12 +891,12 @@ TextureImporter:
       name: clothes_42
       rect:
         serializedVersion: 2
-        x: 1329
-        y: 792
-        width: 47
-        height: 53
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -888,12 +904,12 @@ TextureImporter:
       name: clothes_43
       rect:
         serializedVersion: 2
-        x: 1463
-        y: 795
-        width: 38
-        height: 50
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -901,12 +917,12 @@ TextureImporter:
       name: clothes_44
       rect:
         serializedVersion: 2
-        x: 1579
-        y: 795
-        width: 42
-        height: 58
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -914,12 +930,12 @@ TextureImporter:
       name: clothes_45
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 795
-        width: 40
-        height: 61
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -927,12 +943,12 @@ TextureImporter:
       name: clothes_46
       rect:
         serializedVersion: 2
-        x: 1837
-        y: 795
-        width: 42
-        height: 46
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -940,12 +956,12 @@ TextureImporter:
       name: clothes_47
       rect:
         serializedVersion: 2
-        x: 1965
-        y: 795
-        width: 44
-        height: 46
+        x: 1920
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -953,12 +969,12 @@ TextureImporter:
       name: clothes_48
       rect:
         serializedVersion: 2
-        x: 2095
-        y: 795
-        width: 42
-        height: 46
+        x: 2048
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -966,12 +982,12 @@ TextureImporter:
       name: clothes_49
       rect:
         serializedVersion: 2
-        x: 2223
-        y: 795
-        width: 42
-        height: 46
+        x: 2176
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -979,12 +995,12 @@ TextureImporter:
       name: clothes_50
       rect:
         serializedVersion: 2
-        x: 2351
-        y: 791
-        width: 42
-        height: 50
+        x: 2304
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -992,12 +1008,12 @@ TextureImporter:
       name: clothes_51
       rect:
         serializedVersion: 2
-        x: 2477
-        y: 795
-        width: 42
-        height: 48
+        x: 2432
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1005,12 +1021,12 @@ TextureImporter:
       name: clothes_52
       rect:
         serializedVersion: 2
-        x: 2611
-        y: 793
-        width: 40
-        height: 48
+        x: 2560
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1018,12 +1034,12 @@ TextureImporter:
       name: clothes_53
       rect:
         serializedVersion: 2
-        x: 2736
-        y: 791
-        width: 43
-        height: 44
+        x: 2688
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1031,12 +1047,12 @@ TextureImporter:
       name: clothes_54
       rect:
         serializedVersion: 2
-        x: 2863
-        y: 785
-        width: 38
-        height: 40
+        x: 2816
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1044,12 +1060,12 @@ TextureImporter:
       name: clothes_55
       rect:
         serializedVersion: 2
-        x: 2991
-        y: 784
-        width: 41
-        height: 40
+        x: 2944
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1057,12 +1073,12 @@ TextureImporter:
       name: clothes_56
       rect:
         serializedVersion: 2
-        x: 3112
-        y: 792
-        width: 49
-        height: 53
+        x: 3072
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1070,12 +1086,12 @@ TextureImporter:
       name: clothes_57
       rect:
         serializedVersion: 2
-        x: 3239
-        y: 792
-        width: 50
-        height: 65
+        x: 3200
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1083,12 +1099,12 @@ TextureImporter:
       name: clothes_58
       rect:
         serializedVersion: 2
-        x: 3367
-        y: 795
-        width: 57
-        height: 60
+        x: 3328
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1096,12 +1112,12 @@ TextureImporter:
       name: clothes_59
       rect:
         serializedVersion: 2
-        x: 3496
-        y: 792
-        width: 59
-        height: 57
+        x: 3456
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1109,12 +1125,12 @@ TextureImporter:
       name: clothes_60
       rect:
         serializedVersion: 2
-        x: 3627
-        y: 795
-        width: 40
-        height: 48
+        x: 3584
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1122,12 +1138,12 @@ TextureImporter:
       name: clothes_61
       rect:
         serializedVersion: 2
-        x: 3755
-        y: 792
-        width: 50
-        height: 53
+        x: 3712
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1135,12 +1151,12 @@ TextureImporter:
       name: clothes_62
       rect:
         serializedVersion: 2
-        x: 3881
-        y: 795
-        width: 56
-        height: 52
+        x: 3840
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1148,12 +1164,12 @@ TextureImporter:
       name: clothes_63
       rect:
         serializedVersion: 2
-        x: 4013
-        y: 795
-        width: 50
-        height: 48
+        x: 3968
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1161,12 +1177,12 @@ TextureImporter:
       name: clothes_64
       rect:
         serializedVersion: 2
-        x: 48
-        y: 663
-        width: 41
-        height: 50
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1174,12 +1190,12 @@ TextureImporter:
       name: clothes_65
       rect:
         serializedVersion: 2
-        x: 176
-        y: 663
-        width: 43
-        height: 50
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1187,12 +1203,12 @@ TextureImporter:
       name: clothes_66
       rect:
         serializedVersion: 2
-        x: 304
-        y: 663
-        width: 43
-        height: 50
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1200,12 +1216,12 @@ TextureImporter:
       name: clothes_67
       rect:
         serializedVersion: 2
-        x: 437
-        y: 663
-        width: 36
-        height: 50
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1213,12 +1229,12 @@ TextureImporter:
       name: clothes_68
       rect:
         serializedVersion: 2
-        x: 563
-        y: 664
-        width: 37
-        height: 55
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1226,12 +1242,12 @@ TextureImporter:
       name: clothes_69
       rect:
         serializedVersion: 2
-        x: 691
-        y: 659
-        width: 34
-        height: 61
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1239,12 +1255,12 @@ TextureImporter:
       name: clothes_70
       rect:
         serializedVersion: 2
-        x: 821
-        y: 659
-        width: 32
-        height: 58
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1252,12 +1268,12 @@ TextureImporter:
       name: clothes_71
       rect:
         serializedVersion: 2
-        x: 947
-        y: 663
-        width: 34
-        height: 57
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1265,12 +1281,12 @@ TextureImporter:
       name: clothes_72
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 663
-        width: 34
-        height: 57
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1278,12 +1294,12 @@ TextureImporter:
       name: clothes_73
       rect:
         serializedVersion: 2
-        x: 1203
-        y: 661
-        width: 34
-        height: 60
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1291,12 +1307,12 @@ TextureImporter:
       name: clothes_74
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 659
-        width: 35
-        height: 58
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1304,12 +1320,12 @@ TextureImporter:
       name: clothes_75
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 663
-        width: 40
-        height: 54
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1317,12 +1333,12 @@ TextureImporter:
       name: clothes_76
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 661
-        width: 44
-        height: 62
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1330,12 +1346,12 @@ TextureImporter:
       name: clothes_77
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 661
-        width: 44
-        height: 62
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1343,12 +1359,12 @@ TextureImporter:
       name: clothes_78
       rect:
         serializedVersion: 2
-        x: 1841
-        y: 661
-        width: 34
-        height: 54
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1356,12 +1372,12 @@ TextureImporter:
       name: clothes_79
       rect:
         serializedVersion: 2
-        x: 1973
-        y: 661
-        width: 30
-        height: 54
+        x: 1920
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1369,12 +1385,12 @@ TextureImporter:
       name: clothes_80
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 661
-        width: 34
-        height: 50
+        x: 2048
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1382,12 +1398,12 @@ TextureImporter:
       name: clothes_81
       rect:
         serializedVersion: 2
-        x: 2227
-        y: 661
-        width: 37
-        height: 52
+        x: 2176
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1395,12 +1411,12 @@ TextureImporter:
       name: clothes_82
       rect:
         serializedVersion: 2
-        x: 2357
-        y: 661
-        width: 32
-        height: 52
+        x: 2304
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1408,12 +1424,12 @@ TextureImporter:
       name: clothes_83
       rect:
         serializedVersion: 2
-        x: 2485
-        y: 661
-        width: 36
-        height: 52
+        x: 2432
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1421,12 +1437,12 @@ TextureImporter:
       name: clothes_84
       rect:
         serializedVersion: 2
-        x: 2615
-        y: 659
-        width: 34
-        height: 54
+        x: 2560
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1434,12 +1450,12 @@ TextureImporter:
       name: clothes_85
       rect:
         serializedVersion: 2
-        x: 2743
-        y: 656
-        width: 33
-        height: 49
+        x: 2688
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1447,12 +1463,12 @@ TextureImporter:
       name: clothes_86
       rect:
         serializedVersion: 2
-        x: 2856
-        y: 655
-        width: 47
-        height: 38
+        x: 2816
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1460,12 +1476,12 @@ TextureImporter:
       name: clothes_87
       rect:
         serializedVersion: 2
-        x: 2981
-        y: 655
-        width: 52
-        height: 32
+        x: 2944
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1473,12 +1489,12 @@ TextureImporter:
       name: clothes_88
       rect:
         serializedVersion: 2
-        x: 3119
-        y: 663
-        width: 50
-        height: 56
+        x: 3072
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1486,12 +1502,12 @@ TextureImporter:
       name: clothes_89
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 663
-        width: 49
-        height: 64
+        x: 3200
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1499,12 +1515,12 @@ TextureImporter:
       name: clothes_90
       rect:
         serializedVersion: 2
-        x: 3371
-        y: 663
-        width: 56
-        height: 64
+        x: 3328
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1512,12 +1528,12 @@ TextureImporter:
       name: clothes_91
       rect:
         serializedVersion: 2
-        x: 3497
-        y: 663
-        width: 55
-        height: 62
+        x: 3456
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1525,12 +1541,12 @@ TextureImporter:
       name: clothes_92
       rect:
         serializedVersion: 2
-        x: 3635
-        y: 663
-        width: 32
-        height: 52
+        x: 3584
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1538,12 +1554,12 @@ TextureImporter:
       name: clothes_93
       rect:
         serializedVersion: 2
-        x: 3763
-        y: 663
-        width: 38
-        height: 58
+        x: 3712
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1551,12 +1567,12 @@ TextureImporter:
       name: clothes_94
       rect:
         serializedVersion: 2
-        x: 3891
-        y: 663
-        width: 45
-        height: 65
+        x: 3840
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1564,12 +1580,12 @@ TextureImporter:
       name: clothes_95
       rect:
         serializedVersion: 2
-        x: 4019
-        y: 663
-        width: 44
-        height: 52
+        x: 3968
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1577,12 +1593,12 @@ TextureImporter:
       name: clothes_96
       rect:
         serializedVersion: 2
-        x: 51
-        y: 533
-        width: 34
-        height: 52
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1590,12 +1606,12 @@ TextureImporter:
       name: clothes_97
       rect:
         serializedVersion: 2
-        x: 179
-        y: 533
-        width: 34
-        height: 52
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1603,12 +1619,12 @@ TextureImporter:
       name: clothes_98
       rect:
         serializedVersion: 2
-        x: 304
-        y: 533
-        width: 37
-        height: 52
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1616,12 +1632,12 @@ TextureImporter:
       name: clothes_99
       rect:
         serializedVersion: 2
-        x: 435
-        y: 533
-        width: 34
-        height: 52
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1629,12 +1645,12 @@ TextureImporter:
       name: clothes_100
       rect:
         serializedVersion: 2
-        x: 560
-        y: 539
-        width: 35
-        height: 52
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1642,12 +1658,12 @@ TextureImporter:
       name: clothes_101
       rect:
         serializedVersion: 2
-        x: 683
-        y: 535
-        width: 40
-        height: 57
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1655,12 +1671,12 @@ TextureImporter:
       name: clothes_102
       rect:
         serializedVersion: 2
-        x: 805
-        y: 536
-        width: 45
-        height: 56
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1668,12 +1684,12 @@ TextureImporter:
       name: clothes_103
       rect:
         serializedVersion: 2
-        x: 935
-        y: 539
-        width: 44
-        height: 50
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1681,12 +1697,12 @@ TextureImporter:
       name: clothes_104
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 535
-        width: 40
-        height: 56
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1694,12 +1710,12 @@ TextureImporter:
       name: clothes_105
       rect:
         serializedVersion: 2
-        x: 1197
-        y: 533
-        width: 40
-        height: 59
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1707,12 +1723,12 @@ TextureImporter:
       name: clothes_106
       rect:
         serializedVersion: 2
-        x: 1319
-        y: 535
-        width: 49
-        height: 57
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1720,12 +1736,12 @@ TextureImporter:
       name: clothes_107
       rect:
         serializedVersion: 2
-        x: 1453
-        y: 536
-        width: 41
-        height: 55
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1733,12 +1749,12 @@ TextureImporter:
       name: clothes_108
       rect:
         serializedVersion: 2
-        x: 1587
-        y: 533
-        width: 40
-        height: 56
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1746,12 +1762,12 @@ TextureImporter:
       name: clothes_109
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 533
-        width: 46
-        height: 56
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1759,12 +1775,12 @@ TextureImporter:
       name: clothes_110
       rect:
         serializedVersion: 2
-        x: 1839
-        y: 533
-        width: 50
-        height: 52
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1772,12 +1788,12 @@ TextureImporter:
       name: clothes_111
       rect:
         serializedVersion: 2
-        x: 1971
-        y: 531
-        width: 38
-        height: 54
+        x: 1920
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1785,12 +1801,12 @@ TextureImporter:
       name: clothes_112
       rect:
         serializedVersion: 2
-        x: 2096
-        y: 533
-        width: 41
-        height: 52
+        x: 2048
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1798,12 +1814,12 @@ TextureImporter:
       name: clothes_113
       rect:
         serializedVersion: 2
-        x: 2227
-        y: 533
-        width: 38
-        height: 52
+        x: 2176
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1811,12 +1827,12 @@ TextureImporter:
       name: clothes_114
       rect:
         serializedVersion: 2
-        x: 2357
-        y: 533
-        width: 30
-        height: 52
+        x: 2304
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1824,12 +1840,12 @@ TextureImporter:
       name: clothes_115
       rect:
         serializedVersion: 2
-        x: 2487
-        y: 533
-        width: 32
-        height: 50
+        x: 2432
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1837,12 +1853,12 @@ TextureImporter:
       name: clothes_116
       rect:
         serializedVersion: 2
-        x: 2608
-        y: 531
-        width: 41
-        height: 46
+        x: 2560
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1850,12 +1866,12 @@ TextureImporter:
       name: clothes_117
       rect:
         serializedVersion: 2
-        x: 2736
-        y: 528
-        width: 39
-        height: 45
+        x: 2688
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1863,12 +1879,12 @@ TextureImporter:
       name: clothes_118
       rect:
         serializedVersion: 2
-        x: 2853
-        y: 533
-        width: 50
-        height: 26
+        x: 2816
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1876,12 +1892,12 @@ TextureImporter:
       name: clothes_119
       rect:
         serializedVersion: 2
-        x: 2976
-        y: 533
-        width: 56
-        height: 27
+        x: 2944
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1889,12 +1905,12 @@ TextureImporter:
       name: clothes_120
       rect:
         serializedVersion: 2
-        x: 3126
-        y: 533
-        width: 39
-        height: 59
+        x: 3072
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1902,12 +1918,12 @@ TextureImporter:
       name: clothes_121
       rect:
         serializedVersion: 2
-        x: 3253
-        y: 535
-        width: 43
-        height: 66
+        x: 3200
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1915,12 +1931,12 @@ TextureImporter:
       name: clothes_122
       rect:
         serializedVersion: 2
-        x: 3382
-        y: 535
-        width: 37
-        height: 68
+        x: 3328
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1928,12 +1944,12 @@ TextureImporter:
       name: clothes_123
       rect:
         serializedVersion: 2
-        x: 3509
-        y: 533
-        width: 30
-        height: 70
+        x: 3456
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1941,12 +1957,12 @@ TextureImporter:
       name: clothes_124
       rect:
         serializedVersion: 2
-        x: 3637
-        y: 533
-        width: 30
-        height: 54
+        x: 3584
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1954,12 +1970,12 @@ TextureImporter:
       name: clothes_125
       rect:
         serializedVersion: 2
-        x: 3765
-        y: 533
-        width: 38
-        height: 59
+        x: 3712
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1967,12 +1983,12 @@ TextureImporter:
       name: clothes_126
       rect:
         serializedVersion: 2
-        x: 3893
-        y: 533
-        width: 36
-        height: 62
+        x: 3840
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1980,12 +1996,12 @@ TextureImporter:
       name: clothes_127
       rect:
         serializedVersion: 2
-        x: 4021
-        y: 533
-        width: 35
-        height: 54
+        x: 3968
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1993,12 +2009,12 @@ TextureImporter:
       name: clothes_128
       rect:
         serializedVersion: 2
-        x: 40
-        y: 408
-        width: 48
-        height: 49
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2006,12 +2022,12 @@ TextureImporter:
       name: clothes_129
       rect:
         serializedVersion: 2
-        x: 171
-        y: 408
-        width: 44
-        height: 49
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2019,12 +2035,12 @@ TextureImporter:
       name: clothes_130
       rect:
         serializedVersion: 2
-        x: 299
-        y: 408
-        width: 45
-        height: 49
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2032,12 +2048,12 @@ TextureImporter:
       name: clothes_131
       rect:
         serializedVersion: 2
-        x: 427
-        y: 408
-        width: 44
-        height: 49
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2045,12 +2061,12 @@ TextureImporter:
       name: clothes_132
       rect:
         serializedVersion: 2
-        x: 553
-        y: 415
-        width: 42
-        height: 48
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2058,12 +2074,12 @@ TextureImporter:
       name: clothes_133
       rect:
         serializedVersion: 2
-        x: 677
-        y: 411
-        width: 45
-        height: 53
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2071,12 +2087,12 @@ TextureImporter:
       name: clothes_134
       rect:
         serializedVersion: 2
-        x: 799
-        y: 411
-        width: 56
-        height: 50
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2084,12 +2100,12 @@ TextureImporter:
       name: clothes_135
       rect:
         serializedVersion: 2
-        x: 931
-        y: 411
-        width: 50
-        height: 50
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2097,12 +2113,12 @@ TextureImporter:
       name: clothes_136
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 411
-        width: 42
-        height: 52
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2110,12 +2126,12 @@ TextureImporter:
       name: clothes_137
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 413
-        width: 44
-        height: 48
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2123,12 +2139,12 @@ TextureImporter:
       name: clothes_138
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 415
-        width: 56
-        height: 46
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2136,12 +2152,12 @@ TextureImporter:
       name: clothes_139
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 415
-        width: 51
-        height: 46
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2149,12 +2165,12 @@ TextureImporter:
       name: clothes_140
       rect:
         serializedVersion: 2
-        x: 1579
-        y: 409
-        width: 45
-        height: 50
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2162,12 +2178,12 @@ TextureImporter:
       name: clothes_141
       rect:
         serializedVersion: 2
-        x: 1707
-        y: 408
-        width: 52
-        height: 49
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2175,12 +2191,12 @@ TextureImporter:
       name: clothes_142
       rect:
         serializedVersion: 2
-        x: 1835
-        y: 408
-        width: 58
-        height: 48
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2188,12 +2204,12 @@ TextureImporter:
       name: clothes_143
       rect:
         serializedVersion: 2
-        x: 1961
-        y: 409
-        width: 50
-        height: 47
+        x: 1920
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2201,12 +2217,12 @@ TextureImporter:
       name: clothes_144
       rect:
         serializedVersion: 2
-        x: 2088
-        y: 409
-        width: 49
-        height: 48
+        x: 2048
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2214,12 +2230,12 @@ TextureImporter:
       name: clothes_145
       rect:
         serializedVersion: 2
-        x: 2215
-        y: 409
-        width: 50
-        height: 47
+        x: 2176
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2227,12 +2243,12 @@ TextureImporter:
       name: clothes_146
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 408
-        width: 44
-        height: 49
+        x: 2304
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2240,12 +2256,12 @@ TextureImporter:
       name: clothes_147
       rect:
         serializedVersion: 2
-        x: 2472
-        y: 409
-        width: 45
-        height: 42
+        x: 2432
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2253,12 +2269,12 @@ TextureImporter:
       name: clothes_148
       rect:
         serializedVersion: 2
-        x: 2597
-        y: 408
-        width: 46
-        height: 37
+        x: 2560
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2266,12 +2282,12 @@ TextureImporter:
       name: clothes_149
       rect:
         serializedVersion: 2
-        x: 2725
-        y: 408
-        width: 46
-        height: 33
+        x: 2688
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2279,12 +2295,12 @@ TextureImporter:
       name: clothes_150
       rect:
         serializedVersion: 2
-        x: 2849
-        y: 407
-        width: 50
-        height: 26
+        x: 2816
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2292,12 +2308,12 @@ TextureImporter:
       name: clothes_151
       rect:
         serializedVersion: 2
-        x: 2975
-        y: 405
-        width: 54
-        height: 30
+        x: 2944
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2305,12 +2321,12 @@ TextureImporter:
       name: clothes_152
       rect:
         serializedVersion: 2
-        x: 3117
-        y: 409
-        width: 50
-        height: 50
+        x: 3072
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2318,12 +2334,12 @@ TextureImporter:
       name: clothes_153
       rect:
         serializedVersion: 2
-        x: 3245
-        y: 408
-        width: 52
-        height: 59
+        x: 3200
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2331,12 +2347,12 @@ TextureImporter:
       name: clothes_154
       rect:
         serializedVersion: 2
-        x: 3373
-        y: 409
-        width: 48
-        height: 64
+        x: 3328
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2344,12 +2360,12 @@ TextureImporter:
       name: clothes_155
       rect:
         serializedVersion: 2
-        x: 3501
-        y: 409
-        width: 46
-        height: 66
+        x: 3456
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2357,12 +2373,12 @@ TextureImporter:
       name: clothes_156
       rect:
         serializedVersion: 2
-        x: 3629
-        y: 409
-        width: 44
-        height: 50
+        x: 3584
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2370,12 +2386,12 @@ TextureImporter:
       name: clothes_157
       rect:
         serializedVersion: 2
-        x: 3752
-        y: 407
-        width: 57
-        height: 54
+        x: 3712
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2383,12 +2399,12 @@ TextureImporter:
       name: clothes_158
       rect:
         serializedVersion: 2
-        x: 3885
-        y: 408
-        width: 54
-        height: 56
+        x: 3840
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2396,12 +2412,12 @@ TextureImporter:
       name: clothes_159
       rect:
         serializedVersion: 2
-        x: 4013
-        y: 409
-        width: 40
-        height: 50
+        x: 3968
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2409,12 +2425,12 @@ TextureImporter:
       name: clothes_160
       rect:
         serializedVersion: 2
-        x: 43
-        y: 280
-        width: 45
-        height: 49
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2422,12 +2438,12 @@ TextureImporter:
       name: clothes_161
       rect:
         serializedVersion: 2
-        x: 168
-        y: 280
-        width: 45
-        height: 49
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2435,12 +2451,12 @@ TextureImporter:
       name: clothes_162
       rect:
         serializedVersion: 2
-        x: 299
-        y: 280
-        width: 45
-        height: 49
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2448,12 +2464,12 @@ TextureImporter:
       name: clothes_163
       rect:
         serializedVersion: 2
-        x: 424
-        y: 280
-        width: 48
-        height: 49
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2461,12 +2477,12 @@ TextureImporter:
       name: clothes_164
       rect:
         serializedVersion: 2
-        x: 555
-        y: 288
-        width: 40
-        height: 45
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2474,12 +2490,12 @@ TextureImporter:
       name: clothes_165
       rect:
         serializedVersion: 2
-        x: 685
-        y: 287
-        width: 40
-        height: 46
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2487,12 +2503,12 @@ TextureImporter:
       name: clothes_166
       rect:
         serializedVersion: 2
-        x: 809
-        y: 279
-        width: 48
-        height: 52
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2500,12 +2516,12 @@ TextureImporter:
       name: clothes_167
       rect:
         serializedVersion: 2
-        x: 941
-        y: 281
-        width: 42
-        height: 55
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2513,12 +2529,12 @@ TextureImporter:
       name: clothes_168
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 285
-        width: 35
-        height: 51
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2526,12 +2542,12 @@ TextureImporter:
       name: clothes_169
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 289
-        width: 44
-        height: 48
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2539,12 +2555,12 @@ TextureImporter:
       name: clothes_170
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 280
-        width: 45
-        height: 53
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2552,12 +2568,12 @@ TextureImporter:
       name: clothes_171
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 285
-        width: 44
-        height: 48
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2565,12 +2581,12 @@ TextureImporter:
       name: clothes_172
       rect:
         serializedVersion: 2
-        x: 1576
-        y: 283
-        width: 50
-        height: 48
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2578,12 +2594,12 @@ TextureImporter:
       name: clothes_173
       rect:
         serializedVersion: 2
-        x: 1707
-        y: 280
-        width: 45
-        height: 45
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2591,12 +2607,12 @@ TextureImporter:
       name: clothes_174
       rect:
         serializedVersion: 2
-        x: 1833
-        y: 280
-        width: 48
-        height: 43
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2604,12 +2620,12 @@ TextureImporter:
       name: clothes_175
       rect:
         serializedVersion: 2
-        x: 1959
-        y: 280
-        width: 50
-        height: 43
+        x: 1920
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2617,12 +2633,12 @@ TextureImporter:
       name: clothes_176
       rect:
         serializedVersion: 2
-        x: 2088
-        y: 283
-        width: 48
-        height: 46
+        x: 2048
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2630,12 +2646,12 @@ TextureImporter:
       name: clothes_177
       rect:
         serializedVersion: 2
-        x: 2219
-        y: 283
-        width: 45
-        height: 45
+        x: 2176
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2643,12 +2659,12 @@ TextureImporter:
       name: clothes_178
       rect:
         serializedVersion: 2
-        x: 2343
-        y: 280
-        width: 49
-        height: 48
+        x: 2304
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2656,12 +2672,12 @@ TextureImporter:
       name: clothes_179
       rect:
         serializedVersion: 2
-        x: 2473
-        y: 283
-        width: 44
-        height: 40
+        x: 2432
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2669,12 +2685,12 @@ TextureImporter:
       name: clothes_180
       rect:
         serializedVersion: 2
-        x: 2599
-        y: 283
-        width: 41
-        height: 38
+        x: 2560
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2682,12 +2698,12 @@ TextureImporter:
       name: clothes_181
       rect:
         serializedVersion: 2
-        x: 2725
-        y: 283
-        width: 42
-        height: 30
+        x: 2688
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2695,12 +2711,12 @@ TextureImporter:
       name: clothes_182
       rect:
         serializedVersion: 2
-        x: 2859
-        y: 279
-        width: 38
-        height: 26
+        x: 2816
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2708,12 +2724,12 @@ TextureImporter:
       name: clothes_183
       rect:
         serializedVersion: 2
-        x: 2987
-        y: 277
-        width: 38
-        height: 30
+        x: 2944
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2721,12 +2737,12 @@ TextureImporter:
       name: clothes_184
       rect:
         serializedVersion: 2
-        x: 3117
-        y: 280
-        width: 48
-        height: 51
+        x: 3072
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2734,12 +2750,12 @@ TextureImporter:
       name: clothes_185
       rect:
         serializedVersion: 2
-        x: 3246
-        y: 280
-        width: 55
-        height: 56
+        x: 3200
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2747,12 +2763,12 @@ TextureImporter:
       name: clothes_186
       rect:
         serializedVersion: 2
-        x: 3373
-        y: 280
-        width: 56
-        height: 59
+        x: 3328
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2760,12 +2776,12 @@ TextureImporter:
       name: clothes_187
       rect:
         serializedVersion: 2
-        x: 3496
-        y: 283
-        width: 61
-        height: 58
+        x: 3456
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2773,12 +2789,12 @@ TextureImporter:
       name: clothes_188
       rect:
         serializedVersion: 2
-        x: 3629
-        y: 283
-        width: 46
-        height: 53
+        x: 3584
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2786,12 +2802,12 @@ TextureImporter:
       name: clothes_189
       rect:
         serializedVersion: 2
-        x: 3757
-        y: 283
-        width: 48
-        height: 53
+        x: 3712
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2799,12 +2815,12 @@ TextureImporter:
       name: clothes_190
       rect:
         serializedVersion: 2
-        x: 3881
-        y: 283
-        width: 56
-        height: 50
+        x: 3840
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2812,12 +2828,12 @@ TextureImporter:
       name: clothes_191
       rect:
         serializedVersion: 2
-        x: 4009
-        y: 283
-        width: 48
-        height: 49
+        x: 3968
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2825,12 +2841,12 @@ TextureImporter:
       name: clothes_192
       rect:
         serializedVersion: 2
-        x: 45
-        y: 151
-        width: 38
-        height: 52
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2838,12 +2854,12 @@ TextureImporter:
       name: clothes_193
       rect:
         serializedVersion: 2
-        x: 173
-        y: 150
-        width: 38
-        height: 51
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2851,12 +2867,12 @@ TextureImporter:
       name: clothes_194
       rect:
         serializedVersion: 2
-        x: 301
-        y: 149
-        width: 38
-        height: 52
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2864,12 +2880,12 @@ TextureImporter:
       name: clothes_195
       rect:
         serializedVersion: 2
-        x: 429
-        y: 151
-        width: 38
-        height: 50
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2877,12 +2893,12 @@ TextureImporter:
       name: clothes_196
       rect:
         serializedVersion: 2
-        x: 563
-        y: 161
-        width: 34
-        height: 44
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2890,12 +2906,12 @@ TextureImporter:
       name: clothes_197
       rect:
         serializedVersion: 2
-        x: 691
-        y: 159
-        width: 37
-        height: 46
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2903,12 +2919,12 @@ TextureImporter:
       name: clothes_198
       rect:
         serializedVersion: 2
-        x: 819
-        y: 151
-        width: 32
-        height: 52
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2916,12 +2932,12 @@ TextureImporter:
       name: clothes_199
       rect:
         serializedVersion: 2
-        x: 947
-        y: 153
-        width: 34
-        height: 55
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2929,12 +2945,12 @@ TextureImporter:
       name: clothes_200
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 160
-        width: 34
-        height: 45
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2942,12 +2958,12 @@ TextureImporter:
       name: clothes_201
       rect:
         serializedVersion: 2
-        x: 1203
-        y: 161
-        width: 37
-        height: 44
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2955,12 +2971,12 @@ TextureImporter:
       name: clothes_202
       rect:
         serializedVersion: 2
-        x: 1333
-        y: 151
-        width: 35
-        height: 54
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2968,12 +2984,12 @@ TextureImporter:
       name: clothes_203
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 155
-        width: 37
-        height: 54
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2981,12 +2997,12 @@ TextureImporter:
       name: clothes_204
       rect:
         serializedVersion: 2
-        x: 1584
-        y: 151
-        width: 40
-        height: 57
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2994,12 +3010,12 @@ TextureImporter:
       name: clothes_205
       rect:
         serializedVersion: 2
-        x: 1713
-        y: 149
-        width: 39
-        height: 48
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3007,12 +3023,12 @@ TextureImporter:
       name: clothes_206
       rect:
         serializedVersion: 2
-        x: 1845
-        y: 150
-        width: 32
-        height: 43
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3020,12 +3036,12 @@ TextureImporter:
       name: clothes_207
       rect:
         serializedVersion: 2
-        x: 1971
-        y: 151
-        width: 30
-        height: 44
+        x: 1920
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3033,12 +3049,12 @@ TextureImporter:
       name: clothes_208
       rect:
         serializedVersion: 2
-        x: 2095
-        y: 151
-        width: 36
-        height: 50
+        x: 2048
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3046,12 +3062,12 @@ TextureImporter:
       name: clothes_209
       rect:
         serializedVersion: 2
-        x: 2223
-        y: 151
-        width: 34
-        height: 48
+        x: 2176
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3059,12 +3075,12 @@ TextureImporter:
       name: clothes_210
       rect:
         serializedVersion: 2
-        x: 2351
-        y: 151
-        width: 34
-        height: 49
+        x: 2304
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3072,12 +3088,12 @@ TextureImporter:
       name: clothes_211
       rect:
         serializedVersion: 2
-        x: 2480
-        y: 151
-        width: 32
-        height: 49
+        x: 2432
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3085,12 +3101,12 @@ TextureImporter:
       name: clothes_212
       rect:
         serializedVersion: 2
-        x: 2607
-        y: 151
-        width: 26
-        height: 42
+        x: 2560
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3098,12 +3114,12 @@ TextureImporter:
       name: clothes_213
       rect:
         serializedVersion: 2
-        x: 2735
-        y: 153
-        width: 26
-        height: 36
+        x: 2688
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3111,12 +3127,12 @@ TextureImporter:
       name: clothes_214
       rect:
         serializedVersion: 2
-        x: 2856
-        y: 149
-        width: 47
-        height: 30
+        x: 2816
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3124,12 +3140,12 @@ TextureImporter:
       name: clothes_215
       rect:
         serializedVersion: 2
-        x: 2985
-        y: 144
-        width: 50
-        height: 40
+        x: 2944
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3137,12 +3153,12 @@ TextureImporter:
       name: clothes_216
       rect:
         serializedVersion: 2
-        x: 3112
-        y: 149
-        width: 48
-        height: 54
+        x: 3072
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3150,12 +3166,12 @@ TextureImporter:
       name: clothes_217
       rect:
         serializedVersion: 2
-        x: 3243
-        y: 149
-        width: 48
-        height: 56
+        x: 3200
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3163,12 +3179,12 @@ TextureImporter:
       name: clothes_218
       rect:
         serializedVersion: 2
-        x: 3368
-        y: 149
-        width: 57
-        height: 62
+        x: 3328
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3176,12 +3192,12 @@ TextureImporter:
       name: clothes_219
       rect:
         serializedVersion: 2
-        x: 3499
-        y: 149
-        width: 56
-        height: 64
+        x: 3456
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3189,12 +3205,12 @@ TextureImporter:
       name: clothes_220
       rect:
         serializedVersion: 2
-        x: 3635
-        y: 151
-        width: 34
-        height: 54
+        x: 3584
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3202,12 +3218,12 @@ TextureImporter:
       name: clothes_221
       rect:
         serializedVersion: 2
-        x: 3761
-        y: 152
-        width: 34
-        height: 55
+        x: 3712
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3215,12 +3231,12 @@ TextureImporter:
       name: clothes_222
       rect:
         serializedVersion: 2
-        x: 3883
-        y: 152
-        width: 45
-        height: 57
+        x: 3840
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3228,12 +3244,12 @@ TextureImporter:
       name: clothes_223
       rect:
         serializedVersion: 2
-        x: 4008
-        y: 151
-        width: 45
-        height: 54
+        x: 3968
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3241,12 +3257,12 @@ TextureImporter:
       name: clothes_224
       rect:
         serializedVersion: 2
-        x: 51
-        y: 21
-        width: 30
-        height: 54
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3254,12 +3270,12 @@ TextureImporter:
       name: clothes_225
       rect:
         serializedVersion: 2
-        x: 176
-        y: 21
-        width: 33
-        height: 52
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3267,12 +3283,12 @@ TextureImporter:
       name: clothes_226
       rect:
         serializedVersion: 2
-        x: 307
-        y: 21
-        width: 30
-        height: 52
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3280,12 +3296,12 @@ TextureImporter:
       name: clothes_227
       rect:
         serializedVersion: 2
-        x: 432
-        y: 21
-        width: 32
-        height: 52
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3293,12 +3309,12 @@ TextureImporter:
       name: clothes_228
       rect:
         serializedVersion: 2
-        x: 563
-        y: 29
-        width: 34
-        height: 48
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3306,12 +3322,12 @@ TextureImporter:
       name: clothes_229
       rect:
         serializedVersion: 2
-        x: 695
-        y: 33
-        width: 34
-        height: 47
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3319,12 +3335,12 @@ TextureImporter:
       name: clothes_230
       rect:
         serializedVersion: 2
-        x: 816
-        y: 24
-        width: 48
-        height: 53
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3332,12 +3348,12 @@ TextureImporter:
       name: clothes_231
       rect:
         serializedVersion: 2
-        x: 949
-        y: 27
-        width: 40
-        height: 50
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3345,12 +3361,12 @@ TextureImporter:
       name: clothes_232
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 33
-        width: 34
-        height: 46
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3358,12 +3374,12 @@ TextureImporter:
       name: clothes_233
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 31
-        width: 38
-        height: 49
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3371,12 +3387,12 @@ TextureImporter:
       name: clothes_234
       rect:
         serializedVersion: 2
-        x: 1327
-        y: 24
-        width: 43
-        height: 51
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3384,12 +3400,12 @@ TextureImporter:
       name: clothes_235
       rect:
         serializedVersion: 2
-        x: 1457
-        y: 27
-        width: 38
-        height: 50
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3397,12 +3413,12 @@ TextureImporter:
       name: clothes_236
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 21
-        width: 33
-        height: 62
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3410,12 +3426,12 @@ TextureImporter:
       name: clothes_237
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 21
-        width: 40
-        height: 52
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3423,12 +3439,12 @@ TextureImporter:
       name: clothes_238
       rect:
         serializedVersion: 2
-        x: 1829
-        y: 21
-        width: 50
-        height: 46
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3436,12 +3452,12 @@ TextureImporter:
       name: clothes_239
       rect:
         serializedVersion: 2
-        x: 1966
-        y: 21
-        width: 37
-        height: 46
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3449,12 +3465,12 @@ TextureImporter:
       name: clothes_240
       rect:
         serializedVersion: 2
-        x: 2095
-        y: 23
-        width: 34
-        height: 50
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3462,12 +3478,12 @@ TextureImporter:
       name: clothes_241
       rect:
         serializedVersion: 2
-        x: 2223
-        y: 22
-        width: 34
-        height: 50
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3475,12 +3491,12 @@ TextureImporter:
       name: clothes_242
       rect:
         serializedVersion: 2
-        x: 2355
-        y: 23
-        width: 29
-        height: 50
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3488,12 +3504,12 @@ TextureImporter:
       name: clothes_243
       rect:
         serializedVersion: 2
-        x: 2483
-        y: 21
-        width: 26
-        height: 52
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3501,12 +3517,12 @@ TextureImporter:
       name: clothes_244
       rect:
         serializedVersion: 2
-        x: 2607
-        y: 25
-        width: 34
-        height: 47
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3514,12 +3530,12 @@ TextureImporter:
       name: clothes_245
       rect:
         serializedVersion: 2
-        x: 2735
-        y: 24
-        width: 34
-        height: 41
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3527,12 +3543,12 @@ TextureImporter:
       name: clothes_246
       rect:
         serializedVersion: 2
-        x: 2859
-        y: 23
-        width: 48
-        height: 30
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3540,12 +3556,12 @@ TextureImporter:
       name: clothes_247
       rect:
         serializedVersion: 2
-        x: 2985
-        y: 23
-        width: 54
-        height: 26
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3553,12 +3569,12 @@ TextureImporter:
       name: clothes_248
       rect:
         serializedVersion: 2
-        x: 3117
-        y: 21
-        width: 36
-        height: 54
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3566,12 +3582,12 @@ TextureImporter:
       name: clothes_249
       rect:
         serializedVersion: 2
-        x: 3243
-        y: 21
-        width: 38
-        height: 64
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3579,12 +3595,12 @@ TextureImporter:
       name: clothes_250
       rect:
         serializedVersion: 2
-        x: 3377
-        y: 21
-        width: 34
-        height: 68
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3592,12 +3608,12 @@ TextureImporter:
       name: clothes_251
       rect:
         serializedVersion: 2
-        x: 3511
-        y: 21
-        width: 30
-        height: 68
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3605,12 +3621,12 @@ TextureImporter:
       name: clothes_252
       rect:
         serializedVersion: 2
-        x: 3637
-        y: 23
-        width: 28
-        height: 54
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3618,12 +3634,12 @@ TextureImporter:
       name: clothes_253
       rect:
         serializedVersion: 2
-        x: 3759
-        y: 23
-        width: 34
-        height: 58
+        x: 3712
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3631,12 +3647,12 @@ TextureImporter:
       name: clothes_254
       rect:
         serializedVersion: 2
-        x: 3889
-        y: 23
-        width: 34
-        height: 58
+        x: 3840
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -3644,12 +3660,12 @@ TextureImporter:
       name: clothes_255
       rect:
         serializedVersion: 2
-        x: 4016
-        y: 23
-        width: 33
-        height: 57
+        x: 3968
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
