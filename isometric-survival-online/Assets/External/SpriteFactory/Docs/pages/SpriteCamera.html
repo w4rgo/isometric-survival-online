@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - SpriteCamera</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../ReadMe.html">ReadMe</a><br>
+      <a href="ReleaseNotes.html">Release Notes</a><br>
+      <a href="Overview.html">Overview</a><br />
+    <a href="UsingTheEditor.html">Using the Editor</a><br>
+    <a href="Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="Sprites.html">Sprites</a><br />
+      <a href="MasterSprites.html">Master Sprites</a><br />
+      <a href="SpriteGroups.html">Sprite Groups</a><br />
+      <a href="Colliders.html">Colliders</a><br />
+      <a href="Locators.html">Locators</a><br />
+      <a href="MaterialSets.html">Material Sets</a><br />
+      <a href="SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1>SpriteCamera</h1>
+<p>A camera with specific settings for use with Sprites. Specifically, it allows you to automatically display Sprites at the actual pixel size on screen.</p>
+<p><strong>Creating a SpriteCamera</strong><br />
+There are two ways to create a SpriteCamera:</p>
+<ol>
+  <li>Create a camera in your scene and add a <a href="classes/SpriteCamera.html">SpriteCamera</a> component to it.</li>
+  <li>Drag the SpriteCamera prefab into your scene from Assets/SpriteFactory/Prefabs/SpriteCamera.</li>
+</ol>
+<p><strong>Render at Actual Pixel Size</strong><br />
+Set the <a href="classes/SpriteCamera-renderAtActualPixelSize.html">SpriteCamera.renderAtActualPixelSize</a> property of the SpriteCamera component in the inspector to True. The orthographic size setting of the camera will be adjusted to render the Sprites at actual size. You can also set this value via scripting by calling the <a href="classes/SpriteCamera-SetCameraToActualPixelSize.html">SpriteCamera.SetCameraToActualPixelSize</a> function.</p>
+<p><strong>Resolution Gate</strong><br />
+  The SpriteCamera component has settings to allow you to view a resolution gate through the camera view. This allows you to see how much content fits on a screen of a particular resolution.
+This is only for reference and only shows up when viewing through the camera in the Unity editor. These values are set in the inspector when the camera is selected.</p>
+<p><strong>Inspector</strong></p>
+<p><img src="../files/images/Example-SpriteCameraInspector.png" width="536" height="199" alt="SpriteCamera Inspector" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="22%">Render At Actual Pixel Size</td>
+    <td width="1%">&nbsp;</td>
+    <td width="77%">Size camera to render Sprites so 1 texel equals 1 pixel on screen.</td>
+  </tr>
+  <tr>
+    <td>Adjust For Resolution Target</td>
+    <td>&nbsp;</td>
+    <td>Enable to render sprites at 1 texel equals 1 pixel taking into account <a href="UsingTheEditor.html#ResolutionTarget">resolution target</a> scaling. Render At Actual Pixel Size must be enabled for this to have any effect.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Editor-Only Variables</strong></td>
+    <td>&nbsp;</td>
+    <td><strong>These variables are only for use in the editor. They have no effect in a final build.</strong></td>
+  </tr>
+  <tr>
+    <td>Show Resolution Gate</td>
+    <td>&nbsp;</td>
+    <td>Display a resolution box on screen to help visualize available screen space.</td>
+  </tr>
+  <tr>
+    <td>Resolution Gate Size</td>
+    <td>&nbsp;</td>
+    <td>The size of the resolution gate displayed on screen.</td>
+  </tr>
+  <tr>
+    <td>Rotate Layout</td>
+    <td>&nbsp;</td>
+    <td>Rotate the resolution gate to portrait or landscape.</td>
+  </tr>
+  <tr>
+    <td>Custom Gate Width</td>
+    <td>&nbsp;</td>
+    <td>Width of the resolution gate if showResolutionGate is set to Custom.</td>
+  </tr>
+  <tr>
+    <td>Custom Gate Height</td>
+    <td>&nbsp;</td>
+    <td>Height of the resolution gate if showResolutionGate is set to Custom.</td>
+  </tr>
+  <tr>
+    <td>Resolution Gate Color</td>
+    <td>&nbsp;</td>
+    <td>Color of the resolution gate.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Internal Variables</strong></td>
+    <td>&nbsp;</td>
+    <td><strong>For internal use only. Do not edit these variables.</strong></td>
+  </tr>
+  <tr>
+    <td>GameSettings</td>
+    <td>&nbsp;</td>
+    <td>Link to the GameSettings file of SpriteFactory. * Do not edit this value. *</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

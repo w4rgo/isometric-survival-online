@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - Material Sets</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../ReadMe.html">ReadMe</a><br>
+      <a href="ReleaseNotes.html">Release Notes</a><br>
+      <a href="Overview.html">Overview</a><br />
+    <a href="UsingTheEditor.html">Using the Editor</a><br>
+    <a href="Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="Sprites.html">Sprites</a><br />
+      <a href="MasterSprites.html">Master Sprites</a><br />
+      <a href="SpriteGroups.html">Sprite Groups</a><br />
+      <a href="Colliders.html">Colliders</a><br />
+      <a href="Locators.html">Locators</a><br />
+      <a href="MaterialSets.html">Material Sets</a><br />
+      <a href="SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1>Material Sets</h1>
+<p><img src="../files/images/Window-MaterialSetEditor.png" width="570" height="237" alt="Material Set Editor" /></p>
+<p>Material Sets allow you to define multiple materials for a sprite. You can switch a sprite's material at any time by changing the currently used material set via scripting. This can be useful for effects that require a different shader.</p>
+<p><strong>Creating Material Sets</strong><br />
+  Material Sets are created in <a href="UsingTheEditor.html">the editor</a> under the <a href="UsingTheEditor.html#SpriteProperties">Sprite Properties</a> of a Master Sprite. If the Master Sprite is in a  Sprite Group, the material sets are created in the <a href="UsingTheEditor.html#SpriteGroupProperties">Sprite Group Properties</a> instead of in the Master Sprite as they are shared among all sprites in the group.</p>
+<p><strong>How Material Sets Work</strong><br />
+  A Material Set requires a source material from which it will create materials for the sprite inheriting the source material's shader and settings. The source material's shader must have a _MainTex property. When a Master Sprite or Sprite Group is saved and atlases are created, one material will be created on disk for each atlas per material set. If you have a Master Sprite with 2 atlases and 3 material sets, a total of 6 materials will be created on disk.</p>
+<p>Note: It's important that the source materials are never deleted from your project because it is used every time you make changes to the sprite/group. If you make changes to the source material later, in order for sprite materials to inherit the new material settings, you must update sprite materials by rebuilding the materials by either rebuilding the Master Sprite or Group using the Rebuild Sprite/Group command from the editor or rebuilding all materials at once using the Rebuild All Materials command from the editor.</p>
+<p>Note: The material displayed on the sprite in the scene view will always be from the first Material Set. When you press play, the sprite will be drawn with the custom material.</p>
+<p><strong>Changing Material Sets</strong><br />
+The current material set can be changed using the <a href="Sprites.html#Inspector">inspector on the Sprite</a>. It can also be changed during gameplay via scripting using <a href="classes/Sprite-ChangeMaterialSet.html">Sprite.ChangeMaterialSet</a>.</p>
+<p><strong>Material Override vs Material Sets</strong><br />
+  There are two ways to change materials on sprites:</p>
+<ol>
+  <li>Assign a <a href="Sprites.html#MaterialOverride">material override</a> to the sprite.</li>
+  <li>Change the current material set on the sprite.</li>
+</ol>
+<p>Using a material override simply replaces the current materials on the sprites with instanced materials based on the material chosen. While this works, it has the disadvantage of requiring materials to be instanced for every instance of the sprite on screen. This makes it impossible for these instances of the same sprite to be batched, thus increasing draw calls. Material override is convenient, however, because it does not require any pre-planning or defining of material sets in sprites beforehand.</p>
+<p>By contrast, material sets allow every instance of the same sprite to share materials because these materials have been pre-generated and exist on disk. When you have several instances of the same sprite on the screen, the ones that are currently using the same material sets can be batched saving draw calls. This draw call savings can be even more pronounced when drawing sprites that are in a <a href="SpriteGroups.html">Sprite Group</a> because all sprites in the group that share the same atlas and are using the same material set can potentially be batched. Material Sets must be defined in each Master Sprite or Sprite Group in the editor before use.</p>
+<!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

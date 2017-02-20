@@ -1,0 +1,1111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - Using the Editor</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../ReadMe.html">ReadMe</a><br>
+      <a href="ReleaseNotes.html">Release Notes</a><br>
+      <a href="Overview.html">Overview</a><br />
+    <a href="UsingTheEditor.html">Using the Editor</a><br>
+    <a href="Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="Sprites.html">Sprites</a><br />
+      <a href="MasterSprites.html">Master Sprites</a><br />
+      <a href="SpriteGroups.html">Sprite Groups</a><br />
+      <a href="Colliders.html">Colliders</a><br />
+      <a href="Locators.html">Locators</a><br />
+      <a href="MaterialSets.html">Material Sets</a><br />
+      <a href="SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1>Using the Editor</h1>
+<p><a href="#GeneralInformation">General Information<br />
+</a><a href="#launchingtheeditor">Launching the Editor<br />
+</a><a href="#ListBoxes">List Boxes</a><br />
+  <a href="#Help">Inline Help</a><br />
+<a href="#understandingtheeditorwindow">Understanding the Editor Window<br />
+</a><a href="#ColliderEditor">Collider Editor</a><br />
+  <a href="#LocatorEditor">Locator Editor</a><br />
+<a href="#MaterialSetEditor">Material Set Editor</a><br /> 
+<a href="#importwindow">Import Window</a><br /> 
+<a href="#exportwindow">Export Window</a></p>
+<hr />
+<h3><a name="GeneralInformation" id="GeneralInformation"></a>General Information</h3>
+<p>The editor window allows you to create, edit, and manage sprites, sprite groups, animations, frames, events, colliders, locators, material sets from one location.</p>
+<ul>
+  <li>Real-time animation preview</li>
+  <li> Align frames and animations directly in the frame editor. You can even animate offset to achieve a &quot;shake&quot; animation without drawing any extra frames!</li>
+  <li>Lightbox mode shows a semi-transparent preview of any frame you choose to help with alignment.</li>
+  <li>Size and animate colliders in the frame editor making it easy to match colliders to the sprite's animation.</li>
+  <li> Position, rotate, and animate Locators in the frame editor.</li>
+</ul>
+<hr />
+<h3><a name="launchingtheeditor">Launching the Editor</a></h3>
+<p>To launch the editor, under the Window menu, click Sprite Factory.</p>
+<hr />
+<h3><a name="ListBoxes" id="ListBoxes"></a>List Boxes</h3>
+<p>A control you will see a lot in the editor is a list box with a row of buttons beneath as seen below.</p>
+<p><img src="../files/images/Section-SpriteGroups.png" width="262" height="177" alt="List Box" /></p>
+<p>When there are more entries than vertical space allows, a scroll bar will appear.</p>
+<p>The buttons on the bottom row are used to perform various functions to the selected object in the list box. The buttons in the example picture are as follows:</p>
+<table width="100%" border="0">
+  <tr>
+    <td width="5%">UP</td>
+    <td width="1%">&nbsp;</td>
+    <td width="94%" valign="top">Move the selected entry 1 space up in the list.</td>
+  </tr>
+  <tr>
+    <td>DN</td>
+    <td>&nbsp;</td>
+    <td valign="top">Move the selected entry 1 space down in the list.</td>
+  </tr>
+  <tr>
+    <td>+</td>
+    <td>&nbsp;</td>
+    <td valign="top">Add a new entry at the end of the list.</td>
+  </tr>
+  <tr>
+    <td>Ins</td>
+    <td>&nbsp;</td>
+    <td valign="top">Insert a new entry at the selected position.</td>
+  </tr>
+  <tr>
+    <td>Dup</td>
+    <td>&nbsp;</td>
+    <td valign="top">Duplicate the selected entry.</td>
+  </tr>
+  <tr>
+    <td>Del</td>
+    <td>&nbsp;</td>
+    <td valign="top">Delete the selected entry.</td>
+  </tr>
+</table>
+<p>Some list boxes may use some or all of these buttons, or they may use different buttons than those shown above. Hover the mouse pointer over the button to see a description of what the button does.</p>
+<p><strong>Tips</strong></p>
+<ul>
+  <li>  Press the Up Arrow or Down Arrow keys with the mouse hovering over a list box to step through the selections.</li>
+  <li> Some list boxes have a (?) icon that you can hover the mouse over for an explanation.</li>
+</ul>
+<hr />
+<h3><a name="Help" id="Help"></a>Inline Help</h3>
+<p>Most items in the editor show inline help when you hover the mouse pointer over the field name. Also, some list boxes have a (?) icon that you can hover the mouse over for an explanation.</p>
+<hr />
+<h3><a name="understandingtheeditorwindow">Understanding the Editor Window</a></h3>
+<p><img src="../files/images/EditorWindowOverview.png" width="1087" height="845" alt="Editor Window" /></p>
+<p><a href="#GeneralInformation"></a><a href="#EditorProperties">A. Editor Properties</a><br />
+  <a href="#SpriteGroups">B. Sprite Groups</a><br />
+  <a href="#MasterSprites">C. Master Sprites</a><br />
+  <a href="#CreateAssignSprites">D. Create / Assign Sprites</a><br />
+  <a href="#Utilities">E. Utilities</a><br />
+  <a href="#SaveRevert">F. Save / Revert</a><br />
+  <a href="#SpriteProperties">G. Sprite Properties</a><br />
+  <a href="#Animations">H. Animations</a><br />
+  <a href="#Frames">I. Frames</a><br />
+  <a href="#AnimationProperties">J. Animation Properties</a><br />
+  <a href="#FrameProperties">K. Frame Properties</a><br />
+  <a href="#AnimationPreview">L. Animation Preview</a><br />
+  <a href="#ColliderFrameProperties">M. Collider Frame Properties</a><br />
+  <a href="#LocatorFrameProperties">N. Locator Frame Properties</a><br />
+  <a href="#FrameEditor">O. Frame Editor</a></p>
+<hr />
+<h3><a name="EditorProperties" id="EditorProperties"></a>Editor Properties</h3>
+<p>Opens the Editor Properties Window. These are global settings for the editor. Making changes to some of these settings requires that all Sprites and atlases be rebuilt.</p>
+<p><img src="../files/images/Window-EditorProperties.png" width="301" height="541" alt="Editor Properties" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top"><strong>Global Settings</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top">Pixels Per Unit</td>
+    <td width="1%">&nbsp;</td>
+    <td width="84%" valign="top">The scale of the sprite. Higher numbers will result in a smaller sprite in world units. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Atlas Generation Settings</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Max Atlas Size</td>
+    <td>&nbsp;</td>
+    <td valign="top">The maximum size allowed for atlases. This is useful if you need to limit the atlas size due to texture size limitations on some platforms. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Square Atlases</td>
+    <td>&nbsp;</td>
+    <td valign="top">Force atlases to always be square. Otherwise, they may be rectangular or square as needed.</td>
+  </tr>
+  <tr>
+    <td valign="top">Trim Empty Space</td>
+    <td>&nbsp;</td>
+    <td valign="top">Trims blank space around images to reduce wasted space in atlases. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Frame Padding</td>
+    <td>&nbsp;</td>
+    <td valign="top">Padding around each image in an atlas in pixels. Too small a padding may lead to edge bleeding problems with mip-mapping and filtered textures. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Create MipMaps</td>
+    <td>&nbsp;</td>
+    <td valign="top">Enable or disable creation of mip maps for atlas textures. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Compress Textures</td>
+    <td>&nbsp;</td>
+    <td valign="top">Enable or disable texture compression for atlases. Compressed textures may result in reduced image quality. Uncompressed textures require more space. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Filter Mode</td>
+    <td>&nbsp;</td>
+    <td valign="top"><p>Sets the default texture filter mode for sprite and group atlas textures. An individual sprite's or groups's texture filter mode can be changed at any time under <a href="#SpriteProperties">Sprite Properties</a> -&gt; <a href="#MoreSpriteSettings">More Settings</a> -&gt; Texture Filter Mode for a sprite or <a href="#SpriteGroupProperties">Sprite Group Properties</a> -&gt; Texture Filter Mode for a sprite group. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</p></td>
+  </tr>
+  <tr>
+    <td valign="top">Default Aniso Lvl</td>
+    <td>&nbsp;</td>
+    <td valign="top"><p>Sets the default anisotropic level for sprite and group atlas textures. An individual sprite's or groups's anisotropic level can be changed at any time under <a href="#SpriteProperties">Sprite Properties</a> -&gt; <a href="#MoreSpriteSettings">More Settings</a> -&gt; Aniso Level for a sprite or <a href="#SpriteGroupProperties">Sprite Group Properties</a> -&gt; Aniso Level for a sprite group. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><a name="ResolutionTarget" id="ResolutionTarget"></a>Resolution Target</td>
+    <td>&nbsp;</td>
+    <td valign="top">Scales the sprite textures to the specified size during atlas building. This is useful if you are targeting a specific platform that has a lower resolution screen. IMPORTANT NOTE: This setting does not affect the size of sprites in the world. This setting is only for reducing the final texture resolution for while leaving the world-space size the same. *CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">RT Resampling Mode</td>
+    <td>&nbsp;</td>
+    <td valign="top">The resampling mode to use when scaling textures for resolution targets.\n* CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Default Settings</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Default Material</p></td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the default material to use for all Sprites. This material can be overridden on individual Sprites and Sprite Groups in the <a href="#MaterialSetEditor">Material Set editor</a>. * CHANGE REQUIRES ALL MATERIALS TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Mesh Type</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sets the default mesh generation type for sprites. An individual sprites's mesh type setting can be changed at any time under Sprite Properties -&gt; More Settings -&gt; Mesh Type. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Default Edge Extrude</p></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sets the default edge extrusion distance for sprite meshes. An individual sprite's setting can be changed at any time under Sprite Properties -&gt; More Settings. NOTE: This only has an affect if Mesh Type is set to AutoMesh. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Vert Distance</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sets the default vertex reduction distance for sprite meshes. A higher number will result in a mesh with fewer vertices, but too a high a number could cause areas of the sprite to be cut off. An individual sprite's setting can be changed at any time under Sprite Properties -&gt; More Settings. NOTE: This only has an affect if Mesh Type is set to AutoMesh. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Use 2-sided Meshes</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the default 2-sided mesh setting for sprites. An individual sprites's 2-sided mesh setting can be changed at any time under <a href="#SpriteProperties">Sprite Properties</a> -&gt; <a href="#MoreSpriteSettings">More Settings</a> -&gt; Two-Sided Mesh. * CHANGE REQUIRES ALL ATLASES TO BE REBUILT *</td>
+  </tr>
+  <tr>
+    <td valign="top">Default to 2D Colliders</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the default collider type to 2D for new colliders. When you create a collider set, this setting will determine what the initial collider type. Only available in Unity 4.3+. Note: Changing this default setting will not change any of your existing colliders, it will only affect new colliders added later.</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Preferences</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Rebuild Sprite Atlases</td>
+    <td>&nbsp;</td>
+    <td valign="top">Automatically rebuild Sprite atlases every time you save a Master Sprite? Sometimes you may want to turn this off because it takes a very long time to build the atlases and you need to make many changes to a Sprite. You will have to manually rebuild the Sprite when you are finished before your Sprites will function correctly.</td>
+  </tr>
+  <tr>
+    <td valign="top">Rebuild Group Atlases</td>
+    <td>&nbsp;</td>
+    <td valign="top">Automatically rebuild Sprite Group atlases every time you save a Master Sprite in the group? Sometimes you may want to turn this off because it takes a very long time to build the atlases and you need to make many changes to a Sprite Group. You will have to manually rebuild the Sprite when you are finished before your Sprites will function correctly.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="SpriteGroups" id="SpriteGroups"></a>Sprite Groups</h3>
+<p>A Sprite Group is a group of Master Sprites that share atlases thereby saving memory and draw calls. Sprite groups are particularly useful for grouping static sprites. See <a href="SpriteGroups.html">Sprite Groups</a> for more information.</p>
+<p><img src="../files/images/Section-SpriteGroups.png" width="262" height="177" alt="Sprite Groups" /></p>
+<p>Sprite Groups are displayed in a list box as seen above. The number in parenthesis (1) seen next to the group name shows how many Master Sprites are assigned to that group. Sprite Groups can be reordered, created, inserted, duplicated, and deleted by using the buttons below the list box.</p>
+<p><strong>Creating Sprite Groups</strong><br />
+To create a new Sprite Group, click the + button below the list box. The <a href="#SpriteGroupProperties">Sprite Group Properties</a> for the newly created group will be displayed. Give the group a name and click Save Sprite Group.</p>
+<p><strong>Creating a new Sprite in a Group</strong><br />
+Select the Sprite Group you wish to create the new Master Sprite in and click the + icon below the Master Sprite listbox. See <a href="#MasterSprites">Master Sprites</a> for more information.<br />
+</p>
+<p><strong>Moving Sprites In and Out of Sprite Groups</strong><br />
+Master Sprites can be moved in and out of groups at will from <a href="#SpriteProperties">Sprite Properties</a> -&gt; Sprite Group. (Select the Master Sprite first to make Sprite Properties appear.) Note that when moving a sprite to or from a group, atlases and materials will be rebuilt for both groups which can take some time depending on the number of sprites in each group.</p>
+<p><strong><a name="SharedGroupProperties" id="SharedGroupProperties"></a>Shared Group Properties</strong><br />
+Sprite Groups have certain properties which are shared by all sprites within the group: Atlas Properties and Material Sets. When a sprite is in a group, these properties can no longer be set in the sprite, but must be set in the group instead.</p>
+<p><strong><a name="SpriteGroupProperties" id="SpriteGroupProperties"></a>Sprite Group Properties</strong><br />
+The properties of the currently selected Sprite Group. When a Sprite Group is first selected in the editor, the Sprite Group properties will be displayed. If you have a Master Sprite selected, Sprite Group Properties will not be displayed and you must click on another group and then back onto the current group in order to display the  Sprite Group Properties.</p>
+<p><img src="../files/images/Section-SpriteGroupProperties.png" width="269" height="103" alt="Sprite Group Properties" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="11%" valign="top">Name</td>
+    <td width="1%">&nbsp;</td>
+    <td width="88%" valign="top">The name of this sprite group.</td>
+  </tr>
+  <tr>
+    <td valign="top">Texture Filter Mode</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the texture filter mode for atlas textures in this group.</td>
+  </tr>
+  <tr>
+    <td valign="top">Aniso Level</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the anisotropic level for atlas textures in this group.</td>
+  </tr>
+  <tr>
+    <td valign="top">Material Sets</td>
+    <td>&nbsp;</td>
+    <td valign="top">Edit materials sets for this sprite group. See <a href="#MaterialSetEditor">Material Set Editor</a> for more information.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="MasterSprites" id="MasterSprites"></a>Master Sprites</h3>
+<p>A Master Sprite is a template for a sprite. All sprites, whether scene objects or prefabs, must reference a Master Sprite from which they will load their data on Awake(). See <a href="MasterSprites.html">MasterSprites</a> for more information.</p>
+<p><img src="../files/images/Section-MasterSprites.png" width="266" height="175" alt="Master Sprites" /></p>
+<p>Master Sprites are displayed in a list box as seen above. Master Sprites can be reordered, created, inserted, duplicated, and deleted by using the buttons below the list box. When a Master Sprite is selected, the Sprite Properties will be displayed allowing you to edit animations, colliders, locators, and material sets.</p>
+<p><strong>Creating a New Master Sprite</strong><br />
+Make sure you have the desired <a href="#SpriteGroups">Sprite Group</a> selected first (or the group &quot;None&quot; for no group), then click the + button below the list box. A new Master Sprite will be created and the properties for this sprite will be displayed.</p>
+<p>Note: Deleting a Master Sprite will cause all sprites in scene or in prefabs based on that Master Sprite to break because they cannot refer back to their template. These sprites can be assigned a different Master Sprite with the &quot;Assign Master Sprite to Selected Object&quot; command.</p>
+<hr />
+<h3><a name="CreateAssignSprites" id="CreateAssignSprites"></a>Create / Assign Sprites</h3>
+<p><img src="../files/images/Section-CreateAssignSprites.png" width="268" height="64" alt="Create / Assign Sprites" /></p>
+<p><strong>Create Sprite in Scene</strong><br />
+To create a new sprite in the scene from a Master Sprite, first select a Master Sprite from the <a href="#MasterSprites">Master Sprites</a> list box, then click &quot;Create Sprite in Scene&quot;.</p>
+<p><strong>Assign Master Sprite to Selected Object</strong><br />
+To assign a sprite to an existing GameObject, first select a Master Sprite from the <a href="#MasterSprites">Master Sprites</a> list box, then select a GameObject from the Hierarchy or a prefab from the Project window, then click &quot;Assign Master Sprite to Selected Object&quot;. This will replace any Sprite components and other required components (MeshRenderer, MeshFilter) on the GameObject. </p>
+<hr />
+<h3><a name="Utilities" id="Utilities"></a>Utilities</h3>
+<p><img src="../files/images/Section-Utilities.png" width="268" height="116" alt="Utilities" /></p>
+<p><strong>Rebuild Selected</strong> ____________<br />
+  This button changes depending on whether you have a Master Sprite or a Sprite Group selected. (To apply to a Sprite Group, a Master Sprite must not be selected.)</p>
+<p>Rebuild Selected Master Sprite<br />
+Forces a re-save on the selected Master Sprite rebuilding all assets (atlases, materials, meshes, etc.). If the Master Sprite is in a Sprite Group, all Master Sprites in the group will be rebuilt as well.</p>
+<p>Rebuild Selected Sprite Group<br />
+  Forces a re-save on the selected Sprite Group rebuilding all assets (atlases, materials, meshes, etc.).
+</p>
+<p><strong>Check if Atlases Need Updating</strong><br />
+Checks for changes to source image files in all Master Sprites. If any changes are found, you will be given the option to rebuild those Master Sprites.</p>
+<p><strong>More Utilities</strong><br />
+  Opens the <a href="#moreutilities">More Utilities window</a>.</p>
+<p><strong>Documentation</strong><br />
+  Opens the Sprite  Factory documentation website.
+</p>
+<p><a name="moreutilities" id="moreutilities"></a><strong>More Utilities Window:</strong></p>
+<p><img src="../files/images/Window-MoreUtilities.png" width="251" height="276" alt="More Utilities" /></p>
+<p><strong>Rebuild All Atlases</strong><br />
+  Rebuilds all atlases in all Master Sprites and Sprite Groups. This operation can take a very long time depending on how many Master Sprites are in the system. You should NEVER interrupt this operation once it has started or you risk corrupting the save data.<br />
+</p>
+<p><strong>Rebuild All Materials</strong><br />
+  Rebuilds all materials in all Master Sprites and Sprite Groups. This can be useful if you make changes to Material Set source files shared by many Master Sprites.</p>
+<p><strong>Rebuild Data File</strong><br />
+  Rebuild the main data file by scanning the save folder for existing assets. You should only need to do this if your data file becomes corrupt.</p>
+<p><strong>Import</strong><br />
+  Import Master Sprites, Sprite Groups, prefabs, and dependencies from a Sprite Factory export set. See <a href="#importwindow">Import Window</a> for more information.</p>
+<p><strong>Export</strong><br />
+  Export Master Sprites, Sprite Groups, prefabs, and dependencies to a Sprite Factory export set. See <a href="#exportwindow">Export Window</a> for more information.<br />
+</p>
+<hr />
+<h3><a name="SaveRevert" id="SaveRevert"></a>Save / Revert</h3>
+<p><img src="../files/images/Section-SaveRevert.png" width="266" height="84" alt="Save / Revert" /></p>
+<p><strong>Save</strong><br />
+This button changes depending on whether you are editing a Master Sprite or a Sprite Group. Saves changes to disk.</p>
+<p><strong>Revert</strong><br />
+  This button changes depending on whether you are editing a Master Sprite or a Sprite Group. Reverts to the saved version on disk.  <br />
+</p>
+<hr />
+<h3><a name="SpriteProperties" id="SpriteProperties"></a>Sprite Properties</h3>
+<p>Properties for the currently selected Master Sprite.</p>
+<p><img src="../files/images/Section-SpriteProperties.png" width="270" height="229" alt="Sprite Properties" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="10%" valign="top">Name</td>
+    <td width="1%">&nbsp;</td>
+    <td width="89%" valign="top">The name of this sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top">Is Static Sprite</td>
+    <td>&nbsp;</td>
+    <td valign="top">Set whether this sprite is static or animated. Static sprites have no animation and consist of a single frame. You can use static sprites for non-animated background elements, for example. Static sprites are faster than animated sprites, so if you have a sprite with only one frame, make it a static sprite. Note that you will almost always want to assign static sprites to groups as a static sprite outside a group would generate an atlas with only one frame wasting memory.</td>
+  </tr>
+  <tr>
+    <td valign="top">Sprite Group</td>
+    <td>&nbsp;</td>
+    <td valign="top">The group this sprite is assigned to. Sprites in Sprite Groups share atlases and materials to reduce draw calls. Changing the assigned sprite group will require atlases and materials to be rebuilt for the group(s) and sprites affected.</td>
+  </tr>
+  <tr>
+    <td valign="top">More Settings</td>
+    <td>&nbsp;</td>
+    <td valign="top">More settings for this sprite. See <a href="#MoreSpriteSettings">More Sprite Settings</a> for more information.</td>
+  </tr>
+  <tr>
+    <td valign="top">Material Sets</td>
+    <td>&nbsp;</td>
+    <td valign="top">Edit materials sets for this sprite. See <a href="#MaterialSetEditor">Material Set Editor</a> for more information.</td>
+  </tr>
+  <tr>
+    <td valign="top">Colliders</td>
+    <td>&nbsp;</td>
+    <td valign="top">Edit colliders for this sprite. See <a href="#ColliderEditor">Collider Editor</a> for more information.</td>
+  </tr>
+  <tr>
+    <td valign="top">Locators</td>
+    <td>&nbsp;</td>
+    <td valign="top">Edit locators for this sprite. See <a href="#LocatorEditor">Locator Editor</a> for more information.</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Wrap Mode</td>
+    <td>&nbsp;</td>
+    <td valign="top">The default wrap mode for new animations. When you create a new animation, this setting determines the initial wrap mode of the animation. An individual animation's wrap mode can be changed at any time under <a href="#AnimationProperties">Animation Properties</a> -&gt; Wrap Mode.</td>
+  </tr>
+  <tr>
+    <td valign="top">Default FPS</td>
+    <td>&nbsp;</td>
+    <td valign="top">The default playback speed in frames per second for new animations. When you create a new animation, this setting determines the initial frame rate of the animation. An individual animation's frame rate can be changed at any time under <a href="#AnimationProperties">Animation Properties</a> -&gt; Frame Rate.</td>
+  </tr>
+</table>
+<p><strong><a name="MoreSpriteSettings" id="MoreSpriteSettings"></a>More Sprite Settings</strong><br />
+  <br />
+<img src="../files/images/Window-MoreSpriteSettings.png" width="253" height="395" alt="More Sprite Settings" /></p>
+<p>The &quot;More Settings&quot; button under Sprite Properties opens  a window containing some settings for this Master Sprite.</p>
+<table width="100%" border="0">
+  <tr>
+    <td width="10%" valign="top"><strong>Misc Settings</strong></td>
+    <td width="1%">&nbsp;</td>
+    <td width="89%" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Edge Tiling</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the edge tiling mode for the sprite. This affects how the edges of the sprite are blended. In general, background tiles should be tilable, characters and objects should not. Auto will try to determine which edges should be tilable. If you are seeing artifacts at the edges of a tilable sprite, set it to Manual and select which edges should be tilable. When an edge is not tilable, extra padding will be added to eliminate bilinear/trilinear filtering cutoff at the edge of the mesh plane. This setting depends on the global frame padding setting in Editor Properties. If you have no padding, this setting will have no effect.</td>
+  </tr>
+  <tr>
+    <td valign="top">Top</td>
+    <td>&nbsp;</td>
+    <td valign="top">Makes the top edge tilable.</td>
+  </tr>
+  <tr>
+    <td valign="top">Bottom</td>
+    <td>&nbsp;</td>
+    <td valign="top">Makes the bottom edge tilable.</td>
+  </tr>
+  <tr>
+    <td valign="top">Left</td>
+    <td>&nbsp;</td>
+    <td valign="top">Makes the left edge tilable.</td>
+  </tr>
+  <tr>
+    <td valign="top">Right</td>
+    <td>&nbsp;</td>
+    <td valign="top">Makes the right edge tilable.</td>
+  </tr>
+  <tr>
+    <td valign="top">Two-Sided Mesh</td>
+    <td>&nbsp;</td>
+    <td valign="top">Set whether this sprite uses a single or double-sided mesh plane. Two-sided meshes can be useful if you are using a shader that culls backfaces yet you want the sprite to be double-sided.</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Atlas Settings</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">(These settings will not be displayed for Master Sprites in a Sprite Group. Instead, they are controlled by the Sprite Group and can be found in <a href="#SpriteGroupProperties">Sprite Group Properties</a>.)</td>
+  </tr>
+  <tr>
+    <td valign="top">Texture Filter Mode</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the texture filter mode for atlas textures in this sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top">Aniso Level</td>
+    <td>&nbsp;</td>
+    <td valign="top">Sets the anisotropic level for atlas textures in this sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><p><strong>Mesh Settings</strong></p></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Mesh Type</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sets the mesh generation type for this sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Edge Extrude</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Uncheck this to override the default mesh edge extrusion setting. NOTE: This only has an affect if Mesh Type is set to AutoMesh.</td>
+  </tr>
+  <tr>
+    <td valign="top">Edge Extrude</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sets the edge extrusion distance for sprite meshes. NOTE: This only has an affect if Mesh Type is set to AutoMesh.</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Vert Distance</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Uncheck this to override the default vertex reduction distance setting. NOTE: This only has an affect if Mesh Type is set to AutoMesh.</td>
+  </tr>
+  <tr>
+    <td valign="top">Vertex Distance</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sets the vertex reduction distance for sprite meshes. A higher number will result in a mesh with fewer vertices, but too a high a number could cause areas of the sprite to be cut off. NOTE: This only has an affect if Mesh Type is set to AutoMesh.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="Animations" id="Animations"></a>Animations</h3>
+<p>Animations in the currently selected Master Sprite.</p>
+<p><img src="../files/images/Section-Animations.png" width="298" height="249" alt="Animations" /></p>
+<p>Animations are displayed in a list box as seen above. Animations can be reordered, created, inserted, duplicated, deleted, and set to default by using the buttons below the list box. The animation with the (D) symbol in front of the name is the default animation.</p>
+<p><strong>Creating a New Animation</strong><br />
+Click the + button to create a new animation. The <a href="#AnimationProperties">Animation Properties</a> will be displayed for the new animation where you can set the name and other properties.</p>
+<p><strong>Set to Default</strong><br />
+  Every sprite must have a default animation. The default animation is usually the animation that plays when no other animation is playing. To set a default animation, select an animation from the list box and click &quot;Set to Default&quot;.
+</p>
+<hr />
+<h3><a name="Frames" id="Frames"></a>Frames</h3>
+<p>Frames in the currently selected animation.</p>
+<p><img src="../files/images/Section-Frames.png" alt="Frames" width="298" height="326" /></p>
+<p>Frames for the currently selected animation are displayed in a list box as seen above. Frames can be reordered, created, inserted, duplicated, and deleted by using the buttons below the list box.</p>
+<p><strong>Creating a New Frame</strong><br />
+  The fastest way to create new frames is to drag and drop Textures from the Project window into the drop zone above the list box. New frames will be created for each Texture, ordered alpha-numerically, one for each Texture. You can also create a new frame by clicking the + button below the list box, but you will then have to manually supply a Source Image for the frame.</p>
+<p><strong>Source Image</strong><br />
+The source Texture used for the currently selected frame. You can drag and drop a Texture from the Project window into the thumbnail or click the &quot;select&quot; label on the thumbnail to bring up a picker window.</p>
+<hr />
+<h3><a name="AnimationProperties" id="AnimationProperties"></a>Animation Properties</h3>
+<p>Properties for the currently selected animation.</p>
+<p><img src="../files/images/Section-AnimationProperties.png" width="275" height="122" alt="Animation Properties" /></p>
+<table border="0">
+  <tr>
+    <td width="13%" valign="top">Name</td>
+    <td width="1%">&nbsp;</td>
+    <td width="86%" valign="top">The name of this animation. This name must be unique as it is used to play the animation via scripting.</td>
+  </tr>
+  <tr>
+    <td valign="top">Wrap Mode</td>
+    <td>&nbsp;</td>
+    <td valign="top">Wrap mode determines what happens after the last frame of an animation is played. For example, Loop causes the animation to immediately restart at the beginning.</td>
+  </tr>
+  <tr>
+    <td valign="top">Loop Restart Frame</td>
+    <td>&nbsp;</td>
+    <td valign="top">Restart at this frame when loop cycles.</td>
+  </tr>
+  <tr>
+    <td valign="top">Loop Count</td>
+    <td>&nbsp;</td>
+    <td valign="top">Determines how many loops are played before playback ends. 0 = Loop Continuously.</td>
+  </tr>
+  <tr>
+    <td valign="top">Frame Rate</td>
+    <td>&nbsp;</td>
+    <td valign="top">Playback speed in frames per second.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="FrameProperties" id="FrameProperties"></a>Frame Properties</h3>
+<p>Properties for the currently selected frame.</p>
+<p><img src="../files/images/Section-FrameProperties.png" width="272" height="123" alt="Frame Properties" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="10%" valign="top">Duration</td>
+    <td width="1%">&nbsp;</td>
+    <td width="89%" valign="top">The length of time in seconds that the current frame will be displayed. This is automatically calculated based on frame rate and frame hold and is displayed for reference.</td>
+  </tr>
+  <tr>
+    <td valign="top">Frame Hold</td>
+    <td>&nbsp;</td>
+    <td valign="top">The number of frames over which to display this frame during playback. You can use this to make a frame play longer to adjust animation timing. For example, if frame rate is 30 fps, a frame hold of 3 will display this frame over 3 frames for a total hold time of 1/10th of a second. (1 - 1000)</td>
+  </tr>
+  <tr>
+    <td valign="top">Offset All Frames</td>
+    <td>&nbsp;</td>
+    <td valign="top">Offset the position of all frames in this animation simultaneously. This is useful if you need to reposition the whole animation at once. To offset colliders on all frames as well, enable the Colliders checkbox also. Note that this setting affects changes to the OffsetX and OffsetY fields as well as repositioning of the sprite directly in the frame editor.</td>
+  </tr>
+  <tr>
+    <td valign="top">C (Colliders)</td>
+    <td>&nbsp;</td>
+    <td valign="top">Offset the position of collider frames as well when repositioning the sprite in the frame editor. This will not reposition static colliders unless you enable the Static checkbox as well. Note that this setting affects changes to the OffsetX and OffsetY fields as well as repositioning of the sprite directly in the frame editor.</td>
+  </tr>
+  <tr>
+    <td valign="top">S (Static)</td>
+    <td>&nbsp;</td>
+    <td valign="top">Offset the position of static colliders along with animated collider frames.</td>
+  </tr>
+  <tr>
+    <td valign="top">L (Locators)</td>
+    <td>&nbsp;</td>
+    <td valign="top">Offset the position of Locators. Note that this setting affects changes to the OffsetX and OffsetY fields as well as repositioning of the sprite directly in the frame editor.</td>
+  </tr>
+  <tr>
+    <td valign="top">Offset X</td>
+    <td>&nbsp;</td>
+    <td valign="top">The X position of the sprite in the frame editor. (-1024 - 1024)</td>
+  </tr>
+  <tr>
+    <td valign="top">Offset Y</td>
+    <td>&nbsp;</td>
+    <td valign="top">The Y position of the sprite in the frame editor. (-1024 - 1024)</td>
+  </tr>
+  <tr>
+    <td valign="top">Event String</td>
+    <td>&nbsp;</td>
+    <td valign="top">If not left blank, when this frame plays, a SendMessage will be sent by Sprite which will pass the string you set here. This can be used to trigger an action each time a frame plays, for example, playing a sound effect during certain frames of a walk cycle or attack animation. Your string should be something that describes the event such as sword_attack_swing_finish. See <a href="classes/Sprite-OnSpriteFrameStart.html">Sprite.OnSpriteFrameStart</a> and <a href="classes/Sprite-OnSpriteFrameEnd.html">Sprite.OnSpriteFrameEnd</a> for information on usage.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="AnimationPreview" id="AnimationPreview"></a>Animation Preview</h3>
+<p>Displays a real-time preview of the currently selected animation.</p>
+<p><img src="../files/images/Section-AnimationPreview.png" width="235" height="235" alt="Animation Preview" /></p>
+<p><strong>Tips</strong></p>
+<ul>
+  <li> Left-click on the animation preview to restart animation playback.</li>
+</ul>
+<hr />
+<h3><a name="ColliderFrameProperties" id="ColliderFrameProperties"></a>Collider Frame Properties</h3>
+<p>Properties for the current collider frame. See <a href="Colliders.html">Colliders</a> for more information.</p>
+<p>Animated colliders can be animated frame-by-frame. Animatable channels are enabled, width, height, x-center, y-center, and rotation.<br />
+For Static colliders, the settings remain the same across all frames.</p>
+<p><img src="../files/images/Section-ColliderFrameProperties.png" width="506" height="77" alt="Collider Frame Properties" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="8%" valign="top">Edit Collider</td>
+    <td width="1%">&nbsp;</td>
+    <td width="91%" valign="top">Select a collider to begin editing collider frames. If the sprite has no colliders yet, you can add some under <a href="#SpriteProperties">Sprite Properties</a> -&gt; Colliders -&gt; Edit.</td>
+  </tr>
+  <tr>
+    <td valign="top">Enabled</td>
+    <td>&nbsp;</td>
+    <td valign="top">Enable or disable this collider during this frame of animation.</td>
+  </tr>
+  <tr>
+    <td valign="top">W</td>
+    <td>&nbsp;</td>
+    <td valign="top">The width of the collider.</td>
+  </tr>
+  <tr>
+    <td valign="top">H</td>
+    <td>&nbsp;</td>
+    <td valign="top">The height of the collider.</td>
+  </tr>
+  <tr>
+    <td valign="top">X</td>
+    <td>&nbsp;</td>
+    <td valign="top">The X position of the collider's center.</td>
+  </tr>
+  <tr>
+    <td valign="top">Y</td>
+    <td>&nbsp;</td>
+    <td valign="top">The Y position of the collider's center.</td>
+  </tr>
+  <tr>
+    <td valign="top">Rot</td>
+    <td>&nbsp;</td>
+    <td valign="top">The rotation of the collider.</td>
+  </tr>
+  <tr>
+    <td valign="top">Show</td>
+    <td>&nbsp;</td>
+    <td valign="top">Filter which collider groups to show in the frame editor.</td>
+  </tr>
+  <tr>
+    <td valign="top">Paste</td>
+    <td>&nbsp;</td>
+    <td valign="top">Paste collider frame properties to current frame for the currently selected collider.</td>
+  </tr>
+  <tr>
+    <td valign="top">Paste All</td>
+    <td>&nbsp;</td>
+    <td valign="top">Paste collider frame properties to all frames in this animation for the currently selected collider. NOTE: Does not affect static colliders.</td>
+  </tr>
+  <tr>
+    <td valign="top">Fit</td>
+    <td>&nbsp;</td>
+    <td valign="top">Fit collider to sprite.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="LocatorFrameProperties" id="LocatorFrameProperties"></a>Locator Frame Properties</h3>
+<p>Properties for the current locator frame.</p>
+<p><img src="../files/images/Section-LocatorFrameProperties.png" width="516" height="79" alt="Locator Frame Properties" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="8%" valign="top">Edit Locator</td>
+    <td width="1%">&nbsp;</td>
+    <td width="91%" valign="top">Select a locator to begin editing locator frames. If the sprite has no locators yet, you can add some under <a href="#SpriteProperties">Sprite Properties</a> -&gt; Locators -&gt; Edit.</td>
+  </tr>
+  <tr>
+    <td valign="top">Enabled</td>
+    <td>&nbsp;</td>
+    <td valign="top">Enable or disable this locator during this frame of animation.</td>
+  </tr>
+  <tr>
+    <td valign="top">X</td>
+    <td>&nbsp;</td>
+    <td valign="top">The X position of the locator in pixels.</td>
+  </tr>
+  <tr>
+    <td valign="top">Y</td>
+    <td>&nbsp;</td>
+    <td valign="top">The Y position of the locator in pixels.</td>
+  </tr>
+  <tr>
+    <td valign="top">Z (u)</td>
+    <td>&nbsp;</td>
+    <td valign="top">The Z offset of the locator in world units (not pixels). -Z is forward toward the screen, +Z is back into the screen. This is useful if you are attaching another sprite to the lLocator and want the child sprite to display in front or behind the parent sprite. To display in front, use a negative value.\n\nNote: The \&quot;Flip Fwd Dir\&quot; setting does not change the direction of Z. -Z is ALWAYS toward the screen.</td>
+  </tr>
+  <tr>
+    <td valign="top">Facing</td>
+    <td>&nbsp;</td>
+    <td valign="top">The Z-axis rotation of the locator.</td>
+  </tr>
+  <tr>
+    <td valign="top">Flip Fwd Dir</td>
+    <td>&nbsp;</td>
+    <td valign="top">Flip the X direction of the locator. By default, a locator facing right (+X) in the frame editor has its Y vector facing up. Check this if you need the locator to face left (-X) in the frame editor with the Y vector facing up. In most cases, if your sprite is drawn facing right, check this. If it is drawn facing left, uncheck this. Note: This setting does not change the direction of Z. -Z is ALWAYS toward the screen.</td>
+  </tr>
+  <tr>
+    <td valign="top">Copy</td>
+    <td>&nbsp;</td>
+    <td valign="top">Copy locator frame properties.</td>
+  </tr>
+  <tr>
+    <td valign="top">Paste</td>
+    <td>&nbsp;</td>
+    <td valign="top">Paste locator frame properties to current frame for the currently selected locator.</td>
+  </tr>
+  <tr>
+    <td valign="top">Paste All</td>
+    <td>&nbsp;</td>
+    <td valign="top">Paste locator frame properties to all frames in this animation for the currently selected locator.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="FrameEditor" id="FrameEditor"></a>Frame Editor</h3>
+<p>Displays the currently selected frame. The Frame Editor allows you to:</p>
+<ul>
+  <li>Position and align frames and animations.</li>
+  <li>Position, size, rotate, and animate collider frames.</li>
+  <li>Position, rotate, and animate locator frames.</li>
+  </ul>
+<p><img src="../files/images/Section-FrameEditor.png" width="524" height="551" alt="Frame Editor" /></p>
+<p><strong>Lightbox Controls:</strong></p>
+<p><img src="../files/images/Section-LightboxDisplay.png" width="276" height="26" alt="Lightbox Controls" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top">Anim</td>
+    <td>&nbsp;</td>
+    <td valign="top">Select an animation from which to display a semi-transparent frame in the background of the frame editor to help with frame alignment</td>
+    </tr>
+  <tr>
+    <td valign="top">Frame</td>
+    <td>&nbsp;</td>
+    <td valign="top">Select a frame to display a semi-transparent image in the background of the frame editor to help with frame alignment.</td>
+    </tr>
+</table>
+<p><img src="../files/images/Example-Lightbox.png" width="208" height="270" alt="Lightbox" /><br />
+An example of lightbox mode.</p>
+<p><strong>Zoom Controls:</strong></p>
+<p><img src="../files/images/Section-Zoom.png" width="237" height="28" alt="Zoom Controls" /></p>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top">Zoom %</td>
+    <td>&nbsp;</td>
+    <td valign="top">Zooms the Frame Editor display.</td>
+  </tr>
+  <tr>
+    <td valign="top">X</td>
+    <td>&nbsp;</td>
+    <td valign="top">Resets zoom to 100% and centers the Frame Editor display.</td>
+  </tr>
+</table>
+<p><strong>Tips</strong></p>
+<ul>
+  <li>Position sprites, <a href="Locators.html">locators</a>, and <a href="Colliders.html">colliders</a> with a left-click and drag.</li>
+  <li>Pan the display area with a right-click and drag.</li>
+  <li>Zoom the display area with the mouse wheel.</li>
+  <li>The keyboard arrow keys move the current offset by 1 pixel. Hold Shift while using the arrow keys to offset by 10 pixels. (Mouse pointer must be hovering over the Frame Editor box during keyboard input.) </li>
+  <li>Rotate  Locators by clicking and dragging on the arrowhead. Hold Shift while you drag to snap to 45 degree angles.</li>
+  <li>Size colliders by left-clicking and dragging box corner points.</li>
+  <li>Rotate colliders by left-clicking and horizontally dragging the rotation handle at the center of the collider.</li>
+  <li>Copy, Paste, and Paste All can be very useful when working with Locator and collider frames. (Standard keyboard copy/paste shortcuts work too!)</li>
+  <li>Keyboard shortcuts for stepping through animation: Previous = Q or Comma, Next = W or Period.</li>
+  <li>Offset options in <a href="#FrameProperties">Frame Properties</a> can help you realign whole animations along with colliders and locators easily.</li>
+  <li><a href="#LightboxDisplay">Lightbox</a> mode shows a semi-transparent preview of any frame you choose to help with alignment.</li>
+  <li>The center crosshair corresponds to the center pivot of the Sprite GameObject. For characters, you may want to align the feet on the center line so that the Sprite's pivot is at the base of the character..</li>
+</ul>
+<hr />
+<h3><a name="ColliderEditor" id="ColliderEditor"></a>Collider Editor</h3>
+<p>Allows you to edit colliders and collider groups for the selected Master Sprite. See <a href="Colliders.html">Colliders</a> for more information.</p>
+<p><strong>Colliders</strong><br />
+  The sprite collider system allows you to define any number of colliders for your sprite and optionally animate the colliders to match the animation of your sprite. You can set every property in the colliders just as you would with a normal collider component. You can choose to add a rigidbody to each collider, or designate one collider + rigidbody as Parent so all the other colliders will share its rigidbody.</p>
+<p> Animated colliders can have their shape, relative position, rotation, and enabled state animated frame-by-frame. One example use case would be a damage trigger in an animated character. For example, a fighting game character could have a trigger collider that stays disabled in most animations but enables during an attack animation and animates size and relative position to match the sprite's attack animation.</p>
+<p>Note: The sprite collider system may not fit everyone's needs since at present only BoxColliders are supported. If this is the case, you can always add colliders and rigidbodies manually on the sprite's game object.</p>
+<p><strong>Collider Groups</strong><br />
+You can create named groups and assign colliders to them. Collider can groups help you more easily determine what to do when a collision event occurs. You can test for a group name in a collision event instead of having to test for individual collider names. For example, create a group called HitDetectors and assign all your hit detection colliders to this group. When a collision event occurs, just test for the group name and take action. Collider groups also allow you to filter the visible colliders in the frame editor by group so you can work on a particular set of colliders without other unrelated colliders getting in your way while you work.</p>
+<p><img src="../files/images/Window-ColliderEditor.png" width="620" height="615" alt="Collider Editor" /></p>
+<p><strong>Colliders List Box</strong><br />
+Displays the colliders in this Master Sprite. The collider displayed with (P) before its name is the parent collider (if any). Colliders can be reordered, created, inserted, duplicated, deleted, and set to parent.</p>
+<p><strong>Set to Parent</strong> (only displayed if the selected collider is not the parent)<br />
+Make selected collider the parent of all other colliders. The parent collider will be added to the main Sprite game object. All others will be children of the parent in the hierarchy. Normally, the parent collider would be the main movement collider for your sprite. It is also useful if you want all child colliders to share a rigidbody.  </p>
+<p><strong>Unparent</strong> (only displayed if the selected collider is the parent)<br />
+  Make selected collider no longer be the parent of all other colliders.<br />
+</p>
+<table width="100%" border="0">
+<tr></tr>
+<tr>
+  <td width="16%" valign="top"><strong>Properties</strong></td>
+  <td width="1%">&nbsp;</td>
+  <td width="83%" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td valign="top">Name</td>
+  <td>&nbsp;</td>
+  <td valign="top">The name of this collider. This name can be used to access the collider through scripting and must be unique in this sprite.</td>
+</tr>
+<tr>
+  <td valign="top">Tag</td>
+  <td>&nbsp;</td>
+  <td valign="top">The tag which will be assigned to this collider's GameObject. You must create tags in the Unity tag inspector. The string you enter here must match a Unity tag name exactly. NOTE: If the collider is set to Parent, the tag will be set on the main Sprite GameObject.</td>
+</tr>
+<tr>
+  <td valign="top">Group</td>
+  <td>&nbsp;</td>
+  <td valign="top">The collider group this collider is in. The group can be used to filter collisions to a specific group of colliders through scripting.</td>
+</tr>
+<tr>
+  <td valign="top">Preview Color</td>
+  <td>&nbsp;</td>
+  <td valign="top">The color the of the collider in the <a href="#FrameEditor">frame editor</a>.</td>
+</tr>
+<tr>
+  <td valign="top">Layer</td>
+  <td>&nbsp;</td>
+  <td valign="top">The layer the collider will be created on.</td>
+</tr>
+<tr>
+  <td valign="top">&nbsp;</td>
+  <td>&nbsp;</td>
+  <td valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td valign="top"><strong>Box Collider Properties</strong></td>
+  <td>&nbsp;</td>
+  <td valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td valign="top">2D Collider</td>
+  <td>&nbsp;</td>
+  <td valign="top">Is this collider 2D or 3D?  Only available in Unity 4.3+</td>
+</tr>
+<tr>
+  <td valign="top">Animated Collider</td>
+  <td>&nbsp;</td>
+  <td valign="top">Is this collider animated or static? An animated collider can have its shape, relative position, and enabled state animated frame-by-frame during sprite animation. A static collider always exists in the same shape and relative position throughout every frame of the sprite animation.</td>
+</tr>
+<tr>
+  <td valign="top">Enable in New Frames</td>
+  <td>&nbsp;</td>
+  <td valign="top">Enable this if you want this collider to be enabled by default in every new animation frame you add to the sprite.</td>
+</tr>
+<tr>
+  <td valign="top">Size Z</td>
+  <td>&nbsp;</td>
+  <td valign="top">The depth of the collider in units.</td>
+</tr>
+<tr>
+  <td valign="top">Center Z</td>
+  <td>&nbsp;</td>
+  <td valign="top">The center position of the collider in the Z axis. 0 represents a centered collider. -Z is toward you the viewer, +Z is deeper into the screen.</td>
+</tr>
+<tr>
+  <td valign="top">Is Trigger</td>
+  <td>&nbsp;</td>
+  <td valign="top">Is this collider a trigger type collider?</td>
+</tr>
+<tr>
+  <td valign="top">Physic Materal</td>
+  <td>&nbsp;</td>
+  <td valign="top">You can assign a physic material if this collider will be controlled by a rigidbody.</td>
+</tr>
+<tr>
+  <td valign="top">&nbsp;</td>
+  <td>&nbsp;</td>
+  <td valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td valign="top"><strong>Rigidbody Properties</strong></td>
+  <td>&nbsp;</td>
+  <td valign="top">(See <a href="http://docs.unity3d.com/Documentation/ScriptReference/Rigidbody.html">Rigidbody</a> for more information.)</td>
+</tr>
+<tr>
+  <td valign="top">Use Rigidbody</td>
+  <td>&nbsp;</td>
+  <td valign="top">Create a rigidbody for this collider?</td>
+</tr>
+<tr>
+  <td valign="top">Is Kinematic</td>
+  <td>&nbsp;</td>
+  <td valign="top">Is the rigidbody kinematic?</td>
+</tr>
+<tr>
+  <td valign="top">Mass</td>
+  <td>&nbsp;</td>
+  <td valign="top">The mass of the body. [0.0000001, 1000000000]</td>
+</tr>
+<tr>
+  <td valign="top">Drag</td>
+  <td>&nbsp;</td>
+  <td valign="top">The linear drag coefficient. 0 means no damping. [0, infinity]</td>
+</tr>
+<tr>
+  <td valign="top">Angluar Drag</td>
+  <td>&nbsp;</td>
+  <td valign="top">The angular drag coefficient. 0 means no damping. [0, infinity]</td>
+</tr>
+<tr>
+  <td valign="top">Use Gravity</td>
+  <td>&nbsp;</td>
+  <td valign="top">Does the rigidbody use gravity?</td>
+</tr>
+<tr>
+  <td valign="top">Rigidbody Interpolation</td>
+  <td>&nbsp;</td>
+  <td valign="top">This is used to prevent read back from kinematic rigidbodies.</td>
+</tr>
+<tr>
+  <td valign="top">Collision Detection Mode</td>
+  <td>&nbsp;</td>
+  <td valign="top">The collision detection mode of the rigidbody.</td>
+</tr>
+<tr>
+  <td valign="top">Freeze Position</td>
+  <td>&nbsp;</td>
+  <td valign="top">Freeze position on x, y, and/or z.</td>
+</tr>
+<tr>
+  <td valign="top">Freeze Rotation</td>
+  <td>&nbsp;</td>
+  <td valign="top">Freeze rotation on x, y, and/or z.</td>
+</tr>
+<tr>
+  <td valign="top">&nbsp;</td>
+  <td>&nbsp;</td>
+  <td valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td valign="top"><strong>Rigidbody2D Properties</strong></td>
+  <td>&nbsp;</td>
+  <td valign="top">(See <a href="http://docs.unity3d.com/Documentation/ScriptReference/Rigidbody2D.html">Rigidbody2D</a> for more information. Only available in Unity 4.3+)</td>
+</tr>
+<tr>
+  <td valign="top">Mass</td>
+  <td>&nbsp;</td>
+  <td valign="top">The mass of the body. [0.0001, 1000000]</td>
+</tr>
+<tr>
+  <td valign="top">Linear Drag</td>
+  <td>&nbsp;</td>
+  <td valign="top">The linear drag coefficient. 0 means no damping. [0, 1000000]</td>
+</tr>
+<tr>
+  <td valign="top">Angular Drag</td>
+  <td>&nbsp;</td>
+  <td valign="top">The angular drag coefficient. 0 means no damping. [0, 1000000]</td>
+</tr>
+<tr>
+  <td valign="top">Gravity Scale</td>
+  <td>&nbsp;</td>
+  <td valign="top">How much gravity affects this body. [-1000000, 1000000]</td>
+</tr>
+<tr>
+  <td valign="top">Fixed Angle</td>
+  <td>&nbsp;</td>
+  <td valign="top">Whether the body's angle is fixed or not.</td>
+</tr>
+<tr>
+  <td valign="top">Interpolate</td>
+  <td>&nbsp;</td>
+  <td valign="top">The per-frame update mode for the body.</td>
+</tr>
+<tr>
+  <td valign="top">Sleeping Mode</td>
+  <td>&nbsp;</td>
+  <td valign="top">The sleeping mode for the body.</td>
+</tr>
+<tr>
+  <td valign="top">Collision Detection Mode</td>
+  <td>&nbsp;</td>
+  <td valign="top">The collision detection mode for the body.</td>
+</tr>
+</table>
+<p><strong>Collider Groups List Box</strong><br />
+  Displays the collider groups in this Master Sprite. Collider groups can be reordered, created, inserted, duplicated, and deleted.</p>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top"><strong>Properties</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Name</td>
+    <td>&nbsp;</td>
+    <td valign="top">The name of this collider group. This name can be used to access the collider group through scripting and must be unique in this collider set.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="LocatorEditor" id="LocatorEditor"></a>Locator Editor</h3>
+<p>Allows you to edit Locators for the selected Master Sprite. See <a href="Locators.html">Locators</a> for more information.</p>
+<p><img src="../files/images/Window-LocatorEditor.png" width="620" height="327" alt="Locator Editor" /></p>
+<p><strong>Locators List Box</strong><br />
+Displays the Locators in this Master Sprite. Locators can be reordered, created, inserted, duplicated and deleted.</p>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top"><strong>Locator Properties</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top">Name</td>
+    <td width="1%">&nbsp;</td>
+    <td width="83%" valign="top">The name of this locator. This name can be used to access the locator through scripting and must be unique in this sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top">Preview Color</td>
+    <td>&nbsp;</td>
+    <td valign="top">The color the of the locator in the frame editor.</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Forward = +X</td>
+    <td>&nbsp;</td>
+    <td valign="top">Start new frames with the forward direction of the locator set to +/- X. This affects the direction of the up vector. In essence, unchecking this rotates the locator 180 degrees on the Y axis so the +X vector faces left. Generally, if your sprites are drawn facing right, you should keep this checked.</td>
+  </tr>
+  <tr>
+    <td valign="top">Default Offset Z</td>
+    <td>&nbsp;</td>
+    <td valign="top">The starting Z offset of the locator in new frames in world units (not pixels). -Z is forward toward the screen, +Z is back into the screen. This is useful if you are attaching another sprite to the Locator and want the child sprite to display in front or behind the parent sprite. To display in front, use a negative value.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="MaterialSetEditor" id="MaterialSetEditor"></a>Material Set Editor</h3>
+<p>Allows you to edit material sets for the selected Master Sprite. See <a href="MaterialSets.html">Material Sets</a> for more information.</p>
+<p>Material Sets allow you to define multiple materials for a sprite. You can switch a sprite's material at any time by changing the currently used material set via scripting. This can be useful for effects that require a different shader.</p>
+<p> A material set requires a source material to be defined from which it will create materials for the sprite inheriting the source material's shader and settings. Create a material in your project, set the shader (must have a _MainTex property to work correctly), and drag and drop the material onto the Source Material field of your material set. You may use this source material on as many material sets across as many sprites/groups as you like.</p>
+<p>Note: It's important that the source material is never deleted from your project because it is used every time you make changes to the sprite/group. If you make changes to the source material later, in order for sprite materials to inherit the new material settings, you must update sprite materials by rebuilding the materials by either rebuilding the Master Sprite or Group using the Rebuild Sprite/Group command from the editor or rebuilding all materials at once using the Rebuild All Materials command from the editor.</p>
+<p><img src="../files/images/Window-MaterialSetEditor.png" width="570" height="237" alt="Material Set Editor" /></p>
+<p><strong>Material Sets List Box</strong><br />
+Displays the material sets in this Master Sprite. Material sets can be reordered, created, inserted, duplicated and deleted.</p>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top"><strong>Material Set Properties</strong></td>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top">Name</td>
+    <td width="1%">&nbsp;</td>
+    <td width="83%" valign="top">The name of this material set. This name must be unique as it is used to change the currently displayed material on the sprite via scripting.</td>
+  </tr>
+  <tr>
+    <td valign="top">Source Material</td>
+    <td>&nbsp;</td>
+    <td valign="top">The source material from which materials for this sprite will be generated in this material set. Note: The source material's shader must have a _MainTex property.</td>
+  </tr>
+</table>
+<hr />
+<h3><a name="importwindow" id="importwindow"></a>Import Window</h3>
+<p>After selecting an .sfex file to import, the import window will be displayed showing you information about the package. If there are conflicts, warnings and errors will be displayed explaning in detail the issues. Please see <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a> for more information about how to properly set your projects to avoid import/export problems.</p>
+<p><img src="../files/images/Window-Import.png" width="626" height="640" alt="Import Window" /></p>
+<hr />
+<h3><a name="exportwindow" id="exportwindow"></a>Export Window</h3>
+<p>Master Sprites, Sprite Groups, and prefabs based on those sprites can be exported to a .sfex + .unitypackage file set for import into another project. The export window allows you to choose which Sprite Groups and Master Sprites are to be exported. Please see <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a> for more information about how to properly set your projects to avoid import/export problems.</p>
+<p><img src="../files/images/Window-Export.png" width="592" height="614" alt="Export Window" /></p>
+<p><strong>Sprite Groups box (top-left)</strong><br />
+  Shows a list of all the Sprite Groups in your project. Click a group name and then click the &quot;Add&quot; button to add that Sprite Group to the export list. Click &quot;Add All&quot; to add all Sprite Groups to the export list. When a Sprite Group is exported, all Master Sprites within that group are also exported.
+</p>
+<p><strong>Sprite Groups to be Exported box (top-right)</strong><br />
+  Shows a list of all Sprite Groups currently queued for export. Click a group and and then click the &quot;Remove&quot; button to remove that Sprite Group from the export list. Click &quot;Remove All&quot; to remove all Sprite Groups from the export list.</p>
+<p><strong>Ungrouped Master Sprites box (bottom-left)</strong><br />
+  Shows a list of all the ungrouped Master Sprites in your project. Click a sprite name and then click the &quot;Add&quot; button to add that Master Sprite to the export list. Click &quot;Add All&quot; to add all Master Sprites to the export list. </p>
+<p><strong>Master Sprites to be Exported box (bottom-right)</strong><br />
+Shows a list of all ungrouped Master Sprites currently queued for export. Click a sprite and and then click the &quot;Remove&quot; button to remove that Master Sprite from the export list. Click &quot;Remove All&quot; to remove all Master Sprites from the export list.</p>
+<p><strong>Export Prefabs for Sprites and Groups</strong><br />
+  Export all prefabs in the project which use any of the sprites queued for export. This will export all dependencies of the prefabs as well.
+</p>
+    <!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

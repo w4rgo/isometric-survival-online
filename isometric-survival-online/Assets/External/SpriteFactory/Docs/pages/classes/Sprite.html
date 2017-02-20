@@ -1,0 +1,715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - Sprite</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../../ReadMe.html">ReadMe</a><br>
+      <a href="../ReleaseNotes.html">Release Notes</a><br>
+      <a href="../Overview.html">Overview</a><br />
+    <a href="../UsingTheEditor.html">Using the Editor</a><br>
+    <a href="../Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="../Sprites.html">Sprites</a><br />
+      <a href="../MasterSprites.html">Master Sprites</a><br />
+      <a href="../SpriteGroups.html">Sprite Groups</a><br />
+      <a href="../Colliders.html">Colliders</a><br />
+      <a href="../Locators.html">Locators</a><br />
+      <a href="../MaterialSets.html">Material Sets</a><br />
+      <a href="../SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="../SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="../WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="../RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1><a href="../RuntimeClasses.html">SpriteFactory</a>.Sprite</h1>
+<p>Namespace: SpriteFactory<br />
+  Inherits from <a href="http://docs.unity3d.com/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></p>
+<p>This component is the main Sprite class responsible for displaying and animating the sprite and spawning and manipulating generated colliders and locators. This class contains everything for in-game Sprite control.</p>
+<p><strong>NOTE:</strong> In Unity 4.3+, you must explicitly type SpriteFactory.Sprite every time you use the Sprite class to avoid conflicts with Unity's Sprite class.</p>
+<p>See <a href="../Sprites.html">Sprites</a> for more information about Sprites in general.</p>
+
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td width="12%" valign="top"><h3>Variables</h3></td>
+    <td width="1%" valign="top">&nbsp;</td>
+    <td width="9%" valign="top">&nbsp;</td>
+    <td width="1%" valign="top">&nbsp;</td>
+    <td width="77%" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Name</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>Type</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-selfUpdate.html">selfUpdate</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True =  Sprite runs Update() on itself to drive animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-spriteUpdater.html">spriteUpdater</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="SpriteUpdater.html">SpriteUpdater</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The SpriteUpdater assigned to run the update cycle on this Sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-playAnimationOnStart.html">playAnimationOnStart</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Sprite begins playing the default animation on Start()</td>
+  </tr>
+  <tr>
+    <td valign="top"> <a href="Sprite-playDefaultAnimWhenIdle.html">playDefaultAnimWhenIdle</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Sprite plays the default animation whenever no animation is being played.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-playbackSpeed.html">playbackSpeed</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">float</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Animation playback speed. (0 - infinity)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-animateOffCamera.html">animateOffCamera</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Continue animating when not visible by any camera.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-defaultAnimationOverride.html">defaultAnimationOverride</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Overrides the MasterSprite's default animation with an animation in this Sprite at the index.</td>
+  </tr>
+  <tr>
+    <td valign="top"> <a href="Sprite-currentMaterialSetIndex.html">currentMaterialSetIndex</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The index of the current material set.</td>
+  </tr>
+  <tr>
+    <td valign="top"> <a href="Sprite-materialOverride.html">materialOverride</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="http://docs.unity3d.com/Documentation/ScriptReference/Material.html">Material</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Overrides the material on the Sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isBillboard.html">isBillboard</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Sprite is a billboard sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top"> <a href="Sprite-billboardUpAxis.html">billboardUpAxis</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="Sprite.BillboardUpAxis.html">Sprite.BillboardUpAxis</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The up hint axis for the billboad Sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-useBatchScaling.html">useBatchScaling</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Scale Sprite by modifying the mesh instead of using transform scale.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-scaleToActualPixelSize.html">scaleToActualPixelSize</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Scale Sprite so that 1 texel equals 1 screen pixel. *(See <a href="../SpriteCamera.html">SpriteCamera</a> if you want to render all Sprites at actual pixel size.)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-activateLocatorsRecursively.html">activateLocatorsRecursively</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">True = Activate/deactivate locator children recusively when activated/deactivated.</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><h3>Properties</h3></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Name</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>Type</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-spriteId.html">masterSprite</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">GameMasterSprite</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The Master Sprite  parent of this sprite. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isStaticSprite.html">isStaticSprite</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is the Sprite static or animated? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isActive.html">isActive</a><br /></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is the Sprite active? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isPlaying.html">isPlaying</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is an animation playing? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isPaused.html">isPaused</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is playback paused? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isVisible.html">isVisible</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is the Sprite visible to any camera? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isFlipped.html">isFlipped</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is the Sprite flipped on an axis? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isFlippedX.html">isFlippedX</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is the Sprite flipped horizontally? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-isFlippedY.html">isFlippedY</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Is the Sprite flipped vertically? (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-animationCount.html">animationCount</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Number of animations. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-materialSetCount.html">materialSetCount</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Number of material sets. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-colliderCount.html">colliderCount</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Number of colliders. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-locatorCount.html">locatorCount</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Number of locators. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-meshBounds.html">meshBounds</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="http://docs.unity3d.com/Documentation/ScriptReference/Bounds.html">Bounds</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Bounds of the currently displayed mesh. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-currentAnimation.html">currentAnimation</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">string</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Name of the current animation. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-currentAnimationIndex.html">currentAnimationIndex</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Index of the current animation. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-currentFrameIndex.html">currentFrameIndex</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Index of the current frame in the current animation. (Read-only)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-defaultAnimation.html">defaultAnimation</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">string</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Name of the default animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-defaultAnimationIndex.html">defaultAnimationIndex</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Index of the default animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-currentAnimationSpeed.html">currentAnimationSpeed</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">float</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Playback speed of the current animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-batchScale.html">batchScale</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="http://docs.unity3d.com/Documentation/ScriptReference/Vector3.html">Vector3</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The scale when <a href="Sprite-useBatchScaling.html">useBatchScaling</a> = True.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-sortingLayerID.html">sortingLayerID</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The ID of the sorting layer this Sprite will be drawn on. (Unity 4.3+)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-sortingLayerName.html">sortingLayerName</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">string</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The name of the sorting layer this Sprite will be drawn on. (Unity 4.3+)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-sortingOrder.html">sortingOrder</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">int</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The render order within the current sorting layer. (Unity 4.3+)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-castShadows.html">castShadows</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Does the Sprite cast shadows?</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-shadowCastingMode.html">shadowCastingMode</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="http://docs.unity3d.com/ScriptReference/Rendering.ShadowCastingMode.html" target="_blank">ShadowCastingMode</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The Sprite shadow casting mode. (Unity 5+)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-receiveShadows.html">receiveShadows</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">bool</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Does the Sprite receive shadows?</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-spriteMaterial.html">spriteMaterial</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><a href="Sprite.SpriteMaterial.html">SpriteMaterial</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Helps you modify materials and shaders on the Sprite. Useful for animating shader properties for effects. (Read-only)</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Functions</h3>
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td valign="top"><strong>Animation Functions</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Name</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Play.html">Play</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Play an animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-PlayAtFrame.html">PlayAtFrame</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Play an animation at a specific frame.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-PlayDefaultAnimation.html">PlayDefaultAnimation</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Play the default animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Stop.html">Stop</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Stop playing animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Pause.html">Pause</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Pause animation playback.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Unpause.html">Unpause</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Unpause animation playback.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Rewind.html">Rewind</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Rewind the current animation to the first frame.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Reverse.html">Reverse</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Reverse playback of currently playing animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-IsAnimationPlaying.html">IsAnimationPlaying</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Check if an animation playing.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetAnimationSpeed.html">GetAnimationSpeed</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get the playback speed of an animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetAnimationSpeed.html">SetAnimationSpeed</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Set the playback speed of an animation.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetAnimationStartedCallback.html">SetAnimationStartedCallback</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Assign a callback to run when an animation starts playing.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetAnimationFinishedCallback.html">SetAnimationFinishedCallback</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Assign a callback to run when an animation finishes playing.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetAnimationEndedCallback.html">SetAnimationEndedCallback</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Assign a callback to run when an animation ends playing even if it has not finished.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetAnimationWrapMode.html">GetAnimationWrapMode</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get the wrap mode of an animation.</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Other Functions</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-UpdateSprite.html">UpdateSprite</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">The main Sprite update function that updates animation.</td>
+  </tr>
+  <tr>
+    <td width="13%" valign="top"><a href="Sprite-ChangeMaterialSet.html">ChangeMaterialSet</a></td>
+    <td width="1%" valign="top">&nbsp;</td>
+    <td width="86%" valign="top">Change the current material set.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetMaterialOverride.html">SetMaterialOverride</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Assign an override material and enable it.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-EnableMaterialOverride.html">EnableMaterialOverride</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Switch to the override material if one has been set.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-DisableMaterialOverride.html">DisableMaterialOverride</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Revert to original material.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Flip.html">Flip</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Flip Sprite horizontally and/or vertically.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-FlipX.html">FlipX</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Flip Sprite horizontally.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-FlipY.html">FlipY</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Flip Sprite vertically.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetFlippedState.html">SetFlippedState</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Set flipped states individually.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-ScaleToActualPixelSize_func.html">ScaleToActualPixelSize</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Scale the Sprite so that 1 texel equals 1 pixel on screen. *(See <a href="../SpriteCamera.html">SpriteCamera</a> if you want to render all Sprites at actual pixel size.)</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetColliders.html">GetColliders</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get all colliders.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetCollider.html">GetCollider</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get a specific collider.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetRigidbody.html">GetRigidbody</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get a specific rigidbody.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetLocator.html">GetLocator</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get a specific locator.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetAnimationNames.html">GetAnimationNames</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get all animation names.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetMaterialSetNames.html">GetMaterialSetNames</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get all material set names.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetAnimationFrameCounts.html">GetAnimationFrameCounts</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get all animation frame counts.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetColliderNames.html">GetColliderNames</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get all collider names.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-IgnoreCollisions.html">IgnoreCollisions</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Ignore collisions with all generated colliders.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetActiveRecursively.html">SetActiveRecursively</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Set active state on Sprite and all children recursively.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetSpriteUpdater.html">SetSpriteUpdater</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Register this Sprite with the SpriteUpdater.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SetUseBatchScaling.html">SetUseBatchScaling</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Enable/disable batch scaling.</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Internal Use Functions</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>You should never need to call any of these functions.</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-GetEditorPreviewFrameData.html">GetEditorPreviewFrameData</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Get data from the editor preview frame for use in custom inspector.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-Render.html">Render</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Force the Sprite to update the current display mesh.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-ColliderEnabled.html">ColliderEnabled</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Called when a child SpriteCollider is enabled.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-LocatorEnabled.html">LocatorEnabled</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Called when a child SpriteLocator is enabled.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-SpriteUpdaterCallback.html">SpriteUpdaterCallback</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Called by SpriteUpdater when assigning a Sprite to a SpriteUpdater.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Messages Sent
+</h3>
+<table width="100%" border="0">
+  <tr>
+    <td valign="top"><strong>Name</strong></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td width="9%" valign="top"><a href="Sprite-OnSpriteFrameStart.html">OnSpriteFrameStart</a></td>
+    <td width="1%" valign="top">&nbsp;</td>
+    <td width="90%" valign="top">If the current frame has a frame event, this message will be sent when the frame begins playing.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite-OnSpriteFrameEnd.html">OnSpriteFrameEnd</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">If the current frame has a frame event, this  message will be sent when the frame finishes playing.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Inherited Variables and Functions</h3>
+<p>All variables and functions in <a href="http://docs.unity3d.com/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a> are inherited by  this class.</p>
+<p>&nbsp;</p>
+<h3>Classes</h3>
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td width="5%" valign="top"><strong>Name</strong></td>
+    <td width="1%" valign="top">&nbsp;</td>
+    <td width="94%" valign="top"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite.Locator.html">Locator</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Sprite locator class.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite.SpriteMaterial.html">SpriteMaterial</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">SpriteMaterial class. Used to modify materials and shaders on a Sprite.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite.FrameEvent.html">FrameEvent</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Contains information about a frame event.</td>
+  </tr>
+</table>
+<h3>&nbsp;</h3>
+<h3>Enumerations</h3>
+<table width="100%" border="0">
+  <tr>
+    <td width="21%" valign="top"><strong>Name</strong></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="77%" valign="top"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite.BillboardUpAxis.html">BillboardUpAxis</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Up axis hint vector for billboard sprites.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="Sprite.WrapMode.html">WrapMode</a></td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Animation playback wrap modes.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

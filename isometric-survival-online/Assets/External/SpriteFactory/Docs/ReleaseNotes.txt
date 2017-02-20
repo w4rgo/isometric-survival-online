@@ -1,0 +1,178 @@
+1.120
+  Changes:
+    - Minor changes to editor code for Unity 5.5 compatibility.
+
+1.119
+  Changes:
+    - Increased max collider size in the editor.
+
+1.118
+  Changes:
+    - Sprites can now be duplicated in the scene at runtime and colliders, locators, and sprite planes will all behave correctly.
+  
+  Bug Fixes:
+    - Setting animation speed to 0 now stops all animation.
+
+1.117
+  Bug Fixes:
+    - Fixed issue where the last frame of an animation was intermittently drawn when frame rate is low.
+
+1.116
+  Changes:
+  - Added Sprite.Reverse method
+  - Added Sprite.Play methods with playBackwards option
+  - Added Reverse Frame Order button to Sprite Editor
+
+1.115
+  Changes:
+  - Added Sprite.shadowCastingMode property (Unity 5+)
+
+  Bug Fixes:
+  - Generated child meshes now scale properly when Use Batch Scaling = False.
+
+1.114
+  Bug Fixes:
+  - Fixed exception when using Auto Mesh on sprites with multiple atlases.
+
+1.113
+  Changes:
+  - Optimized Auto Mesh animation code to improve performance.
+  - Optimized animation code to reduce CPU usage when frame rate is low.
+  - Generate Mip Maps option in Editor Properties now set to False by default.
+  - DefaultSpriteMaterial shader changed to Sprites/Default.
+  - Added SpriteCameraGUIHelper class to eliminate memory allocations caused by OnGUI in SpriteCamera in game builds.
+
+  Bug Fixes:
+  - Sprites now rebuild only Materials and/or Atlases as needed when changing global editor properties.
+  - Fixed incorrect mesh normals on 2-sided Auto Mesh meshes.
+  - Fixed incorrect mesh bounds on Auto Mesh sprites when first instantiated.
+
+1.112
+  Changes:
+  - Dropped support for Unity versions below 4.3.
+  - Added support for Unity 5.0.
+  - Optimized Auto Mesh animation code to eliminate memory allocations.
+  
+  Bug Fixes:
+  - Fixed exception when setting a blank tag on a 3D collider.
+  - 2D colliders now have tag set properly.
+
+1.111 
+  New Features:
+  - Added castShadows and receiveShadows properties to change shadow settings on all sprite meshes during runtime.
+  - Added Sprite.Locator.gameObject property
+  - Added Sprite.Locator.transform property
+  Bug Fixes:
+  - Sorting Layers are now set correctly on generated child Sprite meshes.
+  - Child meshes now inherit the cast/receive shadows settings from the parent Sprite on start.
+
+1.110 - Changed minimum collider size in the editor from 20 to 5.
+
+1.109 - Bug Fix: Fixed Windows 8 Store deployment issues.
+
+1.108 - New Feature: Added SpriteMaterial class to make animating properties on a sprite's shaders easier.
+
+1.107 - New Feature: Sprites now ignore internal collisions properly when using 2D colliders (Unity 4.5+ required)
+- Bug Fix: 2D colliders now trigger enter, stay, and exit events consistently.
+
+1.106 - Bug Fix: Added workaround for bug in Unity Mac when clicking "Select" button on Source Image thumbnail causing an exception.
+
+1.105 - New Features: Added caching system for resolution targets so rebuilding atlases is much faster after the intial build at a specific resolution.
+- Added resolution target resampling mode to editor properties. Choose from 15 resampling modes.
+- Improvement: Dramatically reduced memory when rebuilding large atlases with hundreds of frames in Unity 4+
+- Bug Fix: Images with no pixels are handled correctly now.
+
+1.104 - New Features: Added Resolution Target to Editor Properties which allows you to scale all sprites to different resolutions without affecting the object size in the world. This can be used to scale sprites down for different screen resolutions.
+- Added Adjust For Resolution Target setting to Sprite Camera which takes the resolution target into account when Render At Actual Pixel Size is enabled.
+Bug Fixes: Fixed bug with AutoMesh meshes referencing the wrong atlas index on the first save of a sprite.
+- Fixed incorrect 1/2 pixel offset adjustment on AutoMesh meshes.
+
+1.103 - New Feature: Added AutoMesh mesh type which automatically generates a mesh shaped to fit the sprite.
+- Bug Fix: Source image texture importer settings are now verified and fixed during atlas rebuilding. 
+- Bug Fix: Source images are now set to 4096x4096 by default so that source images are always processed at actual size.
+
+1.102 - Minor Improvements: Added tag field for colliders created in the editor. Added save confirmation dialog when the editor window is closed in Unity 4.0+.
+
+1.101 - Bug Fix: Fixed trim offset error when saving a Master Sprite without rebuilding atlases.
+
+1.100 - Bug Fix: Fixed frame duplication bug in editor.
+
+1.099 - Improvements:
+- Changed the way Editor Properties default settings are handled. Now Sprites and Sprite Groups will inherit default setting changes as long as they are not overridden in the Sprite or Sprite Group.
+- Added Default Material setting in Editor Properties.
+- You can now upgrade Sprite Factory when the editor window is open. (It is still recommended you follow the Upgrading instructions in the documentation when upgrading.)
+
+1.098 - Improvements:
+- Added Sprite.SetAnimationStartedCallback to notify when an animation starts playback.
+- Added Sprite.SetAnimationFinishedCallback to notify when an animation completes playback.
+- Added Sprite.SetAnimationEndedCallback to notify when an animation ends playback.
+
+1.097 - Improvements: Minor tweaks to real-time animation preview and frame editor to improve accuracy.
+
+1.096 - Bug Fix: Fixed incorrect 1/2 pixel offset alignment issue introduced in 1.094.
+
+1.095 - Bug Fix: Fixed bug when duplicating a frame introduced in 1.093.
+
+1.094 - Bug Fixes:
+- Fixed 1/2 pixel alignment issue on frames with odd dimensions.
+- Fixed bug when adding a blank frame to an animation.
+- Source images are now set to WrapMode.Clamp.
+- Checks for changes to source images when saving a sprite and triggers atlas rebuild if any were changed.
+
+1.093 - Improvements: 
+- Reduced editor memory usage to help when working with hundreds of frames per sprite.
+  - Changed data storage format for source images and atlases to use GUID strings.
+  - Editor now loads animation frames only after an animation is selected.
+- Changed atlas generator code to avoid Mono heap growing continuously until out of memory due to temporary allocations. 
+- Atlas texture importer sets Sprite Import Mode to None even if editor default behavior mode is set to 2D. (Unity 4.3+)
+- Added option to defer rebuilding atlases for Master Sprites and Sprite Groups when saving.
+
+1.092 - Bug Fix: Fixed bug when flipping a sprite in the editor which caused generated child sprite planes to not be flipped properly.
+
+1.091 - New Feature: Atlases can now be rectangular or square as needed. Added option to force square atlases.
+
+1.090 - Bug Fix: Fixed bug with Sprite Group saving.
+- New Feature: Option to skip rebuilding atlases for Sprite Groups to speed up working with large groups.
+
+1.089 - New Features: Add keyboard shortcuts to frame editor.
+
+1.088 - New Features:
+- BoxColliders are now rotatable.
+- Added Collider Groups.
+- Bug fix: Colliders now update in static Sprite when flipped.
+
+1.087 - Bug fix: Fixed inspector repaint error when adding frames via drag-and-dropping textures in Unity 4.3.
+
+1.086 - New Feature: Added Sorting Layer support in Unity 4.3+.
+
+1.085 - Bug fix: Animation playback now smooths frame timings and skips frames to even out animation speed when framerate doesn't sync well with playback speed. Note: Frame events will still play even when frames are skipped.
+
+1.084 - New Feature: BoxCollider2D now supported (Unity 4.3+ required). See the Colliders page for more details. 
+- Minor bug fixes (import bug in Unity 4+, bug when inserting a new Animation)
+- Upgrade Note: Sprite.GetCollider, Sprite.GetColliders, and Sprite.GetRigidbody have been changed. Any calls to these methods in your scripts must be changed to accept the new return types. This was done to add 2D collider support while maintaining Unity 3.5 compatibility.
+
+1.083 - Unity 4.3 compatibility fix:
+- Unity 4.3 now includes a Sprite class which clashes with the SpriteFactory.Sprite class unless the SpriteFactory namespace is explicitly typed before each Sprite reference. This introduced an error in one CS file which was fixed.
+- Upgrade Notes: If you are upgrading from a version < 4.3 to 4.3, your scripts will have to be modified. Anywhere in your script you used the Sprite class, you must change all references to read SpriteFactory.Sprite to avoid clashes with Unity's built-in Sprite class.
+
+1.082 - Bug Fixes: 
+- Multiple colliders generated by a Sprite ignore collisions with each other as intended.
+
+1.081 - Minor features added. 
+- Editor: Added Show All Colliders option to allow display of multiple colliders simultaneously in the Frame Editor.
+
+1.08 - Minor bug fixes and features added. 
+- Improvements: 
+- Editor: Frame Editor now supports zooming (mouse wheel) and panning (right-click and drag).
+- Added animation Loop Restart Frame in Sprite.
+- Bugs Fixes: 
+- Tooltips didn't show up properly in Unity 4+ due to a Unity bug. Unity's tooltip system has been replaced.
+- Fixed error when clicking picker on object fields (Source Image, Source Material) or color fields in Unity 3.5.
+- Upgrade Notes:
+- The following files have been removed and can be deleted from your project after upgrade: 
+- SpriteFactory/Internal/GUI/FrameEditorGrid.png
+- SpriteFactory/Internal/GUI/overlay.png
+- SpriteFactory/Internal/GUI/resolutiongate.png
+- SpriteFactory/Internal/GUI/SpriteCameraSkin.guiskin
+
+-1.0 - Initial release of Sprite Factory. Yay!

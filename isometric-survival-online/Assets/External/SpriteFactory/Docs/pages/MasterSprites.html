@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - Master Sprites</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../ReadMe.html">ReadMe</a><br>
+      <a href="ReleaseNotes.html">Release Notes</a><br>
+      <a href="Overview.html">Overview</a><br />
+    <a href="UsingTheEditor.html">Using the Editor</a><br>
+    <a href="Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="Sprites.html">Sprites</a><br />
+      <a href="MasterSprites.html">Master Sprites</a><br />
+      <a href="SpriteGroups.html">Sprite Groups</a><br />
+      <a href="Colliders.html">Colliders</a><br />
+      <a href="Locators.html">Locators</a><br />
+      <a href="MaterialSets.html">Material Sets</a><br />
+      <a href="SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1>Master Sprites</h1>
+<p>A Master Sprite is a template for a sprite that contains all the necessary data for animation. All sprites, whether scene objects or prefabs, must reference a Master Sprite from which they will load their data on Awake().</p>
+<p><strong>Static or Animated</strong><br />
+Master Sprites can be  static or animated. Static sprites have no animation and consist of a single frame. You can use static sprites for non-animated background elements, for example. Static sprites are faster than animated sprites, so if you have a sprite with only one frame, make it a static sprite. Note that you will almost always want to assign static sprites to groups as a static sprite outside a group would generate an atlas with only one frame wasting memory. See <a href="UsingTheEditor.html#SpriteProperties">Using the Editor - Sprite Properties</a> for how to set this property.</p>
+<p><strong>Texture Atlasing</strong><br />
+Texture atlases are generated automatically for every Master Sprite.
+Atlases will be created on save if animations and frames are defined.</p>
+<ul>
+  <li>There is no limit to the number of atlases for each Master Sprite -- the more frames you add, the more atlases will be created as necessary. (The Max Atlas Size setting in <a href="UsingTheEditor.html#EditorProperties">Editor Properties</a> will also affect how many atlases each sprite needs.)</li>
+  <li>There is no limit to the number of frames each animation can have. Animations can span atlases with no issues, maintaining high performance because child planes are created for each atlas and are enabled and disabled as needed during playback. This is vastly faster than swapping materials on a single plane.</li>
+  <li>Source images can be of any aspect ratio, can be non power of 2, and don't have to be pre-aligned.</li>
+  <li>Source images with blank space around the edges will be trimmed by default, saving texture space and memory.</li>
+  <li>If the same source image is used multiple times in an animation or among different animations, the image will only appear once in the atlas.</li>
+  <li>Similarly, if the source image is used among multiple Master Sprites in a <a href="SpriteGroups.html">Sprite Group</a>, the image will only appear once in the atlas.</li>
+  <li>Master Sprites outside groups have certain customizable atlas settings. See <a href="UsingTheEditor.html#MoreSpriteSettings">Using the Editor - More Sprite Settings</a> for more information. Master Sprites in groups also have these settings, but they are shared among the group. See <a href="UsingTheEditor.html#SharedGroupProperties">Using the Editor - Shared Group Properties</a> for more information.</li>
+  <li>See <a href="UsingTheEditor.html#EditorProperties">Using the Editor - Editor Properties</a> for global atlas settings.</li>
+</ul>
+<p><strong>Sprite Groups</strong><br />
+  A Master Sprite can exist as an independent sprite with its own private atlases, or as a member of a <a href="SpriteGroups.html">Sprite Group</a> and share atlases and materials with other Master Sprites to save memory and draw calls. See <a href="SpriteGroups.html">Sprite Groups</a> for more information.</p>
+<p><strong>Colliders</strong><br /> 
+Define any number of static or animated box colliders in the sprite. This collider system provides an easy way to add colliders that match the animation of your sprites. See <a href="Colliders.html">Colliders</a> for more information. </p>
+<p><strong>Locators</strong><br />
+  Define any number of locators, which is an animatable transform on a sprite which can be used for attaching objects or as an origin point for spawning objects. See <a href="Locators.html">Locators</a> for more information.<br />
+</p>
+<p><strong>Material Sets</strong><br />
+If you need to swap materials on a sprite for any reason (effects, etc.), material sets allow you to create any number of materials and swap them on the fly without incurring excess draw calls. See <a href="MaterialSets.html">Material Sets</a> for more information.</p>
+<p><strong>Mesh Types</strong><br />
+  Sprites can use a standard rectangular mesh or an automatically-generated mesh shaped to fit the sprite to reduce overdraw. You can customize the mesh type and mesh generation settings globally and for each sprite individually</p>
+<p><strong>How Master Sprites Work</strong><br />
+  When a Sprite is instantiated, the animation data is loaded from its Master Sprite.  This has some useful implications:</p>
+<ul>
+  <li>Complex hierarchies just work. Sprite components can be nested in complex hierarchies or parented to other objects without any issues when making changes to the master.</li>
+  <li>Prefabs and non-prefabs work equally well. It is recommend you use prefabs where possible, but you can certainly create non-prefab Sprites in-scene if you choose without worrying about whether they'll be updated when you make a change to the master.</li>
+  <li>Sprites are completely reusable. You can have Sprite components based on the same Master Sprite in as many different prefabs or scene sprites as you like. When a change is made to the master, all the children will automatically have the lastest data.</li>
+  <li>Nothing in the scene or prefab sprites needs to be updated every time you make a change in the source Master Sprite.</li>
+  <li>Updating Master Sprites is fast because there is no searching for Sprite components on prefabs or scene objects to push updates to.</li>
+</ul>
+<p>Because of this system, there are a few things to be aware of during development:</p>
+<ul>
+  <li>Game Master Sprites must be inlcuded in the build. This should happen automatically in most situations since each Sprite in scene contains an object reference to its Master Sprite. If for any reason you need to manually manage these files, they are located in the &quot;Assets/Sprite Factory/SaveData/MasterSprites/Game&quot; folder. (Just as a note, Editor Master Sprites contain un-atlased source image data and are never referenced or loaded except by the editor, therefore they do not take up any memory in-game and should not be included in a build.)</li>
+  <li>Deleting a Master Sprite in the editor will cause all sprites in scene or in prefabs based on that Master Sprite to break because they cannot refer back to their template. These sprites can be assigned a different Master Sprite with the &quot;Assign Master Sprite to Selected Object&quot; command in the editor. Broken sprites in scene will be deactivated on play.</li>
+  <li>Even though it may take more processing time to load the data on instantiation compared to serializing the data in each prefab, the amount of data loaded is quite small.</li>
+</ul>
+<p><strong>Creating a Master Sprite<br />
+</strong>Master Sprites are created and managed in the Sprite Factory editor window. See <a href="UsingTheEditor.html#MasterSprites">Using the Editor - Master Sprites</a> for more information.</p>
+<!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

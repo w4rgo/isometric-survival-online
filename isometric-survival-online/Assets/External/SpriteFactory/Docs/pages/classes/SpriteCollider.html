@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - SpriteCollider</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../../ReadMe.html">ReadMe</a><br>
+      <a href="../ReleaseNotes.html">Release Notes</a><br>
+      <a href="../Overview.html">Overview</a><br />
+    <a href="../UsingTheEditor.html">Using the Editor</a><br>
+    <a href="../Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="../Sprites.html">Sprites</a><br />
+      <a href="../MasterSprites.html">Master Sprites</a><br />
+      <a href="../SpriteGroups.html">Sprite Groups</a><br />
+      <a href="../Colliders.html">Colliders</a><br />
+      <a href="../Locators.html">Locators</a><br />
+      <a href="../MaterialSets.html">Material Sets</a><br />
+      <a href="../SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="../SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="../WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="../RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1><a href="../RuntimeClasses.html">SpriteFactory</a>.SpriteCollider</h1>
+<p>Namespace: SpriteFactory<br />
+  Inherits from <a href="http://docs.unity3d.com/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></p>
+<p>This component is created automatically when a <a href="Sprite.html">Sprite</a> generates a collider. The main purpose of this component is to send messages on collision events.</p>
+
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td width="12%"><h3>Variables</h3></td>
+    <td width="1%">&nbsp;</td>
+    <td width="9%">&nbsp;</td>
+    <td width="1%">&nbsp;</td>
+    <td width="77%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Name</strong></td>
+    <td>&nbsp;</td>
+    <td><strong>Type</strong></td>
+    <td>&nbsp;</td>
+    <td><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td>gameObject</td>
+    <td>&nbsp;</td>
+    <td><a href="http://docs.unity3d.com/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
+    <td>&nbsp;</td>
+    <td>GameObject of this component. * This is for internal use and should not be changed. *</td>
+  </tr>
+  <tr>
+    <td>transform</td>
+    <td>&nbsp;</td>
+    <td><a href="http://docs.unity3d.com/Documentation/ScriptReference/Transform.html">Transform</a></td>
+    <td>&nbsp;</td>
+    <td>Transform of this component. * This is for internal use and should not be changed. *</td>
+  </tr>
+  <tr>
+    <td>colliderInfo</td>
+    <td>&nbsp;</td>
+    <td><a href="ColliderInfo.html">ColliderInfo</a></td>
+    <td>&nbsp;</td>
+    <td>ColliderInfo on this GameObject. * This is for internal use and should not be changed. *</td>
+  </tr>
+  <tr>
+    <td> rigidbodyInfo</td>
+    <td>&nbsp;</td>
+    <td><a href="RigidbodyInfo.html">RigidbodyInfo</a></td>
+    <td>&nbsp;</td>
+    <td>RigidbodyInfo on this GameObject. * This is for internal use and should not be changed. *</td>
+  </tr>
+  </table>
+<p>&nbsp;</p>
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td width="12%"><h3>Properties</h3></td>
+    <td width="1%">&nbsp;</td>
+    <td width="9%">&nbsp;</td>
+    <td width="1%">&nbsp;</td>
+    <td width="77%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>sprite</td>
+    <td>&nbsp;</td>
+    <td><a href="Sprite.html">Sprite</a></td>
+    <td>&nbsp;</td>
+    <td>Parent Sprite of this SpriteCollider. (Read-only)</td>
+  </tr>
+  <tr>
+    <td>spriteRoot</td>
+    <td>&nbsp;</td>
+    <td><a href="http://docs.unity3d.com/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
+    <td>&nbsp;</td>
+    <td> GameObject of the parent Sprite of this SpriteCollider. (Read-only)</td>
+  </tr>
+  <tr>
+    <td>spriteColliderName</td>
+    <td>&nbsp;</td>
+    <td>string</td>
+    <td>&nbsp;</td>
+    <td> Name of the Collider Set. (Read-only)</td>
+  </tr>
+  <tr>
+    <td>spriteColliderId</td>
+    <td>&nbsp;</td>
+    <td>int</td>
+    <td>&nbsp;</td>
+    <td> Id of the Collider Set.  (Read-only)</td>
+  </tr>
+  <tr>
+    <td>spriteColliderTag</td>
+    <td>&nbsp;</td>
+    <td>int</td>
+    <td>&nbsp;</td>
+    <td> Tag of the Collider Set.  (Read-only)</td>
+  </tr>
+  <tr>
+    <td>spriteColliderGroupName</td>
+    <td>&nbsp;</td>
+    <td>string</td>
+    <td>&nbsp;</td>
+    <td> Name of the Collider Set group.  (Read-only)</td>
+  </tr>
+  <tr>
+    <td>isParent</td>
+    <td>&nbsp;</td>
+    <td>bool</td>
+    <td>&nbsp;</td>
+    <td> Is this a Parent Collider Set?  (Read-only)</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Messages Sent</h3>
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td width="13%"><strong>Name</strong></td>
+    <td width="1%">&nbsp;</td>
+    <td width="86%"><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnMouseEnterSprite.html">OnMouseEnterSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when the mouse entered the <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnMouseOverSprite.html">OnMouseOverSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called every frame while the mouse is over the <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnMouseExitSprite.html">OnMouseExitSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when the mouse is not any longer over the <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnMouseDownSprite.html">OnMouseDownSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when the user has pressed the mouse button while over the <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnMouseUpAsButtonSprite.html">OnMouseUpAsButtonSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Only called when the mouse is released over the same <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a> as it was pressed.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnMouseDragSprite.html">OnMouseDragSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when the user has clicked on a <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a> and is still holding down the mouse.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnTriggerEnterSprite.html">OnTriggerEnterSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when a <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a> enters the trigger.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnTriggerStaySprite.html">OnTriggerStaySprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called <em>almost</em> all the frames for every <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a><strong> </strong>that is touching the trigger.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnTriggerExitSprite.html">OnTriggerExitSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when a <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a> has stopped touching the trigger.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnCollisionEnterSprite.html">OnCollisionEnterSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when this collider/rigidbody has begun touching another rigidbody/collider.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnCollisionStaySprite.html">OnCollisionStaySprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called once per frame for every collider/rigidbody that is touching rigidbody/collider.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnCollisionExitSprite.html">OnCollisionExitSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when this collider/rigidbody has stopped touching another rigidbody/collider.</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider-OnParticleCollisionSprite.html">OnParticleCollisionSprite</a></td>
+    <td>&nbsp;</td>
+    <td>Called when a particle hits a collider (legacy particle system only).</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Inherited Variables and Functions</h3>
+<p>All variables and functions in <a href="http://docs.unity3d.com/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a> are inherited by  this class.</p>
+<p>&nbsp;</p>
+<table width="100%" border="0" cellpadding="2">
+  <tr>
+    <td width="8%"><strong>Classes</strong></td>
+    <td width="1%">&nbsp;</td>
+    <td width="91%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><a href="SpriteCollider.CollisionData.html">CollisionData</a></td>
+    <td>&nbsp;</td>
+    <td>Struct for sending collision data in messages.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

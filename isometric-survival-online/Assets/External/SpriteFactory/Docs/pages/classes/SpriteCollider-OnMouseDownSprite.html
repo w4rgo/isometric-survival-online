@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - SpriteCollider.OnMouseDownSprite</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../../ReadMe.html">ReadMe</a><br>
+      <a href="../ReleaseNotes.html">Release Notes</a><br>
+      <a href="../Overview.html">Overview</a><br />
+    <a href="../UsingTheEditor.html">Using the Editor</a><br>
+    <a href="../Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="../Sprites.html">Sprites</a><br />
+      <a href="../MasterSprites.html">Master Sprites</a><br />
+      <a href="../SpriteGroups.html">Sprite Groups</a><br />
+      <a href="../Colliders.html">Colliders</a><br />
+      <a href="../Locators.html">Locators</a><br />
+      <a href="../MaterialSets.html">Material Sets</a><br />
+      <a href="../SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="../SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="../WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="../RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1><a href="../RuntimeClasses.html">SpriteFactory</a>.<a href="SpriteCollider.html">SpriteCollider</a>.OnMouseDownSprite</h1>
+<p>C#: <strong>void OnMouseDownSprite (<a href="SpriteCollider.CollisionData.html">SpriteFactory.SpriteCollider.CollisionData</a> collisionData)</strong><br />
+JS: function <strong>OnMouseDownSprite (collisionData : <a href="SpriteCollider.CollisionData.html">SpriteFactory.SpriteCollider.CollisionData</a>) : void</strong></p>
+<p><strong>Description</strong><br />
+Called when the user has pressed the mouse button while over the <a href="http://docs.unity3d.com/Documentation/ScriptReference/Collider.html">Collider</a>. This message is sent to all component siblings of the <a href="Sprite.html">Sprite</a> which owns this SpriteCollider.</p>
+<p>The collisionData object contains information about the collision. <a href="SpriteCollider.CollisionData.html">collisionData.spriteColliderId</a> and <a href="SpriteCollider.CollisionData.html">collisionData.spriteColliderName</a> can be used to determine which collider the mouse is interacting with.</p>
+<p>This function is not called on objects that belong to Ignore Raycast layer.</p>
+<p><strong>NOTE:</strong> SpriteColliders set to Parent in the Sprite Factory editor do not send this message. For Parent colliders (generated colliders that exist on the same GameObject as the main Sprite component), use the standard Unity <a href="http://docs.unity3d.com/Documentation/ScriptReference/MonoBehaviour.OnMouseDown.html">OnMouseDown</a> instead.</p>
+<p><strong>IMPORTANT:</strong> This message is not sent on mobile platforms.</p>
+<p><strong>Example:</strong></p>
+
+<p><strong>C#</strong></p>
+<pre class="code">
+// Attach this script to the GameObject that contains your main Sprite component
+using UnityEngine;
+using System.Collections;
+using SpriteFactory;
+
+public class MouseDown : MonoBehaviour {
+   void OnMouseDownSprite(SpriteFactory.SpriteCollider.CollisionData collisionData) {
+       if(collisionData.spriteColliderName == &quot;MouseCollider&quot;) { // test collider name to determine which responded
+           Debug.Log(collisionData.spriteColliderName + &quot; was clicked!&quot;);
+       }
+   }
+}<br />
+</pre>
+
+<p><strong>JS</strong></p>
+<pre class="code">
+// Attach this script to the GameObject that contains your main Sprite component
+import SpriteFactory;
+
+function OnMouseDownSprite(collisionData : SpriteFactory.SpriteCollider.CollisionData) : void {
+    if(collisionData.spriteColliderName == &quot;MouseCollider&quot;) { // test collider name to determine which responded
+        Debug.Log(collisionData.spriteColliderName + &quot; was clicked!&quot;);
+    }
+}
+</pre>
+    <!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/MainLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Sprite Factory - Colliders</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../files/styles.css?v=1" rel="stylesheet" type="text/css" /><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 0; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 0; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+<body class="twoColElsLt">
+<div id="container">
+  <div id="sidebar1">
+  <h3><img src="../files/images/SpriteFactoryLogoSmall.png" alt="" width="26" height="32" /> Sprite Factory</h3><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+    <p><a href="../ReadMe.html">ReadMe</a><br>
+      <a href="ReleaseNotes.html">Release Notes</a><br>
+      <a href="Overview.html">Overview</a><br />
+    <a href="UsingTheEditor.html">Using the Editor</a><br>
+    <a href="Upgrading.html">Upgrading</a></p>
+    <p><strong>Concepts</strong><br />
+      <a href="Sprites.html">Sprites</a><br />
+      <a href="MasterSprites.html">Master Sprites</a><br />
+      <a href="SpriteGroups.html">Sprite Groups</a><br />
+      <a href="Colliders.html">Colliders</a><br />
+      <a href="Locators.html">Locators</a><br />
+      <a href="MaterialSets.html">Material Sets</a><br />
+      <a href="SpriteUpdater.html"> SpriteUpdater<br />
+      </a><a href="SpriteCamera.html">SpriteCamera</a></p>
+<p><strong>Advanced</strong><br>
+  <a href="WorkingInMultipleProjects.html">Working in Multiple Projects</a></p>
+<p><strong>Classes</strong><br />
+  <a href="RuntimeClasses.html">Runtime Classes</a></p>
+    <p><strong>Videos</strong><br />
+      <a href="http://www.youtube.com/watch?v=B3_BDDGIx2s" target="_blank">Overview</a><br />
+      <a href="http://www.youtube.com/watch?v=W3Is23kmI6k" target="_blank">Creating Sprites</a><br />
+      <a href="http://www.youtube.com/watch?v=8qKVU2j1w3E" target="_blank">Sprite Inspector</a><br />
+      <a href="http://www.youtube.com/watch?v=32oKLVbgXiI" target="_blank">Frame Events</a><br />
+      <a href="http://www.youtube.com/watch?v=FFQYUtAWZXs" target="_blank">Collision System</a><br />
+      <a href="http://www.youtube.com/watch?v=69RT3g8HH3k" target="_blank">Locator System</a><br />
+      <a href="http://www.youtube.com/watch?v=l0SiqaotCJs" target="_blank">Material Sets</a></p>
+    <p><strong>Links<br>
+    </strong><a href="http://www.guavaman.com/projects/spritefactory">Sprite Factory Site</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory/docs/">Web Documentation</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Support</a><br>
+    <a href="http://www.guavaman.com/projects/spritefactory#support">Contact</a>
+    </p><!-- #EndLibraryItem --><!-- end #sidebar1 -->
+
+  </div>
+  <div id="mainContent">
+    <!-- InstanceBeginEditable name="Main" -->
+<h1>Colliders</h1>
+<p><img src="../files/images/Example-Colliders.png" width="370" height="382" alt="Collider" /></p>
+<p>The sprite collider system allows you to define any number of colliders for your sprite and optionally animate the colliders to match the animation of your sprite. You can set every property in the colliders just as you would with a normal collider component. You can choose to add a rigidbody to each collider, or designate one collider + rigidbody as Parent so all the other colliders will share its rigidbody.</p>
+<p>Animated colliders can have their shape, relative position, rotation, and enabled state animated frame-by-frame. One example use case would be a damage trigger in an animated character. For example, a fighting game character could have a trigger collider that stays disabled in most animations but enables during an attack animation and animates size and relative position to match the sprite's attack animation.</p>
+<p>Note: The sprite collider system may not fit everyone's needs since at present only BoxColliders are supported. If this is the case, you can always add colliders and rigidbodies manually on the sprite's game object. If you manually add a collider yourself, do not set any collider as Parent because you cannot have two Collider components on the main Sprite GameObject.</p>
+<p><strong>Static or Animated</strong><br />
+  Colliders can be defined as static or animated. Static colliders exist in the same relative position and shape throughout animation. Animated colliders can change shape and position with every frame of animation.</p>
+<p><strong>Parent or Child</strong><br />
+A collider can be set as parent, meaning the collider will be spawned at the same component level as the owning Sprite component. This is useful for motive colliders or for colliders with a rigidbody that is shared among all child colliders. For colliders not set as parent, the collider is spawned as a child game object under the main Sprite game object level. Note: Parent colliders cannot be rotated.</p>
+<p><strong>3D or 2D</strong><br />
+  A  2D physics system was introduced in Unity 4.3. You have the option of using 2D or 3D colliders in Sprite Factory if you're using Unity 4.3+. Both collider types can be animated exactly the same way, and you can easily switch colliders to 2D or 3D without losing any animation. Note that 3D colliders do not interact with 2D colliders in any way. Also, there is <a href="#InternalCollisions">an issue with 2D colliders</a> you should be aware of if you're using a version of Unity below 4.5.</p>
+<p><strong>Creating Colliders</strong><br />
+See <a href="UsingTheEditor.html#SpriteProperties">Using the Editor - Sprite Properties</a> and <a href="UsingTheEditor.html#ColliderEditor">Using the Editor - Collider Editor</a>.</p>
+<p><strong>Animating Colliders</strong><br />
+  Colliders can be animated in the <a href="UsingTheEditor.html#FrameEditor">Frame Editor</a>. See <a href="UsingTheEditor.html#ColliderFrameProperties">Using the Editor - Collider Frame Properties</a>.</p>
+<p><strong>Collider Groups</strong><br />
+You can create named groups and assign colliders to them. Collider can groups help you more easily determine what to do when a collision event occurs. You can test for a group name in a collision event instead of having to test for individual collider names. For example, create a group called HitDetectors and assign all your hit detection colliders to this group. When a collision event occurs, just test for the group name and take action. Collider groups also allow you to filter the visible colliders in the frame editor by group so you can work on a particular set of colliders without other unrelated colliders getting in your way while you work. See <a href="UsingTheEditor.html#ColliderEditor">Using the Editor - Collider Editor</a>.</p>
+<p><strong>Collision Messages</strong><br />
+  Colliders spawned by Sprite will call SendMessage when colliding with other colliders and on mouse events. These messages are sent to the main Sprite level GameObject. You can add a custom script component to the Sprite to receive these collision messages to perform actions on collision events. See <a href="classes/SpriteCollider.html">SpriteCollider</a> for a list of all messages sent on collision.</p>
+<p><strong>How Colliders Work</strong><br />
+When the Sprite is instantiated or when gameplay begins, it will spawn one Box Collider for every collider defined. If a collider is disabled during a particular frame of animation, the GameObject containing the BoxCollider component will be deactivated. (Note: If the BoxCollider is set to Parent, the BoxCollider component will be disabled/enabled during animation but the GameObject containing the component will remain active.)</p>
+<p><strong><a name="InternalCollisions" id="InternalCollisions"></a>Internal Collisions</strong><br />
+Collisions between multiple colliders in a Sprite are always ignored by default for 3D colliders and for 2D colliders as of Unity 4.5. This makes it easy to have hit boxes and hurt boxes in a character without having to worry about the character hitting himself when he attacks.</p>
+<p>*IMPORTANT NOTE: For Unity versions below 4.5, if you choose to use 2D colliders, internal collisions are not ignored within a Sprite. This is due to the fact that Unity's Physics2D class before 4.5 not contain a function to ignore collisions between colliders like the 3D Physics class does. This means that you must set up <a href="http://docs.unity3d.com/Documentation/Components/LayerBasedCollision.html" target="_blank">collision layers</a> and assign a different layer to each type of collider to avoid interaction between them within a Sprite. (Note that there are separate 2D and 3D layer collision settings. The 2D settings are in Edit -&gt; Project Settings -&gt; Physics2D.)</p>
+<p><strong>Colliders for Character Movement (Motive Colliders)</strong><br />
+For best results, if your character needs to interact with physics terrain such as platforms or hills, it is recommended you do not use Sprite Factory's animated box colliders for the main motive collider. Instead, use a CapsuleCollider or CharacterController if using 3D physics, or a BoxCollider2D plus a CircleCollider2D if you're using 2D physics for the character's main motive collider. Unless you're using a CharacterController, you will also need a Rigidbody or Rigidbody2D. These should be added to the Sprite's root game object by adding the components in the inspector. The character's main motive collider should be set up to ignore all collisions with hit detection colliders and attack colliders (the easiest way is to set up <a href="http://docs.unity3d.com/Documentation/Components/LayerBasedCollision.html" target="_blank">collision layers</a> for this). The idea is for the motive collider to be used strictly for navigating terrain while the animated box colliders are used for all hit detection and attack delivery. If you attempt to use Sprite Factory's animated box colliders for your character's motive collider and you keep changing the shape as it walks over physics terrain, you will get very unpredictable results. This is because of how PhysX behaves when changing the shape of a collider -- essentially you are teleporting or popping to the collider into the new shape each frame. Physics was never meant to handle changing the shape of colliders, so physical interactions with animated colliders will not behave realistically.</p>
+    <!-- InstanceEndEditable -->
+      <!-- end #container -->
+</div>
+<div id="footer">
+Copyright &copy; 2013-2014 <a href="http://www.guavaman.com">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
