@@ -10,8 +10,11 @@ public class NetworkPlayer : MonoBehaviour {
 
 	Vector3 lastPosition;
 	Quaternion lastRotation;
-
-	void Start(){
+    private Movement.CharacterMovement playerMovement;
+	void Start()
+	{
+	    playerMovement = GetComponent<Movement.CharacterMovement>();
+	    playerMovement.InitiatedMelee += OnInitiatedMelee;
 		//Tell the network to pass data to our RecieveData function so we can process it.
 		DarkRiftAPI.onDataDetailed += RecieveData;
 
@@ -19,7 +22,16 @@ public class NetworkPlayer : MonoBehaviour {
 		DarkRiftAPI.onPlayerDisconnected += PlayerDisconnected;
 	}
 
-	void Update(){
+    private void OnInitiatedMelee()
+    {
+        if (DarkRiftAPI.isConnected && DarkRiftAPI.id == networkID)
+        {
+            DarkRiftAPI.SendMessageToOthers(TagIndex.PlayerUpdate, TagIndex.PlayerUpdateSubjects.MeleeAttack, "pepitogrillo");
+
+        }
+    }
+
+    void Update(){
 		//Only send data if we're connected and we own this player
 		if( DarkRiftAPI.isConnected && DarkRiftAPI.id == networkID ){
 			//We're going to use a tag of 1 for movement messages
@@ -61,6 +73,11 @@ public class NetworkPlayer : MonoBehaviour {
 				if( subject == TagIndex.PlayerUpdateSubjects.Rotation ){
 					transform.rotation = (Quaternion)data;
 				}
+
+			    if (subject == TagIndex.PlayerUpdateSubjects.MeleeAttack)
+			    {
+			        playerMovement.MeleeAttack();
+			    }
 			}
 		}
 	}

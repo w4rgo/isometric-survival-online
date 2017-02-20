@@ -16,4 +16,12 @@ public class PlayerAnimators : MonoBehaviour
             animator.SetFloat(name,value);
         }
     }
+
+    public void SetTriggerToAnimators(string attack)
+    {
+        foreach (var animator in _animators)
+        {
+            animator.SetTrigger(attack);
+        }
+    }
 }

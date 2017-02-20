@@ -19,5 +19,6 @@ public class TagIndex {
 	public class PlayerUpdateSubjects{
 		public const int Position = 0;		//Move the player to (Vector3)Data
 		public const int Rotation = 1;		//Rotate the player to (Quaternion)Data
+		public const int MeleeAttack = 2;		//Rotate the player to (Quaternion)Data
 	}
 }
