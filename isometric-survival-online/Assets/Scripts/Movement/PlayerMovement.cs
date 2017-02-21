@@ -56,6 +56,7 @@ namespace Movement
 
             if (isControllable)
             {
+//                MoveNormal();
                 MoveWithForces();
             }
             if (currentPos != previousPosition)
@@ -112,9 +113,12 @@ namespace Movement
             var heading = currentPos - previousPosition;
             var distance = heading.magnitude;
             var direction = heading / distance;
-            direction = new Vector3(Mathf.Round(direction.x), Mathf.Round(direction.y), Mathf.Round(direction.z));
+            Debug.Log(direction);
+
+//            direction = new Vector3(Mathf.Round(direction.x), Mathf.Round(direction.y), Mathf.Round(direction.z));
             anim.SetFloatToAnimators("speedX", direction.x);
             anim.SetFloatToAnimators("speedY", direction.y);
+            Debug.Log(direction);
             lastDirection = direction.normalized;
         }
 
