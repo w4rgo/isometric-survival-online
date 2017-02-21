@@ -76,7 +76,7 @@ public class NetworkPlayer : MonoBehaviour {
 
 			    if (subject == TagIndex.PlayerUpdateSubjects.MeleeAttack)
 			    {
-			        playerMovement.MeleeAttack();
+			        playerMovement.MeleeAttackAnimation();
 			    }
 			}
 		}
