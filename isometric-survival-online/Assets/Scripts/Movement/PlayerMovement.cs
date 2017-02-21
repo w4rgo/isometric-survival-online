@@ -20,6 +20,9 @@ namespace Movement
         public event Action InitiatedMelee = delegate { };
         public event Action<Vector2> OnMeleeAttack = delegate { };
         private Dictionary<Vector2,Vector2> DirectionList = new Dictionary<Vector2,Vector2>();
+        private HashSet<Vector2> Cartesians = new HashSet<Vector2>();
+        [SerializeField]
+        private float speedAdjusmentForCartesians;
 
         void Start()
         {
@@ -32,6 +35,11 @@ namespace Movement
             DirectionList.Add(new Vector2(-1, 0),new Vector2(-1, 1) );
             DirectionList.Add(new Vector2(-1, 1),new Vector2(0, 1) );
             DirectionList.Add(new Vector2(0, 0),new Vector2(0, 0) );
+
+            Cartesians.Add(new Vector2(1, 1));
+            Cartesians.Add(new Vector2(1, -1));
+            Cartesians.Add(new Vector2(-1, 1));
+            Cartesians.Add(new Vector2(-1, -1));
 
             anim = GetComponent<PlayerAnimators>();
             previousPosition = transform.position;
@@ -92,7 +100,7 @@ namespace Movement
 
             var targetVelocity = new Vector3(axisX, axisY, 0);
             targetVelocity = transform.TransformDirection(targetVelocity);
-            targetVelocity *= speed;
+            targetVelocity *= CalculateSpeed(rotatedDir);
 
             // Apply a force that attempts to reach our target velocity
             var velocity = rigidbody.velocity;
@@ -101,6 +109,15 @@ namespace Movement
             velocityChange.z = 0;
             velocityChange.y = Mathf.Clamp(velocityChange.y, -maxVelocityChange, maxVelocityChange);
             rigidbody.AddForce(velocityChange, ForceMode.VelocityChange);
+        }
+
+        private float CalculateSpeed(Vector2 inputDirection)
+        {
+            if (Cartesians.Contains(inputDirection))
+            {
+                return speed * speedAdjusmentForCartesians;
+            }
+            return speed;
         }
 
         private Vector2 MegaHackOfDirection(int x, int y)
