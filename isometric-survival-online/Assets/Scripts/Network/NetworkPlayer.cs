@@ -10,10 +10,10 @@ public class NetworkPlayer : MonoBehaviour {
 
 	Vector3 lastPosition;
 	Quaternion lastRotation;
-    private Movement.CharacterMovement playerMovement;
+    private Movement.PlayerMovement playerMovement;
 	void Start()
 	{
-	    playerMovement = GetComponent<Movement.CharacterMovement>();
+	    playerMovement = GetComponent<Movement.PlayerMovement>();
 	    playerMovement.InitiatedMelee += OnInitiatedMelee;
 		//Tell the network to pass data to our RecieveData function so we can process it.
 		DarkRiftAPI.onDataDetailed += RecieveData;

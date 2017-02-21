@@ -7,7 +7,7 @@ namespace Movement
     public class WeaponCollider : MonoBehaviour
     {
 
-        [SerializeField] private CharacterMovement Movement;
+        [SerializeField] private PlayerMovement Movement;
 
         private bool readyForCollisions;
         private Vector2 direction;
@@ -36,7 +36,7 @@ namespace Movement
             if (readyForCollisions)
             {
                 Debug.Log("Collided with " + other.gameObject);
-                other.GetComponent<CharacterMovement>().MeleeHit();
+                other.GetComponent<PlayerMovement>().MeleeHit();
                 readyForCollisions = false;
             }
         }
