@@ -22,8 +22,6 @@ namespace Assets.Scripts {
 			}
 		}
 
-	    public Mesh myMesh;
-
 		[ExposeProperty]
 		public Mesh Mesh {
 			get { return MCollider.sharedMesh; }
@@ -53,7 +51,7 @@ namespace Assets.Scripts {
 			var collider = obj.AddComponent<MeshCollider>();
 		    Debug.Log("instatiate collider");
 			collider.convex = Convex;
-			collider.sharedMesh = myMesh;
+			collider.sharedMesh = Mesh;
 
 			obj.transform.localScale = Scale;
 			return collider;
@@ -61,18 +59,18 @@ namespace Assets.Scripts {
 		}
 
 		public override void Draw() {
-//			if (MCollider == null ) {
-//				Debug.Log(name + ", MCollider \n Add a mesh or delete the IsoMeshCollider component");
-//				return;
-//			}
-//		    if (MCollider.sharedMesh == null ) {
-//		        Debug.Log(name + ", IsoMeshCollider is missing a Mesh to show bounds. \n Add a mesh or delete the IsoMeshCollider component");
-//		        return;
-//		    }
+			if (MCollider == null ) {
+				Debug.Log(name + ", MCollider \n Add a mesh or delete the IsoMeshCollider component");
+				return;
+			}
+		    if (MCollider.sharedMesh == null ) {
+		        Debug.Log(name + ", IsoMeshCollider is missing a Mesh to show bounds. \n Add a mesh or delete the IsoMeshCollider component");
+		        return;
+		    }
 			if (IsoTransform == null)
 				IsoTransform = GetComponent<IsoTransform>();
 			Gizmos.color = Color.green;
-			GizmosExtension.DrawIsoMesh(myMesh,IsoTransform.Position,Scale);
+			GizmosExtension.DrawIsoMesh(Mesh,IsoTransform.Position,Scale);
 		}
 	}
 }
