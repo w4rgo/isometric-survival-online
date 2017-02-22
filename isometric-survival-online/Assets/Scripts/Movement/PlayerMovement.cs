@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using IsoTools;
 using UnityEngine;
 using IsoRigidbody = UltimateIsometricToolkit.physics.IsoRigidbody;
 
@@ -127,7 +125,6 @@ namespace Movement
         private float CalculateSpeed(Vector2 inputDirection)
         {
             var shift = Input.GetKey(KeyCode.LeftShift);
-            Debug.Log(shift);
             var newSpeed = shift ? speed * runningModifier : speed;
             if (Cartesians.Contains(inputDirection))
             {

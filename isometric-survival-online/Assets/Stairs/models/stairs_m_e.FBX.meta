@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 9fc609dcedd790c4bb0b043cfafc7aa7
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: entrance_ colader
+    100002: s1
+    100004: s1_coladder
+    100006: s2
+    100008: s2_collader
+    100010: s3
+    100012: s3_collader
+    100014: s4
+    100016: s4_collader
+    100018: stair_ entrance
+    100020: //RootNode
+    100022: stone door
+    100024: stone_door_collader
+    400000: entrance_ colader
+    400002: s1
+    400004: s1_coladder
+    400006: s2
+    400008: s2_collader
+    400010: s3
+    400012: s3_collader
+    400014: s4
+    400016: s4_collader
+    400018: stair_ entrance
+    400020: //RootNode
+    400022: stone door
+    400024: stone_door_collader
+    2300000: entrance_ colader
+    2300002: s1
+    2300004: s1_coladder
+    2300006: s2
+    2300008: s2_collader
+    2300010: s3
+    2300012: s3_collader
+    2300014: s4
+    2300016: s4_collader
+    2300018: stair_ entrance
+    2300020: stone door
+    2300022: stone_door_collader
+    3300000: entrance_ colader
+    3300002: s1
+    3300004: s1_coladder
+    3300006: s2
+    3300008: s2_collader
+    3300010: s3
+    3300012: s3_collader
+    3300014: s4
+    3300016: s4_collader
+    3300018: stair_ entrance
+    3300020: stone door
+    3300022: stone_door_collader
+    4300000: s3
+    4300002: s2
+    4300004: s4
+    4300006: stair_ entrance
+    4300008: s1
+    4300010: s1_coladder
+    4300012: s2_collader
+    4300014: s3_collader
+    4300016: s4_collader
+    4300018: entrance_ colader
+    4300020: stone_door_collader
+    4300022: stone door
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

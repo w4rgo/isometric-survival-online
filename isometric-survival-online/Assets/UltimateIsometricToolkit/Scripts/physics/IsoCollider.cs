@@ -61,8 +61,11 @@ namespace UltimateIsometricToolkit.physics {
 		/// <summary>
 		/// Adds the correct collider to the ghost
 		/// </summary>
-        private IEnumerator SetupCollider() {	
+        private IEnumerator SetupCollider() {
+		    Debug.Log("2");
             if (Collider == null) {
+                Debug.Log("3");
+
                 var ghostReference = transform.GetOrAddComponent<GhostReference>();
                 ghostReference.hideFlags = HideFlags.HideInInspector;
                 //waits Ghost was instantiated
@@ -83,6 +86,8 @@ namespace UltimateIsometricToolkit.physics {
 
 		#region  Unity Events
 		void Awake() {
+		    Debug.Log("1");
+
 			if (IsoTransform == null)
 				IsoTransform = GetComponent<IsoTransform>();
 			StartCoroutine(SetupCollider());

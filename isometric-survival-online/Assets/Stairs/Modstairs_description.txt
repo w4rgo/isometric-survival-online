@@ -1,0 +1,26 @@
+Modular stone stairs
+
+Ideal for any games.Low poly-high quality.
+Inclued mesh colliders!!!!!!!
+
+textures:1024x1024 png
+diffuse
+normal
+
+Models:
+
+Stone entrance:
+poly:909
+verts:505
+
+entrance stairs:
+Poly:408
+verts:305
+
+modular stairs 4 pices:
+poly:197
+verts:191
+
+Have Fun!
+
+brudva@gmail.com
