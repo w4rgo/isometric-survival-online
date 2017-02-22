@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace DefaultNamespace
 {
-    public class CustomIsoMeshCollider : IsoCollider
+    public class MeshExperiment : IsoCollider
     {
         [SerializeField]
         public Vector3[] vertices = {
@@ -103,6 +103,15 @@ namespace DefaultNamespace
 
         private Mesh CreateCube () {
 
+            if (internalMesh != null)
+            {
+                internalMesh.Clear();
+            }
+            else
+            {
+                internalMesh = new Mesh();
+
+            }
             Vector3[] newVertices = new Vector3[vertices.Length];
             for (int i = 0; i < newVertices.Length; i++)
             {
@@ -112,14 +121,13 @@ namespace DefaultNamespace
 //                newVertices[i] = Isometric.IsoToUnitySpace(new Vector3(x,y,z)-Vector3.one/2 );
                 newVertices[i] = new Vector3(x, y, z) - Vector3.one / 2;
             }
-            Mesh mesh = new Mesh();
-            mesh.Clear ();
-            mesh.vertices = newVertices;
-            mesh.triangles = triangles;
-            mesh.RecalculateNormals ();
+            internalMesh.Clear ();
+            internalMesh.vertices = newVertices;
+            internalMesh.triangles = triangles;
+            internalMesh.RecalculateNormals ();
 //            GetComponent<MeshCollider>().sharedMesh = mesh;
 
-            return mesh;
+            return internalMesh;
         }
     }
 }
