@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using IsoTools;
 using UnityEngine;
+using IsoRigidbody = UltimateIsometricToolkit.physics.IsoRigidbody;
 
 namespace Movement
 {
@@ -24,6 +25,8 @@ namespace Movement
         [SerializeField]
         private float speedAdjusmentForCartesians;
 
+        [SerializeField] private float runningModifier;
+
         void Start()
         {
             DirectionList.Add(new Vector2(0, 1),new Vector2(1, 1) );
@@ -43,10 +46,17 @@ namespace Movement
 
             anim = GetComponent<PlayerAnimators>();
             previousPosition = transform.position;
+
+
         }
 
         private void Update()
         {
+            if (!isControllable && gameObject.GetComponent<IsoRigidbody>() != null)
+            {
+                GetComponent<IsoRigidbody>().IsKinematic = true;
+            }
+
             if (isControllable)
             {
                 var isMelee = Input.GetKeyDown(KeyCode.Space);
@@ -60,6 +70,8 @@ namespace Movement
 
         void FixedUpdate()
         {
+
+
             currentPos = transform.position;
 
             if (isControllable)
@@ -91,33 +103,38 @@ namespace Movement
         {
             var rigidbody = GetComponent<IsoRigidbody>();
             // Calculate how fast we should be moving
-            var axisX = Input.GetAxisRaw("Horizontal");
+            var axisX = -Input.GetAxisRaw("Horizontal");
             var axisY = Input.GetAxisRaw("Vertical");
 
             Vector2 rotatedDir = MegaHackOfDirection((int)axisX, (int)axisY);
             axisX = rotatedDir.x;
             axisY = rotatedDir.y;
+            rigidbody.Velocity = new Vector3(axisY * CalculateSpeed(rotatedDir), rigidbody.Velocity.y, axisX * CalculateSpeed(rotatedDir));
 
-            var targetVelocity = new Vector3(axisX, axisY, 0);
-            targetVelocity = transform.TransformDirection(targetVelocity);
-            targetVelocity *= CalculateSpeed(rotatedDir);
-
-            // Apply a force that attempts to reach our target velocity
-            var velocity = rigidbody.velocity;
-            var velocityChange = (targetVelocity - velocity);
-            velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
-            velocityChange.z = 0;
-            velocityChange.y = Mathf.Clamp(velocityChange.y, -maxVelocityChange, maxVelocityChange);
-            rigidbody.AddForce(velocityChange, ForceMode.VelocityChange);
+//            var targetVelocity = new Vector3(axisX, axisY, 0);
+//            targetVelocity = transform.TransformDirection(targetVelocity);
+//            targetVelocity *= CalculateSpeed(rotatedDir);
+//
+//            // Apply a force that attempts to reach our target velocity
+//            var velocity = rigidbody.Velocity;
+//            var velocityChange = (targetVelocity - velocity);
+//            velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
+//            velocityChange.z = 0;
+//            velocityChange.y = Mathf.Clamp(velocityChange.y, -maxVelocityChange, maxVelocityChange);
+//            rigidbody.AddForce(velocityChange, ForceMode.VelocityChange);
         }
 
         private float CalculateSpeed(Vector2 inputDirection)
         {
+            var shift = Input.GetKey(KeyCode.LeftShift);
+            Debug.Log(shift);
+            var newSpeed = shift ? speed * runningModifier : speed;
             if (Cartesians.Contains(inputDirection))
             {
-                return speed * speedAdjusmentForCartesians;
+                return newSpeed * speedAdjusmentForCartesians;
             }
-            return speed;
+
+            return newSpeed;
         }
 
         private Vector2 MegaHackOfDirection(int x, int y)
@@ -130,13 +147,12 @@ namespace Movement
             var heading = currentPos - previousPosition;
             var distance = heading.magnitude;
             var direction = heading / distance;
-            Debug.Log(direction);
 
 //            direction = new Vector3(Mathf.Round(direction.x), Mathf.Round(direction.y), Mathf.Round(direction.z));
             anim.SetFloatToAnimators("speedX", direction.x);
             anim.SetFloatToAnimators("speedY", direction.y);
             Debug.Log(direction);
-            lastDirection = direction.normalized;
+            lastDirection = direction;
         }
 
         private void IdleAnimation()
