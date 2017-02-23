@@ -2,45 +2,23 @@
 using Assets.UltimateIsometricToolkit.Scripts.Core;
 using Assets.UltimateIsometricToolkit.Scripts.External;
 using Assets.UltimateIsometricToolkit.Scripts.Utils;
+using DefaultNamespace.CustomObjects;
 using UltimateIsometricToolkit.physics;
 using UnityEngine;
 
 namespace DefaultNamespace
 {
-    public class MeshExperiment : IsoCollider
+    public enum SlopeOrientation
     {
-        [SerializeField]
-        public Vector3[] vertices = {
-            new Vector3 (0, 0, 0),
-            new Vector3 (1, 0, 0),
-            new Vector3 (1, 1, 0),
-            new Vector3 (0, 1, 0),
-            new Vector3 (0, 1, 1),
-            new Vector3 (1, 1, 1),
-            new Vector3 (1, 0, 1),
-            new Vector3 (0, 0, 1)
-        };
+        NW,NE,SW,SE,NO_SLOPE
+    }
 
-        [SerializeField]
-        public int[] triangles = {
-            0, 2, 1, //face front
-            0, 3, 2,
-            2, 3, 4, //face top
-            2, 4, 5,
-            1, 2, 5, //face right
-            1, 5, 6,
-            0, 7, 4, //face left
-            0, 4, 3,
-            5, 4, 7, //face back
-            5, 7, 6,
-            0, 6, 7, //face bottom
-            0, 1, 6
-        };
-
-
-
+    public class IsoSlopeMeshCollider : IsoCollider
+    {
+        [SerializeField] public SlopeOrientation slopeOrientation;
         [HideInInspector, SerializeField] private Vector3 _scale = Vector3.one;
         [HideInInspector, SerializeField]private bool _convex;
+        private Mesh internalMesh;
 
         [ExposeProperty]
         public bool Convex {
@@ -49,6 +27,16 @@ namespace DefaultNamespace
                 _convex = value;
                 if(MCollider != null)
                     MCollider.convex = _convex;
+            }
+        }
+
+        [ExposeProperty]
+        public Vector3 Scale {
+            get { return _scale; }
+            set {
+                _scale = new Vector3(Mathf.Clamp(value.x, 0, Mathf.Infinity), Mathf.Clamp(value.y, 0, Mathf.Infinity), Mathf.Clamp(value.z, 0, Mathf.Infinity)); ;
+                if (MCollider != null)
+                    MCollider.transform.localScale = _scale;
             }
         }
 
@@ -63,45 +51,23 @@ namespace DefaultNamespace
             }
         }
 
-        [ExposeProperty]
-        public Vector3 Scale {
-            get { return _scale; }
-            set {
-                _scale = new Vector3(Mathf.Clamp(value.x, 0, Mathf.Infinity), Mathf.Clamp(value.y, 0, Mathf.Infinity), Mathf.Clamp(value.z, 0, Mathf.Infinity)); ;
-                if (MCollider != null)
-                    MCollider.transform.localScale = _scale;
-            }
-        }
-
         protected override Collider instantiateCollider(GameObject obj) {
             var collider = obj.AddComponent<MeshCollider>();
-            Debug.Log("instatiate collider");
             collider.convex = Convex;
             collider.sharedMesh = internalMesh;
-
             obj.transform.localScale = Scale;
             return collider;
-
         }
 
-        private Mesh internalMesh;
         void Start()
         {
-            internalMesh = CreateCube();
+            internalMesh = CreateMesh();
             GetComponent<MeshFilter>().mesh = internalMesh;
         }
 
-        private void OnDrawGizmos()
+        private Mesh CreateMesh ()
         {
-            var isoTransform = GetComponent<IsoTransform>();
-            var mesh = CreateCube();
-            GetComponent<MeshFilter>().mesh = mesh;
-            GizmosExtension.DrawIsoMesh(mesh,isoTransform.Position,isoTransform.Size);
-//            Gizmos.DrawWireMesh(mesh,isoTransform.Position);
-        }
-
-
-        private Mesh CreateCube () {
+            MeshInfo meshInfo = SelectMeshInfo();
 
             if (internalMesh != null)
             {
@@ -112,6 +78,9 @@ namespace DefaultNamespace
                 internalMesh = new Mesh();
 
             }
+            var vertices = meshInfo.Vertices;
+            var triangles = meshInfo.Triangles;
+
             Vector3[] newVertices = new Vector3[vertices.Length];
             for (int i = 0; i < newVertices.Length; i++)
             {
@@ -126,8 +95,33 @@ namespace DefaultNamespace
             internalMesh.triangles = triangles;
             internalMesh.RecalculateNormals ();
 //            GetComponent<MeshCollider>().sharedMesh = mesh;
-
             return internalMesh;
+        }
+
+        private MeshInfo SelectMeshInfo()
+        {
+            switch (slopeOrientation)
+            {
+                case(SlopeOrientation.NW):
+                    return MeshInfo.GetNWSlope();
+                case(SlopeOrientation.NE):
+                    return MeshInfo.GetNESlope();
+                case(SlopeOrientation.SW):
+                    return MeshInfo.GetSWSlope();
+                case(SlopeOrientation.SE):
+                    return MeshInfo.GetSESlope();
+                default:
+                    return MeshInfo.GetCube();
+            }
+        }
+
+        private void OnDrawGizmos()
+        {
+            var isoTransform = GetComponent<IsoTransform>();
+            var mesh = CreateMesh();
+            GetComponent<MeshFilter>().mesh = mesh;
+            GizmosExtension.DrawIsoMesh(mesh,isoTransform.Position,isoTransform.Size);
+//            Gizmos.DrawWireMesh(mesh,isoTransform.Position);
         }
     }
 }
