@@ -56,7 +56,6 @@ namespace Assets.Scripts.CustomObjects
             return triangles;
         }
 
-
         private void OnDrawGizmos()
         {
             if (vertices == null)

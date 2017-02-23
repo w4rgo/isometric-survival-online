@@ -58,61 +58,39 @@ namespace DefaultNamespace.CustomObjects
         }
 
 
-        public static MeshInfo GetNWSlope()
-        {
-            Vector3[] vertices =
-            {
-                new Vector3(0, 0, 0),
-                new Vector3(1, 0, 0),
-                new Vector3(0, 1, 0),
-                new Vector3(0, 0, 1),
-                new Vector3(0, 1, 1),
-                new Vector3(1, 0, 1)
-            };
-
-            int[] triangles =
-            {
-                0, 2, 1,
-                0, 3, 2,
-                2, 3, 4,
-                0, 1, 3,
-                1, 5, 3,
-                4, 3, 5,
-                4, 5, 1,
-                1, 2, 4
-            };
-
-            return new MeshInfo(vertices, triangles);
-        }
-
         public static MeshInfo GetNESlope()
         {
             Vector3[] vertices =
             {
-                new Vector3(0, 0, 0),
-                new Vector3(1, 0, 0),
-                new Vector3(0, 1, 0),
-                new Vector3(0, 0, 1),
-                new Vector3(0, 1, 1),
-                new Vector3(1, 0, 1)
+                new Vector3(0, 0, 1), new Vector3(1, 0, 1), new Vector3(0, 1, 0), new Vector3(1, 1, 0),
+                new Vector3(0, 0, 0), new Vector3(1, 0, 0),
             };
-
             int[] triangles =
             {
-                0, 2, 1,
-                0, 3, 2,
-                2, 3, 4,
-                0, 1, 3,
-                1, 5, 3,
-                4, 3, 5,
-                4, 5, 1,
-                1, 2, 4
+                0, 1, 2, 1, 3, 2, 0, 2, 4, 1, 5, 3, 0, 4, 5, 0, 5, 1, 4, 2, 5, 2, 3, 5,
             };
+
 
             return new MeshInfo(vertices, triangles);
         }
 
         public static MeshInfo GetSESlope()
+        {
+            Vector3[] vertices =
+            {
+                new Vector3(0, 0, 1), new Vector3(1, 0, 1), new Vector3(0, 1, 1), new Vector3(1, 1, 1),
+                new Vector3(0, 0, 0), new Vector3(1, 0, 0),
+            };
+            int[] triangles =
+            {
+                0, 1, 2, 1, 3, 2, 0, 2, 4, 1, 5, 3, 0, 4, 5, 0, 5, 1, 4, 2, 5, 2, 3, 5,
+            };
+
+
+            return new MeshInfo(vertices, triangles);
+        }
+
+        public static MeshInfo GetSWSlope()
         {
             Vector3[] vertices =
             {
@@ -128,7 +106,7 @@ namespace DefaultNamespace.CustomObjects
             return new MeshInfo(vertices, triangles);
         }
 
-        public static MeshInfo GetSWSlope()
+        public static MeshInfo GetNWSlope()
         {
             Vector3[] vertices =
             {
